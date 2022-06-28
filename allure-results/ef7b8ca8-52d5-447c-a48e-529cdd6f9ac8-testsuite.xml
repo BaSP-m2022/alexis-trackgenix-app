@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656374610568' stop='1656374612393'>
+    <name>Login page testing: Admin user</name>
+    <title>Login page testing: Admin user</title>
+    <test-cases>
+        <test-case start='1656374610570' status='passed' stop='1656374611174'>
+            <name>Click on admin button</name>
+            <title>Click on admin button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656374610572' status='passed' stop='1656374611078'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bd2679e-411c-463b-85c5-74830f168e1e-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656374611103' status='passed' stop='1656374611167'>
+                    <name>POST /session/:sessionId/element/4d57569f-df80-4239-b381-15b334c93569/click</name>
+                    <title>POST /session/:sessionId/element/4d57569f-df80-4239-b381-15b334c93569/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656374611169' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='43c0d1f0-2bba-4de3-80bc-c7229b15e843-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='070549b3-c47c-423e-a3a0-39d95be94d05-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1656374611175' status='passed' stop='1656374611940'>
+            <name>Click on projects</name>
+            <title>Click on projects</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656374611176' status='passed' stop='1656374611802'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='627da4cb-9368-4129-8983-a9442b65e2eb-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656374611813' status='passed' stop='1656374611863'>
+                    <name>POST /session/:sessionId/element/af8b8d3d-c044-4be3-9c38-5f71a4d6d809/click</name>
+                    <title>POST /session/:sessionId/element/af8b8d3d-c044-4be3-9c38-5f71a4d6d809/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656374611863' status='passed' stop='1656374611880'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e023a77d-6fff-49e2-a1ce-da32dee673f7-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='8cf58cb1-e1b2-4878-9ea6-1d9d792ef92d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656374611884' status='passed' stop='1656374611926'>
+                    <name>POST /session/:sessionId/element/73aff2e6-53bf-4828-a124-1cc3ceedc404/click</name>
+                    <title>POST /session/:sessionId/element/73aff2e6-53bf-4828-a124-1cc3ceedc404/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656374611927' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='be2553fc-4979-4f91-bad0-b6d8a7520308-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='62acec83-bf59-4b56-b892-8ea7a535ab94-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1656374611941' status='failed' stop='1656374612392'>
+            <name>Click on projects title</name>
+            <title>Click on projects title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656374611950' status='passed' stop='1656374612279'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='eddb8422-2e30-42f3-a880-b62a83d7152e-attachment.png' type='image/png' size='28741'/>
+            </attachments>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'adminUser')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'adminUser')
+                    at admin (C:\Users\Martin\Desktop\BaSP etapa 3\alexis-trackgenix-app\test\pageobjects\login.page.js:27:21)
+                    at UserContext.&lt;anonymous> (C:\Users\Martin\Desktop\BaSP etapa 3\alexis-trackgenix-app\test\specs\login.spec.js:22:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,262 @@
+{
+  "uid" : "7fe763dafc535b67",
+  "name" : "Click on projects",
+  "fullName" : "Login page testing: Admin user.Click on projects",
+  "historyId" : "a65b749b822fa672f11b6f7fe194f71",
+  "time" : {
+    "start" : 1656378744640,
+    "stop" : 1656378745247,
+    "duration" : 607
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656378744641,
+        "stop" : 1656378745042,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "674a2675b1c124be",
+        "name" : "Request",
+        "source" : "674a2675b1c124be.json",
+        "type" : "application/json",
+        "size" : 99
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d6c2e639-7c5e-410c-bf00-d177ea654bc1/click",
+      "time" : {
+        "start" : 1656378745084,
+        "stop" : 1656378745160,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656378745162,
+        "stop" : 1656378745180,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "feed67d718a92987",
+        "name" : "Request",
+        "source" : "feed67d718a92987.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "e67197fb5be7ed95",
+        "name" : "Response",
+        "source" : "e67197fb5be7ed95.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6c1be83d-eece-45c9-97cd-020a55897286/click",
+      "time" : {
+        "start" : 1656378745182,
+        "stop" : 1656378745238,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656378745239,
+        "stop" : 0,
+        "duration" : -1656378745239
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de923dcbe4a5360a",
+        "name" : "Request",
+        "source" : "de923dcbe4a5360a.json",
+        "type" : "application/json",
+        "size" : 70
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "59b3c6a4e6a1b529",
+      "name" : "Response",
+      "source" : "59b3c6a4e6a1b529.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on projects"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a6971b7dc74d8fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656374611175,
+        "stop" : 1656374611940,
+        "duration" : 765
+      }
+    }, {
+      "uid" : "e40f354a8c2716d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656374539623,
+        "stop" : 1656374540066,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "fcbd102151862092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656374410749,
+        "stop" : 1656374411300,
+        "duration" : 551
+      }
+    }, {
+      "uid" : "67ee83897935110d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656374377770,
+        "stop" : 1656374382205,
+        "duration" : 4435
+      }
+    }, {
+      "uid" : "e477934b4f6ded29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656374147116,
+        "stop" : 1656374151557,
+        "duration" : 4441
+      }
+    }, {
+      "uid" : "4557ad8a1cf9d20e",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"button:nth-child(5) > a\" because element wasn't found",
+      "time" : {
+        "start" : 1656374073435,
+        "stop" : 1656374087550,
+        "duration" : 14115
+      }
+    }, {
+      "uid" : "c23ab46ca1231cf2",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"button:nth-child(5) > a\" because element wasn't found",
+      "time" : {
+        "start" : 1656373503573,
+        "stop" : 1656373517738,
+        "duration" : 14165
+      }
+    }, {
+      "uid" : "130e078fe3923169",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(5) > a\" because element wasn't found",
+      "time" : {
+        "start" : 1656373400303,
+        "stop" : 1656373414422,
+        "duration" : 14119
+      }
+    }, {
+      "uid" : "b9ee7045aa9cb09a",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(5) > a\" because element wasn't found",
+      "time" : {
+        "start" : 1656372897488,
+        "stop" : 1656372911608,
+        "duration" : 14120
+      }
+    }, {
+      "uid" : "ee0d831f41de9025",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(5) > a\" because element wasn't found",
+      "time" : {
+        "start" : 1656372844476,
+        "stop" : 1656372855242,
+        "duration" : 10766
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fe763dafc535b67.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

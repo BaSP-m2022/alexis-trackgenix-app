@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656372371030' stop='1656372372081'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1656372371032' status='failed' stop='1656372372078'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656372371034' status='passed' stop='1656372371827'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e1f0430b-5d25-4d4f-a9a5-d31c3ef7d939-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656372371829' status='passed' stop='1656372372075'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='05a6d31d-bbf2-4fec-a63f-3e3bb10e6c3c-attachment.png' type='image/png' size='28575'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'setValue')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'setValue')
+                    at LoginPage.setUsername (C:\Users\Martin\Desktop\BaSP etapa 3\alexis-trackgenix-app\test\pageobjects\login.page.js:9:34)
+                    at LoginPage.login (C:\Users\Martin\Desktop\BaSP etapa 3\alexis-trackgenix-app\test\pageobjects\login.page.js:16:20)
+                    at UserContext.&lt;anonymous> (C:\Users\Martin\Desktop\BaSP etapa 3\alexis-trackgenix-app\test\specs\example.e2e.js:8:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656373961752' stop='1656373965490'>
+    <name>Login page testing: Admin user</name>
+    <title>Login page testing: Admin user</title>
+    <test-cases>
+        <test-case start='1656373961754' status='passed' stop='1656373965489'>
+            <name>Click on admin button</name>
+            <title>Click on admin button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.53'/>
+            </parameters>
+            <steps>
+                <step start='1656373961758' status='passed' stop='1656373962384'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dca56d1b-cd35-4e21-91c4-48710d9b47aa-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656373962411' status='passed' stop='1656373962483'>
+                    <name>POST /session/:sessionId/element/203341ef-7a15-4243-abbc-e690a28d5f58/click</name>
+                    <title>POST /session/:sessionId/element/203341ef-7a15-4243-abbc-e690a28d5f58/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656373962484' status='passed' stop='1656373963220'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7a7e9100-a4a7-4dc3-aa7e-64dcc5be5f1d-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='32b1ae01-3e94-4ec8-b61e-d37bf6e58755-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
