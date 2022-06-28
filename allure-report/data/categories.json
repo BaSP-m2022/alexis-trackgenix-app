@@ -7,7 +7,7 @@
       "name" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
       "children" : [ {
         "name" : "should login with valid credentials",
-        "uid" : "c21b6cc51c224457",
+        "uid" : "da8057191064911a",
         "parentUid" : "dff325ff303bac4fb39c9f359be05681",
         "status" : "failed",
         "time" : {
@@ -22,30 +22,13 @@
         "retriesCount" : 9,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Click on create project with valid data",
-        "uid" : "93b82afc3ab59fd1",
-        "parentUid" : "dff325ff303bac4fb39c9f359be05681",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656421386849,
-          "stop" : 1656421386946,
-          "duration" : 97
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
       "uid" : "dff325ff303bac4fb39c9f359be05681"
     }, {
       "name" : "TypeError: browser.pauser is not a function",
       "children" : [ {
         "name" : "<unknown test>",
-        "uid" : "a6a13fc5f1b68ea2",
+        "uid" : "d903a0770bf3f525",
         "parentUid" : "fa0c5740a456154f8643748ba52a135f",
         "status" : "failed",
         "time" : {
@@ -63,85 +46,85 @@
       } ],
       "uid" : "fa0c5740a456154f8643748ba52a135f"
     }, {
-      "name" : "Error: Can't call click on element with selector \"section > button\" because element wasn't found",
-      "children" : [ {
-        "name" : "Click on add project",
-        "uid" : "4c3e34ab0e0e2c58",
-        "parentUid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656421366551,
-          "stop" : 1656421376671,
-          "duration" : 10120
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Click on create project without data",
-        "uid" : "7614b3edcb415f48",
-        "parentUid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656421376671,
-          "stop" : 1656421386838,
-          "duration" : 10167
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 5,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde"
-    }, {
       "name" : "Error: Can't call click on element with selector \"button:nth-child(5) > a\" because element wasn't found",
       "children" : [ {
-        "name" : "Click on projects",
-        "uid" : "73b6f4edeff02cb5",
+        "name" : "Click on projects title",
+        "uid" : "b7c37bb6d077072a",
         "parentUid" : "26072a87ae69d4bbba662bf79d6b9974",
         "status" : "failed",
         "time" : {
-          "start" : 1656421505241,
-          "stop" : 1656421518431,
-          "duration" : 13190
+          "start" : 1656425132670,
+          "stop" : 1656425142805,
+          "duration" : 10135
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 21,
+        "retriesCount" : 23,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
       "uid" : "26072a87ae69d4bbba662bf79d6b9974"
     }, {
-      "name" : "Expect $(`section > button`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "name" : "ReferenceError: broser is not defined",
       "children" : [ {
-        "name" : "Click on projects title",
-        "uid" : "ac0af9deb3de4091",
-        "parentUid" : "c7e85ee5d9e01cb44e382862268a1c21",
+        "name" : "Click on create project with valid data",
+        "uid" : "f142ed8520dfcf45",
+        "parentUid" : "87b6e3c9c96f753d335f8ec26ab81990",
         "status" : "failed",
         "time" : {
-          "start" : 1656421518432,
-          "stop" : 1656421528554,
-          "duration" : 10122
+          "start" : 1656431040760,
+          "stop" : 1656431041709,
+          "duration" : 949
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 15,
+        "retriesCount" : 10,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
-      "uid" : "c7e85ee5d9e01cb44e382862268a1c21"
+      "uid" : "87b6e3c9c96f753d335f8ec26ab81990"
+    }, {
+      "name" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "children" : [ {
+        "name" : "Close button",
+        "uid" : "8c3f2a995446ee57",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656431041717,
+          "stop" : 1656431044884,
+          "duration" : 3167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Confirm deleten",
+        "uid" : "4fd3a3184eb0acba",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656431044885,
+          "stop" : 1656431045082,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "b4d9de2f0ee39e370e229628ce606f00"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

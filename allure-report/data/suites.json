@@ -5,7 +5,7 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "c21b6cc51c224457",
+      "uid" : "da8057191064911a",
       "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
       "status" : "failed",
       "time" : {
@@ -26,7 +26,7 @@
     "name" : "Login page testing",
     "children" : [ {
       "name" : "<unknown test>",
-      "uid" : "a6a13fc5f1b68ea2",
+      "uid" : "d903a0770bf3f525",
       "parentUid" : "aabe2023e162eff7edb564cb607ef4de",
       "status" : "failed",
       "time" : {
@@ -43,19 +43,19 @@
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "\"before all\" hook",
-      "uid" : "bea43f7dfe040d11",
+      "uid" : "7fb7e41e51f39246",
       "parentUid" : "aabe2023e162eff7edb564cb607ef4de",
       "status" : "passed",
       "time" : {
-        "start" : 1656421234969,
-        "stop" : 1656421234971,
+        "start" : 1656431036383,
+        "stop" : 1656431036385,
         "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 22,
+      "retriesCount" : 53,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     } ],
@@ -64,7 +64,7 @@
     "name" : "Login page testing: Admin user",
     "children" : [ {
       "name" : "\"before all\" hook",
-      "uid" : "b47c856edc449caa",
+      "uid" : "27f39fa66e7922c",
       "parentUid" : "7b87f9609e792928b2919c5634eaff0b",
       "status" : "passed",
       "time" : {
@@ -80,54 +80,71 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
-      "name" : "Click on admin button",
-      "uid" : "9a3b5086e05ffe50",
+      "name" : "Click on projects title",
+      "uid" : "b7c37bb6d077072a",
       "parentUid" : "7b87f9609e792928b2919c5634eaff0b",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1656421504347,
-        "stop" : 1656421505239,
-        "duration" : 892
+        "start" : 1656425132670,
+        "stop" : 1656425142805,
+        "duration" : 10135
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 26,
+      "retriesCount" : 23,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Click on admin button",
+      "uid" : "5b190053eb91355",
+      "parentUid" : "7b87f9609e792928b2919c5634eaff0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656431036427,
+        "stop" : 1656431037119,
+        "duration" : 692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 63,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "Click on projects",
-      "uid" : "73b6f4edeff02cb5",
+      "uid" : "17539fed9ef10215",
       "parentUid" : "7b87f9609e792928b2919c5634eaff0b",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1656421505241,
-        "stop" : 1656421518431,
-        "duration" : 13190
+        "start" : 1656431037120,
+        "stop" : 1656431037778,
+        "duration" : 658
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 21,
+      "retriesCount" : 58,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
-      "name" : "Click on projects title",
-      "uid" : "ac0af9deb3de4091",
+      "name" : "Add button should exist",
+      "uid" : "2fc2a0d57d29603f",
       "parentUid" : "7b87f9609e792928b2919c5634eaff0b",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1656421518432,
-        "stop" : 1656421528554,
-        "duration" : 10122
+        "start" : 1656431037779,
+        "stop" : 1656431038361,
+        "duration" : 582
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 15,
+      "retriesCount" : 28,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     } ],
@@ -136,56 +153,183 @@
     "name" : "Login page testing: Add projects",
     "children" : [ {
       "name" : "Click on add project",
-      "uid" : "4c3e34ab0e0e2c58",
+      "uid" : "a3dbf2197ed39118",
       "parentUid" : "de48faab67d80dc426234f0f7cdea52c",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1656421366551,
-        "stop" : 1656421376671,
-        "duration" : 10120
+        "start" : 1656431038372,
+        "stop" : 1656431038494,
+        "duration" : 122
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "Click on create project without data",
-      "uid" : "7614b3edcb415f48",
+      "uid" : "98f1085e76c776a4",
       "parentUid" : "de48faab67d80dc426234f0f7cdea52c",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1656421376671,
-        "stop" : 1656421386838,
-        "duration" : 10167
+        "start" : 1656431038494,
+        "stop" : 1656431038607,
+        "duration" : 113
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     }, {
       "name" : "Click on create project with valid data",
-      "uid" : "93b82afc3ab59fd1",
+      "uid" : "f671332ed727495b",
       "parentUid" : "de48faab67d80dc426234f0f7cdea52c",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1656421386849,
-        "stop" : 1656421386946,
-        "duration" : 97
+        "start" : 1656431038619,
+        "stop" : 1656431039376,
+        "duration" : 757
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : false,
+      "retriesCount" : 36,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Exit create form",
+      "uid" : "e53f795b71fb3f94",
+      "parentUid" : "de48faab67d80dc426234f0f7cdea52c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656431039376,
+        "stop" : 1656431040072,
+        "duration" : 696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
       "parameters" : [ "chrome-103.0.5060.53" ]
     } ],
     "uid" : "de48faab67d80dc426234f0f7cdea52c"
+  }, {
+    "name" : "Login page testing: Edit projects",
+    "children" : [ {
+      "name" : "Click on edit project",
+      "uid" : "e1729f23d5a7322c",
+      "parentUid" : "209839c77ff62427f8bb6621a9151623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656431040098,
+        "stop" : 1656431040207,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Click on edit withoud data",
+      "uid" : "b9f78f77569ddd91",
+      "parentUid" : "209839c77ff62427f8bb6621a9151623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656431040207,
+        "stop" : 1656431040466,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Edit project data",
+      "uid" : "9eb081ce31207aa3",
+      "parentUid" : "209839c77ff62427f8bb6621a9151623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656431040466,
+        "stop" : 1656431040760,
+        "duration" : 294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Click on create project with valid data",
+      "uid" : "f142ed8520dfcf45",
+      "parentUid" : "209839c77ff62427f8bb6621a9151623",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656431040760,
+        "stop" : 1656431041709,
+        "duration" : 949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "209839c77ff62427f8bb6621a9151623"
+  }, {
+    "name" : "Login page testing: Delete projects",
+    "children" : [ {
+      "name" : "Close button",
+      "uid" : "8c3f2a995446ee57",
+      "parentUid" : "d83cb04b7b7ff30efc4a722874a7d805",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656431041717,
+        "stop" : 1656431044884,
+        "duration" : 3167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Confirm deleten",
+      "uid" : "4fd3a3184eb0acba",
+      "parentUid" : "d83cb04b7b7ff30efc4a722874a7d805",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656431044885,
+        "stop" : 1656431045082,
+        "duration" : 197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "d83cb04b7b7ff30efc4a722874a7d805"
   } ]
 }
