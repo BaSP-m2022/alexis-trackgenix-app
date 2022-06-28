@@ -1,0 +1,201 @@
+{
+  "uid" : "c21b6cc51c224457",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "9903d663009cc756b79f919bba23829e",
+  "time" : {
+    "start" : 1656373709695,
+    "stop" : 1656373710628,
+    "duration" : 933
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at LoginPage.setUsername (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\login.page.js:12:34)\n                    at LoginPage.login (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\login.page.js:19:20)\n                    at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\example.e2e.js:8:25)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'setValue')\n                    at LoginPage.setUsername (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\login.page.js:12:34)\n                    at LoginPage.login (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\login.page.js:19:20)\n                    at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\example.e2e.js:8:25)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656373709698,
+        "stop" : 1656373710433,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e779f20c99e92f2",
+        "name" : "Request",
+        "source" : "7e779f20c99e92f2.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656373710434,
+        "stop" : 1656373710626,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d05fbb05f8d1ec0",
+        "name" : "Screenshot",
+        "source" : "5d05fbb05f8d1ec0.png",
+        "type" : "image/png",
+        "size" : 28575
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bbf5945605027c96",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656373563677,
+        "stop" : 1656373564604,
+        "duration" : 927
+      }
+    }, {
+      "uid" : "bb7b492b0aa82fd8",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656373500539,
+        "stop" : 1656373501479,
+        "duration" : 940
+      }
+    }, {
+      "uid" : "5a0c21e8f3b4296c",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656373399607,
+        "stop" : 1656373401276,
+        "duration" : 1669
+      }
+    }, {
+      "uid" : "5f5ee28e0ce08f11",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656373050230,
+        "stop" : 1656373051352,
+        "duration" : 1122
+      }
+    }, {
+      "uid" : "33e34fba9ef2b37",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656372896255,
+        "stop" : 1656372897593,
+        "duration" : 1338
+      }
+    }, {
+      "uid" : "5c0a67f2e6743cb3",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656372843596,
+        "stop" : 1656372844600,
+        "duration" : 1004
+      }
+    }, {
+      "uid" : "3bd8fefca51abae",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656372371032,
+        "stop" : 1656372372078,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "b0bb6802cbf6f5c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656368070894,
+        "stop" : 1656368074686,
+        "duration" : 3792
+      }
+    }, {
+      "uid" : "16084ec84953a22c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656365258230,
+        "stop" : 1656365262026,
+        "duration" : 3796
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c21b6cc51c224457.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

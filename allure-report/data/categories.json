@@ -7,7 +7,7 @@
       "name" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
       "children" : [ {
         "name" : "should login with valid credentials",
-        "uid" : "4a0333036c8e6b85",
+        "uid" : "c21b6cc51c224457",
         "parentUid" : "dff325ff303bac4fb39c9f359be05681",
         "status" : "failed",
         "time" : {
@@ -22,13 +22,30 @@
         "retriesCount" : 9,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on create project with valid data",
+        "uid" : "93b82afc3ab59fd1",
+        "parentUid" : "dff325ff303bac4fb39c9f359be05681",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656421386849,
+          "stop" : 1656421386946,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
       "uid" : "dff325ff303bac4fb39c9f359be05681"
     }, {
       "name" : "TypeError: browser.pauser is not a function",
       "children" : [ {
         "name" : "<unknown test>",
-        "uid" : "9d20567b6840af75",
+        "uid" : "a6a13fc5f1b68ea2",
         "parentUid" : "fa0c5740a456154f8643748ba52a135f",
         "status" : "failed",
         "time" : {
@@ -46,26 +63,85 @@
       } ],
       "uid" : "fa0c5740a456154f8643748ba52a135f"
     }, {
-      "name" : "TypeError: Cannot read properties of undefined (reading 'adminUser')",
+      "name" : "Error: Can't call click on element with selector \"section > button\" because element wasn't found",
       "children" : [ {
-        "name" : "Click on projects title",
-        "uid" : "5c924417056cc6d7",
-        "parentUid" : "449e9b39bdee0742c8596c0e80365835",
+        "name" : "Click on add project",
+        "uid" : "4c3e34ab0e0e2c58",
+        "parentUid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde",
         "status" : "failed",
         "time" : {
-          "start" : 1656378745248,
-          "stop" : 1656378745732,
-          "duration" : 484
+          "start" : 1656421366551,
+          "stop" : 1656421376671,
+          "duration" : 10120
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 4,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on create project without data",
+        "uid" : "7614b3edcb415f48",
+        "parentUid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656421376671,
+          "stop" : 1656421386838,
+          "duration" : 10167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"button:nth-child(5) > a\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on projects",
+        "uid" : "73b6f4edeff02cb5",
+        "parentUid" : "26072a87ae69d4bbba662bf79d6b9974",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656421505241,
+          "stop" : 1656421518431,
+          "duration" : 13190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 21,
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
-      "uid" : "449e9b39bdee0742c8596c0e80365835"
+      "uid" : "26072a87ae69d4bbba662bf79d6b9974"
+    }, {
+      "name" : "Expect $(`section > button`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "children" : [ {
+        "name" : "Click on projects title",
+        "uid" : "ac0af9deb3de4091",
+        "parentUid" : "c7e85ee5d9e01cb44e382862268a1c21",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656421518432,
+          "stop" : 1656421528554,
+          "duration" : 10122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "c7e85ee5d9e01cb44e382862268a1c21"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
