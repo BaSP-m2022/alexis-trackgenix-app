@@ -7,7 +7,7 @@
       "name" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
       "children" : [ {
         "name" : "should login with valid credentials",
-        "uid" : "da8057191064911a",
+        "uid" : "206fd3a348977f4b",
         "parentUid" : "dff325ff303bac4fb39c9f359be05681",
         "status" : "failed",
         "time" : {
@@ -28,7 +28,7 @@
       "name" : "TypeError: browser.pauser is not a function",
       "children" : [ {
         "name" : "<unknown test>",
-        "uid" : "d903a0770bf3f525",
+        "uid" : "f337bcdf9157222a",
         "parentUid" : "fa0c5740a456154f8643748ba52a135f",
         "status" : "failed",
         "time" : {
@@ -49,7 +49,7 @@
       "name" : "Error: Can't call click on element with selector \"button:nth-child(5) > a\" because element wasn't found",
       "children" : [ {
         "name" : "Click on projects title",
-        "uid" : "b7c37bb6d077072a",
+        "uid" : "ec0e1c37a98e7622",
         "parentUid" : "26072a87ae69d4bbba662bf79d6b9974",
         "status" : "failed",
         "time" : {
@@ -67,16 +67,438 @@
       } ],
       "uid" : "26072a87ae69d4bbba662bf79d6b9974"
     }, {
-      "name" : "ReferenceError: broser is not defined",
+      "name" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
       "children" : [ {
-        "name" : "Click on create project with valid data",
-        "uid" : "f142ed8520dfcf45",
-        "parentUid" : "87b6e3c9c96f753d335f8ec26ab81990",
+        "name" : "Click on add member",
+        "uid" : "660f4d2d9c44e57",
+        "parentUid" : "b0b82623b0bc3812ef575df71624cdae",
         "status" : "failed",
         "time" : {
-          "start" : 1656431040760,
-          "stop" : 1656431041709,
-          "duration" : 949
+          "start" : 1656439958739,
+          "stop" : 1656439963083,
+          "duration" : 4344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on edit project with valid data",
+        "uid" : "8b8b63f04eb0fe00",
+        "parentUid" : "b0b82623b0bc3812ef575df71624cdae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526805110,
+          "stop" : 1656526811506,
+          "duration" : 6396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on add member",
+        "uid" : "9eeff819104aeb14",
+        "parentUid" : "b0b82623b0bc3812ef575df71624cdae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526811513,
+          "stop" : 1656526815898,
+          "duration" : 4385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "b0b82623b0bc3812ef575df71624cdae"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\admin.spec.js:67:56)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\admin.spec.js:68:56)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Click on submit with no data",
+        "uid" : "6b263be35cbbb896",
+        "parentUid" : "3626762395700cf7c76f70ed26e403c8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656439963084,
+          "stop" : 1656439985435,
+          "duration" : 22351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "3626762395700cf7c76f70ed26e403c8"
+    }, {
+      "name" : "Error: Can't call setValue on element with selector \"iv.input_inputContainer__Qsqmz > input\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on submit with valid data",
+        "uid" : "45c89306c22c4ff5",
+        "parentUid" : "a7890d16ec70d2453d1d09ac24d6803a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656439985448,
+          "stop" : 1656439995753,
+          "duration" : 10305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on submit with valid data",
+        "uid" : "eba0223f3224d7e0",
+        "parentUid" : "a7890d16ec70d2453d1d09ac24d6803a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526838241,
+          "stop" : 1656526848580,
+          "duration" : 10339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "a7890d16ec70d2453d1d09ac24d6803a"
+    }, {
+      "name" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "children" : [ {
+        "name" : "Close button",
+        "uid" : "7b3b67eaa659a5fd",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656439995774,
+          "stop" : 1656439999021,
+          "duration" : 3247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Confirm delete",
+        "uid" : "bc81f50e90d2e98d",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656439999034,
+          "stop" : 1656439999172,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Close button",
+        "uid" : "80bac41c06917d28",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526848600,
+          "stop" : 1656526851778,
+          "duration" : 3178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Confirm delete",
+        "uid" : "3624439f2b72ff72",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526851795,
+          "stop" : 1656526851930,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on confirm",
+        "uid" : "92be99b068dae2f7",
+        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526885478,
+          "stop" : 1656526885630,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "b4d9de2f0ee39e370e229628ce606f00"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"section > button\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on add timesheet",
+        "uid" : "96cda81ae893bac7",
+        "parentUid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511364673,
+          "stop" : 1656511377247,
+          "duration" : 12574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "c8fd85cf1eb9c7b3425f4b02bf61cbde"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"form > button\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on create without data",
+        "uid" : "2aea6f365eff0e9f",
+        "parentUid" : "7a9ce78eae185fc6f6f9216d9416c7bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511377248,
+          "stop" : 1656511387396,
+          "duration" : 10148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "7a9ce78eae185fc6f6f9216d9416c7bf"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"form > div:nth-child(1) > select\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on create with valid data",
+        "uid" : "540594e23782adfc",
+        "parentUid" : "e628e897fa371a0e9df65b1be5ef824f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511387396,
+          "stop" : 1656511397514,
+          "duration" : 10118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on edit timesheet button without data",
+        "uid" : "108ab16e50b3b4ff",
+        "parentUid" : "e628e897fa371a0e9df65b1be5ef824f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511407653,
+          "stop" : 1656511427860,
+          "duration" : 20207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on edit timesheet button without data",
+        "uid" : "93c25f8dddc7ecfe",
+        "parentUid" : "e628e897fa371a0e9df65b1be5ef824f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526864875,
+          "stop" : 1656526885256,
+          "duration" : 20381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "e628e897fa371a0e9df65b1be5ef824f"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(9) > button\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on edit timesheet",
+        "uid" : "dce2e0269822492e",
+        "parentUid" : "8bed6b089c9e01c1d50401a3bee5a263",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511397546,
+          "stop" : 1656511407653,
+          "duration" : 10107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "8bed6b089c9e01c1d50401a3bee5a263"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(10) > button\" because element wasn't found",
+      "children" : [ {
+        "name" : "Click on remove timesheet",
+        "uid" : "c57a5b021004e99e",
+        "parentUid" : "f29aa79bf5b3a7bc6ab768125f1b998f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511427888,
+          "stop" : 1656511438008,
+          "duration" : 10120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Click on close",
+        "uid" : "f2662ca6e8bfe5d7",
+        "parentUid" : "f29aa79bf5b3a7bc6ab768125f1b998f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511438024,
+          "stop" : 1656511448188,
+          "duration" : 10164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "f29aa79bf5b3a7bc6ab768125f1b998f"
+    }, {
+      "name" : "TypeError: elem[prop] is not a function",
+      "children" : [ {
+        "name" : "Click on confirm",
+        "uid" : "668755ffc6824132",
+        "parentUid" : "7d4b79c6315d45a8beef9cbed6c12ff4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656511448188,
+          "stop" : 1656511448442,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "7d4b79c6315d45a8beef9cbed6c12ff4"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\projects.spec.js:56:56)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\projects.spec.js:57:56)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Click on submit with no data",
+        "uid" : "40b5ee4d86989d80",
+        "parentUid" : "e882f7c3a5c48a81941d296c7d91d415",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526815898,
+          "stop" : 1656526838240,
+          "duration" : 22342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "e882f7c3a5c48a81941d296c7d91d415"
+    }, {
+      "name" : "Error: element (\"select > option:nth-child(1)\") still not clickable after 3000ms",
+      "children" : [ {
+        "name" : "Click on create with valid data",
+        "uid" : "d0ee514b3883135f",
+        "parentUid" : "10307788d9eb67faa350b8ce16415901",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526857301,
+          "stop" : 1656526860472,
+          "duration" : 3171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "10307788d9eb67faa350b8ce16415901"
+    }, {
+      "name" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "children" : [ {
+        "name" : "Click on edit timesheet",
+        "uid" : "913f015b7de0b03d",
+        "parentUid" : "017fcb9b0b40583d96ae982be549bf3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656526860487,
+          "stop" : 1656526864875,
+          "duration" : 4388
         },
         "flaky" : false,
         "newFailed" : false,
@@ -86,45 +508,7 @@
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
-      "uid" : "87b6e3c9c96f753d335f8ec26ab81990"
-    }, {
-      "name" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
-      "children" : [ {
-        "name" : "Close button",
-        "uid" : "8c3f2a995446ee57",
-        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656431041717,
-          "stop" : 1656431044884,
-          "duration" : 3167
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Confirm deleten",
-        "uid" : "4fd3a3184eb0acba",
-        "parentUid" : "b4d9de2f0ee39e370e229628ce606f00",
-        "status" : "failed",
-        "time" : {
-          "start" : 1656431044885,
-          "stop" : 1656431045082,
-          "duration" : 197
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "b4d9de2f0ee39e370e229628ce606f00"
+      "uid" : "017fcb9b0b40583d96ae982be549bf3d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

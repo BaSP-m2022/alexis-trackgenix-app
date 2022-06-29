@@ -1,0 +1,268 @@
+{
+  "uid" : "9a4d4bd0c6b748d4",
+  "name" : "Home title",
+  "fullName" : "Home: Checking titles.Home title",
+  "historyId" : "85a9f0236ff09e133353d5e251005d54",
+  "time" : {
+    "start" : 1656526796303,
+    "stop" : 1656526797102,
+    "duration" : 799
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526796306,
+        "stop" : 1656526796999,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6064fefab5dcb580",
+        "name" : "Request",
+        "source" : "6064fefab5dcb580.json",
+        "type" : "application/json",
+        "size" : 70
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656526797030,
+        "stop" : 1656526797076,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "309384872f7e1a5b",
+        "name" : "Request",
+        "source" : "309384872f7e1a5b.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "f260b67685d948f4",
+        "name" : "Response",
+        "source" : "f260b67685d948f4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656526797081,
+        "stop" : 1656526797100,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7368ee44d953ace",
+        "name" : "Response",
+        "source" : "c7368ee44d953ace.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c2e08ab5da10f0a8",
+      "name" : "Response",
+      "source" : "c2e08ab5da10f0a8.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home: Checking titles"
+  }, {
+    "name" : "testClass",
+    "value" : "Home: Checking titles"
+  }, {
+    "name" : "testMethod",
+    "value" : "Home title"
+  }, {
+    "name" : "package",
+    "value" : "Home: Checking titles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e5b54266a8ad706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656526518226,
+        "stop" : 1656526518864,
+        "duration" : 638
+      }
+    }, {
+      "uid" : "abe8dd05f07ac4af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522469434,
+        "stop" : 1656522471597,
+        "duration" : 2163
+      }
+    }, {
+      "uid" : "800dc31d2837517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522356606,
+        "stop" : 1656522358513,
+        "duration" : 1907
+      }
+    }, {
+      "uid" : "11a81faf9f20c239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522245568,
+        "stop" : 1656522247278,
+        "duration" : 1710
+      }
+    }, {
+      "uid" : "d35ef05ac99d2ed5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656517145007,
+        "stop" : 1656517146717,
+        "duration" : 1710
+      }
+    }, {
+      "uid" : "d908a7ab7cc0f614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656516871308,
+        "stop" : 1656516872754,
+        "duration" : 1446
+      }
+    }, {
+      "uid" : "b9428f8f80d8bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656514668073,
+        "stop" : 1656514670140,
+        "duration" : 2067
+      }
+    }, {
+      "uid" : "abe9a1ca9e6d7752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656513283931,
+        "stop" : 1656513286498,
+        "duration" : 2567
+      }
+    }, {
+      "uid" : "d125eac3cff8ab63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656513034215,
+        "stop" : 1656513036098,
+        "duration" : 1883
+      }
+    }, {
+      "uid" : "b00a7db407623a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656512841500,
+        "stop" : 1656512844202,
+        "duration" : 2702
+      }
+    }, {
+      "uid" : "5d726a0ff36043b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656512653310,
+        "stop" : 1656512654755,
+        "duration" : 1445
+      }
+    }, {
+      "uid" : "bf5ab1173e96211b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656512563609,
+        "stop" : 1656512568389,
+        "duration" : 4780
+      }
+    }, {
+      "uid" : "7625938399dc70ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656512249646,
+        "stop" : 1656512250288,
+        "duration" : 642
+      }
+    }, {
+      "uid" : "525ffa2e1b36b259",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656512188694,
+        "stop" : 1656512189705,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "bf69565fe8949b00",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://alexis-trackgenix-app.vercel.app/admin\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
+      "time" : {
+        "start" : 1656511364597,
+        "stop" : 1656511377147,
+        "duration" : 12550
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a4d4bd0c6b748d4.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

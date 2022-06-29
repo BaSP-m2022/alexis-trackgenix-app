@@ -1,0 +1,133 @@
+{
+  "uid" : "d97b3c36f2aab6fb",
+  "name" : "Click on emlpoyee button",
+  "fullName" : "Home: Checking buttons.Click on emlpoyee button",
+  "historyId" : "8b2522076c228c5a3544cb5e924ed7ca",
+  "time" : {
+    "start" : 1656513288811,
+    "stop" : 1656513289319,
+    "duration" : 508
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656513288812,
+        "stop" : 1656513289045,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1d9442fa336bd29",
+        "name" : "Request",
+        "source" : "b1d9442fa336bd29.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "c6b5cc0459eb9aa2",
+        "name" : "Response",
+        "source" : "c6b5cc0459eb9aa2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/bc0de406-9a03-4cef-8944-1236f466cdec/click",
+      "time" : {
+        "start" : 1656513289047,
+        "stop" : 1656513289286,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656513289286,
+        "stop" : 1656513289318,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0745648ff79f4c1",
+        "name" : "Response",
+        "source" : "c0745648ff79f4c1.json",
+        "type" : "application/json",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "testClass",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on emlpoyee button"
+  }, {
+    "name" : "package",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d97b3c36f2aab6fb.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

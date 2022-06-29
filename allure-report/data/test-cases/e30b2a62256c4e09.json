@@ -1,0 +1,112 @@
+{
+  "uid" : "e30b2a62256c4e09",
+  "name" : "Twitter",
+  "fullName" : "Home: Checking social media on footer.Twitter",
+  "historyId" : "75bdc0cb7b0ff5eb9795b8c5d6d50fd2",
+  "time" : {
+    "start" : 1656514670154,
+    "stop" : 1656514670312,
+    "duration" : 158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656514670161,
+        "stop" : 1656514670193,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ac47f251715bdd8",
+        "name" : "Request",
+        "source" : "1ac47f251715bdd8.json",
+        "type" : "application/json",
+        "size" : 94
+      }, {
+        "uid" : "7a40a15b20ebaa89",
+        "name" : "Response",
+        "source" : "7a40a15b20ebaa89.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/00410565-a89d-4e34-a1ea-11f4a60a742a/click",
+      "time" : {
+        "start" : 1656514670197,
+        "stop" : 1656514670312,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home: Checking social media on footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Home: Checking social media on footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "Twitter"
+  }, {
+    "name" : "package",
+    "value" : "Home: Checking social media on footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e30b2a62256c4e09.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -1,0 +1,207 @@
+{
+  "uid" : "bc81f50e90d2e98d",
+  "name" : "Confirm delete",
+  "fullName" : "Login page testing: Delete projects.Confirm delete",
+  "historyId" : "bdfe36d8b8752f15f91966ce62d39a9a",
+  "time" : {
+    "start" : 1656439999034,
+    "stop" : 1656439999172,
+    "duration" : 138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656439999035,
+        "stop" : 1656439999045,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34d7bcf474a8e233",
+        "name" : "Request",
+        "source" : "34d7bcf474a8e233.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "6817f06ad62166ff",
+        "name" : "Response",
+        "source" : "6817f06ad62166ff.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ee2a7328-6211-47bc-b337-74abc0d22cbe/click",
+      "time" : {
+        "start" : 1656439999046,
+        "stop" : 1656439999172,
+        "duration" : 126
+      },
+      "status" : "failed",
+      "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656439999088,
+          "stop" : 1656439999172,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2fdbb95c5be6a07d",
+          "name" : "Screenshot",
+          "source" : "2fdbb95c5be6a07d.png",
+          "type" : "image/png",
+          "size" : 64253
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Confirm delete"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7fc757a8ad8f130",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439883927,
+        "stop" : 1656439884082,
+        "duration" : 155
+      }
+    }, {
+      "uid" : "12e71e0c9674a916",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439783449,
+        "stop" : 1656439783593,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "722d0883decbe275",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439743099,
+        "stop" : 1656439743284,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "b7ac5143e314857d",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439635150,
+        "stop" : 1656439635285,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "237d1b263f441daf",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439312509,
+        "stop" : 1656439312643,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "7451908921b8f39a",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656438683019,
+        "stop" : 1656438683264,
+        "duration" : 245
+      }
+    }, {
+      "uid" : "aa26785a53ce5489",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656438607077,
+        "stop" : 1656438607212,
+        "duration" : 135
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bc81f50e90d2e98d.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

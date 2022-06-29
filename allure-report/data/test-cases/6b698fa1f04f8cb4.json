@@ -1,0 +1,214 @@
+{
+  "uid" : "6b698fa1f04f8cb4",
+  "name" : "Click on Trackgenix button",
+  "fullName" : "Home: Checking buttons.Click on Trackgenix button",
+  "historyId" : "2b1b73199e5ddc3aa35052c5d2071d24",
+  "time" : {
+    "start" : 1656513287186,
+    "stop" : 1656513288802,
+    "duration" : 1616
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656513287187,
+        "stop" : 1656513287225,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "921f21d6cd0425e0",
+        "name" : "Request",
+        "source" : "921f21d6cd0425e0.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "6623338b870825e6",
+        "name" : "Response",
+        "source" : "6623338b870825e6.json",
+        "type" : "application/json",
+        "size" : 1057
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656513287230,
+        "stop" : 1656513287630,
+        "duration" : 400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5edfc4358dad2a5",
+        "name" : "Request",
+        "source" : "a5edfc4358dad2a5.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c73cefe869abed84",
+        "name" : "Response",
+        "source" : "c73cefe869abed84.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656513287737,
+        "stop" : 1656513287836,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30d48e0f75699bcd",
+        "name" : "Request",
+        "source" : "30d48e0f75699bcd.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "700c836caadc5a5a",
+        "name" : "Response",
+        "source" : "700c836caadc5a5a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656513287845,
+        "stop" : 1656513287904,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f8080f93375806f",
+        "name" : "Request",
+        "source" : "2f8080f93375806f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "2629d1701716c21f",
+        "name" : "Response",
+        "source" : "2629d1701716c21f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/af4243cf-eddb-42df-aad3-d32414cb44f1/click",
+      "time" : {
+        "start" : 1656513287908,
+        "stop" : 1656513288627,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656513288628,
+        "stop" : 1656513288801,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f315ea86ab99fe0",
+        "name" : "Response",
+        "source" : "4f315ea86ab99fe0.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "testClass",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on Trackgenix button"
+  }, {
+    "name" : "package",
+    "value" : "Home: Checking buttons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b698fa1f04f8cb4.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

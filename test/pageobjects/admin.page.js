@@ -1,7 +1,8 @@
 class AdminPage {
     //Getters
-    get adminUser() { return $('#root > div > section > div > div > button:nth-child(1) > a')}
-    get employeeUser() { return $('#root > div > section > div > div > button:nth-child(2)')}
+    get adminUser() { return $('section > div > div > button:nth-child(1) > a')}
+    get employeeUser() { return $('section > div > div > button:nth-child(2)')}
+    get projectSidebar() { return $('aside > nav > ul > li:nth-child(5) > a')}
 
     //admin view
     get projectsBtn() { return $('button:nth-child(5) > a')}
@@ -21,7 +22,7 @@ class AdminPage {
     get inputEndDate() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(4) > input')}
     get inputDescription() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.textarea_textareaContainer__zy-Jg > textarea')}
 
-
+    //Edit
     get changeName() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > div.form_divcontainer__35TLE > div:nth-child(1) > input')}
     get changeClient() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > div.form_divcontainer__35TLE > div:nth-child(2) > input')}
     get changeStartDate() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > div.form_divcontainer__35TLE > div:nth-child(4) > input')}
@@ -29,11 +30,21 @@ class AdminPage {
     get changeDescription() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > div.form_larger__3VW_g > div.textarea_textareaContainer__zy-Jg > textarea')}
 
     get crossBtnEdit() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div.errorsuccessmodal_container__JBOhN > div > div > img')}
-    //Edit
+    
     get editBtn() { return $('div > table > tbody > tr:nth-child(6) > td:nth-child(8) > button')}
     get editForm() { return $('div.modal-form_container__A3c7w > div')}
     get editAcceptBtn() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > button')}
     get noChangesModal() { return $('div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div')}
+    get addMember() { return $('div.form_larger__3VW_g > div:nth-child(2) > div > button')}
+    get submitBtn() { return $('button:nth-child(2)')}
+    get errorContainerRole() { return $('form > div:nth-child(2) > p')}
+    get errorContainerRate() { return $('div.input_inputContainer__Qsqmz > p')}
+    get chooseMember() { return $('div:nth-child(1) > select')}
+    get chooseEmployee() { return $('div:nth-child(1) > select > option:nth-child(6)')}
+    get chooseRole() { return $('div:nth-child(2) > select')}
+    get chooseQA() { return $('option:nth-child(3)')}
+    get choosePM() { return $('option:nth-child(5)')}
+    get insertRate() { return $('iv.input_inputContainer__Qsqmz > input')}
 
     //Delete
     get deleteBtn() { return $('div > table > tbody > tr:nth-child(13) > td:nth-child(9) > button')}
@@ -76,6 +87,11 @@ class AdminPage {
     async editDescription(description) {
         await this.changeDescription.setValue(description);
     }
+
+    //Member setter
+    async insertRateNumber(rate) {
+        await this.insertRate.setValue(rate);
+    }
     //Methods
     async create (name, client, startDate, endDate, description) {
         await this.setName(name);
@@ -94,6 +110,7 @@ class AdminPage {
         await this.editDescription(description);
         await this.editAcceptBtn.click();
     }
+    
     open () {
         return browser.url('https://alexis-trackgenix-app.vercel.app/home');
     }
