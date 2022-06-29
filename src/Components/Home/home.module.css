@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 300px;
   height: 100px;
 }
 
@@ -24,9 +23,16 @@
   margin: 5px;
   border-radius: 5px;
   padding: 2px 10px 0px 10px;
-  color: #373867;
   background: #76a068;
-  box-shadow: 2px 2px 2px grey;
+}
+
+.linkButton a {
+  text-decoration: none;
+  color: #373867;
+}
+
+.linkButton a:hover {
+  color: #FFFFFF;
 }
 
 .link {
