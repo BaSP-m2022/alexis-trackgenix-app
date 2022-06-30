@@ -1,5 +1,354 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/home\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
+      "children" : [ {
+        "name" : "browser",
+        "uid" : "ee7c07202191cf6c",
+        "parentUid" : "d343c7cbfa9bf0fd58884ab3754e07c9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615052485,
+          "stop" : 1656615062661,
+          "duration" : 10176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "d343c7cbfa9bf0fd58884ab3754e07c9"
+    }, {
+      "name" : "Expected Object({ property: 'background-color', value: 'rgba(118,160,104,1)', parsed: Object({ hex: '#76a068', alpha: 1, type: 'color', rgba: 'rgba(118,160,104,1)' }) }) to be '#76a068'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgba(118,160,104,1)', parsed: { hex: '#76a068', alpha: 1, type: 'color', rgba: 'rgba(118,160,104,1)' } }\n                      ",
+      "children" : [ {
+        "name" : "Header color",
+        "uid" : "27c841697e022480",
+        "parentUid" : "1c917e6ffdb46ff35607a65760b3529b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615062750,
+          "stop" : 1656615062854,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "1c917e6ffdb46ff35607a65760b3529b"
+    }, {
+      "name" : "TypeError: Cannot read properties of undefined (reading 'getCSSProperty')",
+      "children" : [ {
+        "name" : "Footer color",
+        "uid" : "50d05ab6af2b0aad",
+        "parentUid" : "78ea98837b60bf74b0bbfbb8f53ee545",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615062858,
+          "stop" : 1656615062930,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "78ea98837b60bf74b0bbfbb8f53ee545"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:37:40)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:38:32)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Twitter icon",
+        "uid" : "cb0cb29f7bb7dec5",
+        "parentUid" : "0eecfe07377f6842defcf9014b780c4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615062930,
+          "stop" : 1656615063042,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "0eecfe07377f6842defcf9014b780c4c"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:43:41)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:44:33)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Facebook icon",
+        "uid" : "cf66d28d4c79bfd4",
+        "parentUid" : "04901837e68edb388a0e9f79cba8a864",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063042,
+          "stop" : 1656615063133,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "04901837e68edb388a0e9f79cba8a864"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:49:42)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:50:34)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Instagram icon",
+        "uid" : "d387d570cf27ebf3",
+        "parentUid" : "e66d13134682d2f0257bc9bd050a0072",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063135,
+          "stop" : 1656615063257,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "e66d13134682d2f0257bc9bd050a0072"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:55:39)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:56:31)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "GitHub icon",
+        "uid" : "d90d0ae439c0fada",
+        "parentUid" : "a847dab2b44213052e1013bb36b2b9bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063257,
+          "stop" : 1656615063392,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "a847dab2b44213052e1013bb36b2b9bf"
+    }, {
+      "name" : "Expected undefined to exist.      \n                      actual expected\n                      \n                      undefined[]\n                      ",
+      "children" : [ {
+        "name" : "Location text exists",
+        "uid" : "af74a1525aa28957",
+        "parentUid" : "9d25caa56f0f213b64880bfa689804d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063396,
+          "stop" : 1656615063507,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Copyright exist",
+        "uid" : "d0ee367bd6c42223",
+        "parentUid" : "9d25caa56f0f213b64880bfa689804d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063669,
+          "stop" : 1656615063730,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "9d25caa56f0f213b64880bfa689804d6"
+    }, {
+      "name" : "Expected undefined to have text 'Rosario, Argentina'.      \n                      actual expected\n                      \n                      undefined'Rosario, Argentina'\n                      ",
+      "children" : [ {
+        "name" : "Correct location text",
+        "uid" : "200c8fb56426106b",
+        "parentUid" : "c5f64a1c9c56839df3a2350ff9e65081",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063508,
+          "stop" : 1656615063665,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "c5f64a1c9c56839df3a2350ff9e65081"
+    }, {
+      "name" : "Expected undefined to have text 'Copyright © 2022 Trackgenix SA. All rights reserved.'.      \n                      actual expected\n                      \n                      undefined'Copyright © 2022 Trackgenix SA. All rights reserved.'\n                      ",
+      "children" : [ {
+        "name" : "Correct copyright text",
+        "uid" : "e1a17cb8db48e0dc",
+        "parentUid" : "7bfc4dd5628e7ea1463e316c7b93ecb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063732,
+          "stop" : 1656615063799,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "7bfc4dd5628e7ea1463e316c7b93ecb6"
+    }, {
+      "name" : "TypeError: expect(...).toExists is not a function",
+      "children" : [ {
+        "name" : "Sidebar header exists",
+        "uid" : "50226b085ab4f63a",
+        "parentUid" : "160950b709514945a55d44a79f1f1d41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063827,
+          "stop" : 1656615063884,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "160950b709514945a55d44a79f1f1d41"
+    }, {
+      "name" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "children" : [ {
+        "name" : "Sidebar background color",
+        "uid" : "68050e9c26c4768b",
+        "parentUid" : "813a7db28b8917115f3f9fef1ba658f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615063884,
+          "stop" : 1656615064052,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "813a7db28b8917115f3f9fef1ba658f3"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/admin\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/admin\"",
+      "children" : [ {
+        "name" : "Admin home button",
+        "uid" : "9a0b9f8533a1b417",
+        "parentUid" : "5492a88666626aad0f401ecfa1168f6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615064054,
+          "stop" : 1656615078543,
+          "duration" : 14489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Admin btn link",
+        "uid" : "38656821c51c10ba",
+        "parentUid" : "5492a88666626aad0f401ecfa1168f6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615078543,
+          "stop" : 1656615089344,
+          "duration" : 10801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "5492a88666626aad0f401ecfa1168f6b"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/employee\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/employee\"",
+      "children" : [ {
+        "name" : "Employee home button",
+        "uid" : "34fbed92542e5469",
+        "parentUid" : "cd6ba3f2ebad0244913498babbdd4862",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615089345,
+          "stop" : 1656615100034,
+          "duration" : 10689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      }, {
+        "name" : "Employee btn link",
+        "uid" : "6b4b5f91a88bdf6f",
+        "parentUid" : "cd6ba3f2ebad0244913498babbdd4862",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656615100034,
+          "stop" : 1656615110732,
+          "duration" : 10698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "cd6ba3f2ebad0244913498babbdd4862"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

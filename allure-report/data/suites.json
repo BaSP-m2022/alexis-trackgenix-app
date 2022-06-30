@@ -1,5 +1,394 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Home testing",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "199e63c020e03103",
+      "parentUid" : "82b0d3056c91af4169c9f7e2ff29a65d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615052481,
+        "stop" : 1656615052482,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "82b0d3056c91af4169c9f7e2ff29a65d"
+  }, {
+    "name" : "Home testing: Correct browser url",
+    "children" : [ {
+      "name" : "browser",
+      "uid" : "ee7c07202191cf6c",
+      "parentUid" : "596e5d5e12e8ee7c74ed61ffde35d41b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615052485,
+        "stop" : 1656615062661,
+        "duration" : 10176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "596e5d5e12e8ee7c74ed61ffde35d41b"
+  }, {
+    "name" : "Home testing: Checking header container",
+    "children" : [ {
+      "name" : "Header title",
+      "uid" : "b29eda7b7f2ef855",
+      "parentUid" : "6168c457c85a5989ea479adb5fe343e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615062668,
+        "stop" : 1656615062726,
+        "duration" : 58
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Header Profile Pic",
+      "uid" : "837fcba2438f3d8b",
+      "parentUid" : "6168c457c85a5989ea479adb5fe343e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615062727,
+        "stop" : 1656615062750,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Header color",
+      "uid" : "27c841697e022480",
+      "parentUid" : "6168c457c85a5989ea479adb5fe343e5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615062750,
+        "stop" : 1656615062854,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "6168c457c85a5989ea479adb5fe343e5"
+  }, {
+    "name" : "Home testing: Checking footer container",
+    "children" : [ {
+      "name" : "Footer color",
+      "uid" : "50d05ab6af2b0aad",
+      "parentUid" : "a861c256a12203e6ac94ec913c0ad6e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615062858,
+        "stop" : 1656615062930,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Twitter icon",
+      "uid" : "cb0cb29f7bb7dec5",
+      "parentUid" : "a861c256a12203e6ac94ec913c0ad6e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615062930,
+        "stop" : 1656615063042,
+        "duration" : 112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Facebook icon",
+      "uid" : "cf66d28d4c79bfd4",
+      "parentUid" : "a861c256a12203e6ac94ec913c0ad6e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063042,
+        "stop" : 1656615063133,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Instagram icon",
+      "uid" : "d387d570cf27ebf3",
+      "parentUid" : "a861c256a12203e6ac94ec913c0ad6e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063135,
+        "stop" : 1656615063257,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "GitHub icon",
+      "uid" : "d90d0ae439c0fada",
+      "parentUid" : "a861c256a12203e6ac94ec913c0ad6e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063257,
+        "stop" : 1656615063392,
+        "duration" : 135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "a861c256a12203e6ac94ec913c0ad6e9"
+  }, {
+    "name" : "Home testing: Location text",
+    "children" : [ {
+      "name" : "Location text exists",
+      "uid" : "af74a1525aa28957",
+      "parentUid" : "7a0540bc240524290b67ebe9e96d2a27",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063396,
+        "stop" : 1656615063507,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Correct location text",
+      "uid" : "200c8fb56426106b",
+      "parentUid" : "7a0540bc240524290b67ebe9e96d2a27",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063508,
+        "stop" : 1656615063665,
+        "duration" : 157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "7a0540bc240524290b67ebe9e96d2a27"
+  }, {
+    "name" : "Home testing: Copyright text",
+    "children" : [ {
+      "name" : "Copyright exist",
+      "uid" : "d0ee367bd6c42223",
+      "parentUid" : "462d099b02e40cd437ede378aeacf991",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063669,
+        "stop" : 1656615063730,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Correct copyright text",
+      "uid" : "e1a17cb8db48e0dc",
+      "parentUid" : "462d099b02e40cd437ede378aeacf991",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063732,
+        "stop" : 1656615063799,
+        "duration" : 67
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "462d099b02e40cd437ede378aeacf991"
+  }, {
+    "name" : "Home testing: Checking sidebar",
+    "children" : [ {
+      "name" : "Sidebar exists",
+      "uid" : "d7ab60ba612e1851",
+      "parentUid" : "da2e926004a27578ba23cde0eecd2b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615063800,
+        "stop" : 1656615063825,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Sidebar header exists",
+      "uid" : "50226b085ab4f63a",
+      "parentUid" : "da2e926004a27578ba23cde0eecd2b52",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063827,
+        "stop" : 1656615063884,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Sidebar background color",
+      "uid" : "68050e9c26c4768b",
+      "parentUid" : "da2e926004a27578ba23cde0eecd2b52",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615063884,
+        "stop" : 1656615064052,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "da2e926004a27578ba23cde0eecd2b52"
+  }, {
+    "name" : "Home testing: Entities buttons",
+    "children" : [ {
+      "name" : "Admin home button",
+      "uid" : "9a0b9f8533a1b417",
+      "parentUid" : "a429062ef2a35d4ce5d236e9ab9f34e3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615064054,
+        "stop" : 1656615078543,
+        "duration" : 14489
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Admin btn link",
+      "uid" : "38656821c51c10ba",
+      "parentUid" : "a429062ef2a35d4ce5d236e9ab9f34e3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615078543,
+        "stop" : 1656615089344,
+        "duration" : 10801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Employee home button",
+      "uid" : "34fbed92542e5469",
+      "parentUid" : "a429062ef2a35d4ce5d236e9ab9f34e3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615089345,
+        "stop" : 1656615100034,
+        "duration" : 10689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Employee btn link",
+      "uid" : "6b4b5f91a88bdf6f",
+      "parentUid" : "a429062ef2a35d4ce5d236e9ab9f34e3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656615100034,
+        "stop" : 1656615110732,
+        "duration" : 10698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "a429062ef2a35d4ce5d236e9ab9f34e3"
+  } ],
   "name" : "suites"
 }

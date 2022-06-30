@@ -1,16 +1,19 @@
-const header = require('./pageobjects/header.page');
-const footer = require('./pageobjects/footer.page');
-const sidebar = require('./pageobjects/sidebar.page');
-const homePage = require('./pageobjects/home.page');
+const header = require('../pageobjects/header.page');
+const footer = require('../pageobjects/footer.page');
+const sidebar = require('../pageobjects/sidebar.page');
+const homePage = require('../pageobjects/home.page');
 
 describe('Home testing', () => {
-  beforeAll('Open browser', async () => {
-    await homePage.openBrowser();
+  beforeAll('Open browser', () => {
+    homePage.openBrowser('home');
   });
 
-  describe('Correct browser url', async () => {
-    await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/home');
+  describe('Correct browser url', () => {
+    it('browser', async () => {
+      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/home');
+    });
   });
+
   describe('Checking header container', () => {
     it('Header title', async () => {
       await expect(header.headerTitle).toExist();
@@ -24,6 +27,7 @@ describe('Home testing', () => {
       await expect(headerColor).toBe('#76a068');
     });
   });
+
   describe('Checking footer container', () => {
     it('Footer color', async () => {
       const footerColor = await footer.footerContainer.getCSSProperty('background-color');
@@ -54,6 +58,7 @@ describe('Home testing', () => {
       await browser.switchWindow('http://alexis-trackgenix-app.vercel.app/home');
     });
   });
+
   describe('Location text', () => {
     it('Location text exists', async () => {
       await expect(footer.location).toExist();
@@ -62,6 +67,7 @@ describe('Home testing', () => {
       await expect(footer.location).toHaveText('Rosario, Argentina');
     });
   });
+
   describe('Copyright text', () => {
     it('Copyright exist', async () => {
       await expect(footer.copyright).toExist();
@@ -72,6 +78,7 @@ describe('Home testing', () => {
       );
     });
   });
+
   describe('Checking sidebar', () => {
     it('Sidebar exists', async () => {
       await expect(sidebar.sidebarContainer).toExist();
@@ -83,6 +90,37 @@ describe('Home testing', () => {
     it('Sidebar background color', async () => {
       const sidebarColor = await sidebar.sidebarContainer.getCSSProperty('background-color');
       await expect(sidebarColor).toBe('rgb(55, 56, 103)');
+    });
+  });
+
+  describe('Entities buttons', () => {
+    beforeEach('Position in home browser again', async () => {
+      await browser.url('http://alexis-trackgenix-app.vercel.app/home');
+    });
+
+    it('Admin home button', async () => {
+      await expect(homePage.adminBtn).toExist();
+      await expect(homePage.adminBtn).toBeClickable();
+      await homePage.adminBtn.click();
+      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/admin');
+    });
+    it('Admin btn link', async () => {
+      await expect(homePage.adminLink).toExist();
+      await expect(homePage.adminLink).toBeClickable();
+      await homePage.adminLink.click();
+      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/admin');
+    });
+    it('Employee home button', async () => {
+      await expect(homePage.employeeBtn).toExist();
+      await expect(homePage.employeeBtn).toBeClickable();
+      await homePage.employeeBtn.click();
+      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/employee');
+    });
+    it('Employee btn link', async () => {
+      await expect(homePage.employeeLink).toExist();
+      await expect(homePage.employeeLink).toBeClickable();
+      await homePage.employeeLink.click();
+      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/employee');
     });
   });
 });
