@@ -22,7 +22,7 @@ exports.config = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ['./test/specs/**/*.js'],
+  specs: ['./test/specs/home.spec.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -135,7 +135,14 @@ exports.config = {
   // see also: https://webdriver.io/docs/dot-reporter
   reporters: [
     'spec',
-    ['allure', { outputDir: 'allure-results', disableWebdriverScreenshotsReporting: false }]
+    [
+      'allure',
+      {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false
+      }
+    ]
   ],
 
   //
