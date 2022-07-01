@@ -6,9 +6,15 @@ describe('Task tests', () => {
     beforeAll('open browser', () => {
         browser.url('https://alexis-trackgenix-app.vercel.app/home')
     })
+    describe('Enter to admin user', () => {
+        it('Project redirect', async () => {
+            await HomePage.goToLogin.click();
+            await HomePage.login('testAdmin@radium.com', 'admin123');
+            await HomePage.loginBtn.click();
+        })
+    })
     describe('Task create', () => {
         it('Go to task', async () => {
-            await HomePage.adminAccess.click();
             await HomePage.asideTasks.click();
         })
         it('Add task', async () => {

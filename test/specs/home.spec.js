@@ -12,21 +12,23 @@ describe('Home', () => {
     })
     describe('Checking social media on footer', () => {
         it('Twitter', async () => {
-            await HomePage.socialTW.click();
+            await expect(HomePage.socialTW).toHaveLink('https://twitter.com/');
+        })
+        it('Facebook', async () => {
+            await expect(HomePage.socialFB).toHaveLink('https://www.facebook.com/');
+        })
+        it('Instagram', async () => {
+            await expect(HomePage.socialIG).toHaveLink('https://www.instagram.com/');
+        })
+        it('Github', async () => {
+            await expect(HomePage.socialGH).toHaveLink('https://github.com/BaSP-m2022/alexis-trackgenix-app');
         })
     })
     describe('Checking buttons', () => {
-        it('Click on admin button', async () => {
-            await HomePage.adminAccess.click();
-            await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin');
-        })
         it('Click on Trackgenix button', async () => {
             await HomePage.homeTG.click();
             await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
         })
-        it('Click on emlpoyee button', async () => {
-            await HomePage.employeeAccess.click();
-            await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/employee');
-        })
+
     })
 });
