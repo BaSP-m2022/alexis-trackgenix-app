@@ -5,7 +5,7 @@ const homePage = require('../pageobjects/home.page');
 
 describe('Home testing', () => {
   beforeAll('Open browser', () => {
-    homePage.openBrowser('home');
+    homePage.openBrowser();
   });
 
   describe('Correct browser url', () => {

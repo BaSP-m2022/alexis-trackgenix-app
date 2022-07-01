@@ -5,7 +5,8 @@ const adminHome = require('../pageobjects/admin-home.page');
 
 describe('Testing Admin Home', () => {
   beforeAll('Open admin home page', () => {
-    homePage.openBrowser('admin');
+    homePage.openBrowser();
+    homePage.adminLink.click();
   });
 
   describe('Titles', () => {
@@ -56,7 +57,7 @@ describe('Testing Admin Home', () => {
       await expect(sidebar.timesheetsTab).toExist();
       await expect(sidebar.timesheetsTab).toBeClickable();
       await sidebar.timesheetsTab.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/timesheets');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/time-sheets');
     });
     it('Tasks tab', async () => {
       await expect(sidebar.tasksTab).toExist();
@@ -68,7 +69,8 @@ describe('Testing Admin Home', () => {
 
   describe('Testing buttons', () => {
     beforeEach('Come back to Admin Home', () => {
-      homePage.openBrowser('admin');
+      homePage.openBrowser();
+      homePage.adminLink.click();
     });
     it('Home button', async () => {
       await expect(adminHome.homeBtn).toExist();
@@ -138,13 +140,13 @@ describe('Testing Admin Home', () => {
       await expect(adminHome.timesheetsBtn).toExist();
       await expect(adminHome.timesheetsBtn).toBeClickable();
       await adminHome.timesheetsBtn.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/timesheets');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/time-sheets');
     });
     it('Timesheets btn link', async () => {
       await expect(adminHome.timesheetsBtnLink).toExist();
       await expect(adminHome.timesheetsBtnLink).toBeClickable();
       await adminHome.timesheetsBtnLink.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/timesheets');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/time-sheets');
     });
     it('Tasks button', async () => {
       await expect(adminHome.tasksBtn).toExist();

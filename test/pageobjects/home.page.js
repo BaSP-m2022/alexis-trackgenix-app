@@ -23,8 +23,8 @@ class homePage {
   async openEmployeeHome() {
     await this.employeeLink.click();
   }
-  async openBrowser(path) {
-    return browser.url(`http://alexis-trackgenix-app.vercel.app/${path}`);
+  async openBrowser() {
+    return browser.url('http://alexis-trackgenix-app.vercel.app/');
   }
 }
 module.exports = new homePage();
