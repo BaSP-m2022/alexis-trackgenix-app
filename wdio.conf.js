@@ -24,7 +24,8 @@ exports.config = {
         './test/specs/homePage.js',
         './test/specs/adminHomePage.js',
         './test/specs/employeeHomePage.js',
-        './test/specs/signUpPage.js'
+        './test/specs/signUpPage.js',
+        './test/specs/adminPage.js'
     ],
     // Patterns to exclude.
     exclude: [

@@ -23,18 +23,18 @@
 //     })
 
 //     describe('Main Page elements', ()=> {
-//         it('Checking the existence of the main buttons and their functionality', async ()=> {
-//             await expect(Home.mainTitle).toExist();
-//             await expect(Home.adminBtn).toExist();
-//             await expect(Home.adminBtn).toBeClickable();
-//             await expect(Home.adminBtn).toHaveLink('/admin');
-//             await expect(Home.employeeBtn).toExist();
-//             await expect(Home.employeeBtn).toBeClickable();
-//             await expect(Home.employeeBtn).toHaveLink('/employee');
-//             await expect(Home.signUpBtn).toExist();
-//             await expect(Home.signUpBtn).toBeClickable();
-//             await expect(Home.signUpBtn).toHaveLink('/signup')
-//         });
+//     //     it('Checking the existence of the main buttons and their functionality', async ()=> {
+//     //         await expect(Home.mainTitle).toExist();
+//     //         await expect(Home.adminBtn).toExist();
+//     //         await expect(Home.adminBtn).toBeClickable();
+//     //         await expect(Home.adminBtn).toHaveLink('/admin');
+//     //         await expect(Home.employeeBtn).toExist();
+//     //         await expect(Home.employeeBtn).toBeClickable();
+//     //         await expect(Home.employeeBtn).toHaveLink('/employee');
+//     //         await expect(Home.signUpBtn).toExist();
+//     //         await expect(Home.signUpBtn).toBeClickable();
+//     //         await expect(Home.signUpBtn).toHaveLink('/signup')
+//     //     });
 //         it('Checking the existence of the main links and their functionality', async ()=> {
 //             await expect(Home.adminLink).toExist();
 //             await expect(Home.adminLink).toBeClickable();
