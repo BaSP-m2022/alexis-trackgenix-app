@@ -1,0 +1,138 @@
+{
+  "uid" : "927e1397ae88f4cd",
+  "name" : "Close button",
+  "fullName" : "Projects: Delete projects.Close button",
+  "historyId" : "a744e8db5243cbea41c11bc6cfafff78",
+  "time" : {
+    "start" : 1656522407638,
+    "stop" : 1656522410893,
+    "duration" : 3255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656522410647,
+        "stop" : 1656522410693,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3ea0f2ee230d436",
+        "name" : "Request",
+        "source" : "a3ea0f2ee230d436.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "d0a67f084e84fe60",
+        "name" : "Response",
+        "source" : "d0a67f084e84fe60.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/89975ce5-c275-44e9-8205-2206cfeae24b/click",
+      "time" : {
+        "start" : 1656522410699,
+        "stop" : 1656522410893,
+        "duration" : 194
+      },
+      "status" : "failed",
+      "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656522410771,
+          "stop" : 1656522410892,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "391c44d7db8a5f66",
+          "name" : "Screenshot",
+          "source" : "391c44d7db8a5f66.png",
+          "type" : "image/png",
+          "size" : 65542
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Close button"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "927e1397ae88f4cd.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

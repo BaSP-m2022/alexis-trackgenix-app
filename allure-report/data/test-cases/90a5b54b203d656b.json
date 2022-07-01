@@ -1,0 +1,138 @@
+{
+  "uid" : "90a5b54b203d656b",
+  "name" : "Confirm delete",
+  "fullName" : "Login page testing: Delete projects.Confirm delete",
+  "historyId" : "bdfe36d8b8752f15f91966ce62d39a9a",
+  "time" : {
+    "start" : 1656439783449,
+    "stop" : 1656439783593,
+    "duration" : 144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656439783449,
+        "stop" : 1656439783458,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71c4fc12c3462b8c",
+        "name" : "Request",
+        "source" : "71c4fc12c3462b8c.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "6c4ad1ac52e08908",
+        "name" : "Response",
+        "source" : "6c4ad1ac52e08908.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5294144e-8538-4118-9be7-edc4a33fdf02/click",
+      "time" : {
+        "start" : 1656439783460,
+        "stop" : 1656439783593,
+        "duration" : 133
+      },
+      "status" : "failed",
+      "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656439783497,
+          "stop" : 1656439783593,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4e1ca8cde7ecb5c7",
+          "name" : "Screenshot",
+          "source" : "4e1ca8cde7ecb5c7.png",
+          "type" : "image/png",
+          "size" : 65838
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Confirm delete"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Delete projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90a5b54b203d656b.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

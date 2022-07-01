@@ -1,0 +1,96 @@
+{
+  "uid" : "2d810a4c74db3958",
+  "name" : "Exit create form",
+  "fullName" : "Projects: Add projects.Exit create form",
+  "historyId" : "9aa67a09d49cc003e82b0c3048f5578b",
+  "time" : {
+    "start" : 1656629838214,
+    "stop" : 1656629898224,
+    "duration" : 60010
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+    "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656629838215,
+        "stop" : 1656629898224,
+        "duration" : 60009
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25530c9d8ffbee6a",
+        "name" : "Request",
+        "source" : "25530c9d8ffbee6a.json",
+        "type" : "application/json",
+        "size" : 202
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Exit create form"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d810a4c74db3958.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

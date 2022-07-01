@@ -1,0 +1,226 @@
+{
+  "uid" : "d4becceaa7c18f6a",
+  "name" : "Click on edit timesheet",
+  "fullName" : "Time-sheets: Edit timesheet.Click on edit timesheet",
+  "historyId" : "568bf7363fa3901ad6296aefdce034de",
+  "time" : {
+    "start" : 1656526860487,
+    "stop" : 1656526864875,
+    "duration" : 4388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526860488,
+        "stop" : 1656526860506,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4740ac21736dc91",
+        "name" : "Request",
+        "source" : "4740ac21736dc91.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "2c39b793fc5f3491",
+        "name" : "Response",
+        "source" : "2c39b793fc5f3491.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2d5029a3-a37f-4312-ab0d-c9eaad173bf1/click",
+      "time" : {
+        "start" : 1656526860507,
+        "stop" : 1656526864875,
+        "duration" : 4368
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (978, 451). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656526864769,
+          "stop" : 1656526864874,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d0dc1d47907c9d2d",
+          "name" : "Screenshot",
+          "source" : "d0dc1d47907c9d2d.png",
+          "type" : "image/png",
+          "size" : 59345
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on edit timesheet"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4c3e8766b0fc6a72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656526590670,
+        "stop" : 1656526590793,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "9f4443b48563ee8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522486216,
+        "stop" : 1656522486390,
+        "duration" : 174
+      }
+    }, {
+      "uid" : "aed25453cae9ffa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522374646,
+        "stop" : 1656522374856,
+        "duration" : 210
+      }
+    }, {
+      "uid" : "3bf775512ed8c094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656522262561,
+        "stop" : 1656522262702,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "50c17d5a6639f097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656517161743,
+        "stop" : 1656517161863,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "dcd1b712e07d63fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656516886847,
+        "stop" : 1656516886934,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "89a0da4ad13eace",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656514685636,
+        "stop" : 1656514685739,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "18b9b764e3970144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656513299634,
+        "stop" : 1656513299777,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "a7458cdb5ce4fa09",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(9) > button\" because element wasn't found",
+      "time" : {
+        "start" : 1656513067999,
+        "stop" : 1656513078157,
+        "duration" : 10158
+      }
+    }, {
+      "uid" : "97dddc7726db73f4",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(9) > button\" because element wasn't found",
+      "time" : {
+        "start" : 1656512874545,
+        "stop" : 1656512884686,
+        "duration" : 10141
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d4becceaa7c18f6a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

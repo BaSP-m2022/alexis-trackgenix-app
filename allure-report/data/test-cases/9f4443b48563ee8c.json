@@ -1,0 +1,166 @@
+{
+  "uid" : "9f4443b48563ee8c",
+  "name" : "Click on edit timesheet",
+  "fullName" : "Time-sheets: Edit timesheet.Click on edit timesheet",
+  "historyId" : "568bf7363fa3901ad6296aefdce034de",
+  "time" : {
+    "start" : 1656522486216,
+    "stop" : 1656522486390,
+    "duration" : 174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656522486216,
+        "stop" : 1656522486248,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8abb711ccfe37f9d",
+        "name" : "Request",
+        "source" : "8abb711ccfe37f9d.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "4ef2cbd52c668127",
+        "name" : "Response",
+        "source" : "4ef2cbd52c668127.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/aec56256-bc4a-4046-8229-c56d205305d3/click",
+      "time" : {
+        "start" : 1656522486251,
+        "stop" : 1656522486335,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656522486335,
+        "stop" : 1656522486364,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3dfe6773d6152d9",
+        "name" : "Request",
+        "source" : "a3dfe6773d6152d9.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "5b2ab0debd914868",
+        "name" : "Response",
+        "source" : "5b2ab0debd914868.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656522486367,
+        "stop" : 1656522486386,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc5ff171276ab2a0",
+        "name" : "Request",
+        "source" : "fc5ff171276ab2a0.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "72aa8f0232b10e11",
+        "name" : "Response",
+        "source" : "72aa8f0232b10e11.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on edit timesheet"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f4443b48563ee8c.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

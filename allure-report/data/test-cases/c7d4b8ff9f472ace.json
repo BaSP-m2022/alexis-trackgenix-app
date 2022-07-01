@@ -1,0 +1,258 @@
+{
+  "uid" : "c7d4b8ff9f472ace",
+  "name" : "Click on remove timesheet",
+  "fullName" : "Time-sheets: Remove timesheet.Click on remove timesheet",
+  "historyId" : "c0cba55c73d9fd54acc51a4f83431494",
+  "time" : {
+    "start" : 1656526885286,
+    "stop" : 1656526885381,
+    "duration" : 95
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526885286,
+        "stop" : 1656526885297,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e93d716f1baa39f4",
+        "name" : "Request",
+        "source" : "e93d716f1baa39f4.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "1e178a32008f80e2",
+        "name" : "Response",
+        "source" : "1e178a32008f80e2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/3c24fecc-6bf9-46d2-aa69-f54c7658a69d/click",
+      "time" : {
+        "start" : 1656526885300,
+        "stop" : 1656526885335,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526885336,
+        "stop" : 1656526885364,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8db3e33ce11faae",
+        "name" : "Request",
+        "source" : "c8db3e33ce11faae.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "35982d64b64ec1d2",
+        "name" : "Response",
+        "source" : "35982d64b64ec1d2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656526885367,
+        "stop" : 1656526885379,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6499706006d8029",
+        "name" : "Request",
+        "source" : "a6499706006d8029.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "7ca9af03d1922f18",
+        "name" : "Response",
+        "source" : "7ca9af03d1922f18.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on remove timesheet"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7200154835107d93",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656526599952,
+        "stop" : 1656526604376,
+        "duration" : 4424
+      }
+    }, {
+      "uid" : "554fb5c83f4edc66",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656522495437,
+        "stop" : 1656522499837,
+        "duration" : 4400
+      }
+    }, {
+      "uid" : "26d897c8556df7f8",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656522383825,
+        "stop" : 1656522388201,
+        "duration" : 4376
+      }
+    }, {
+      "uid" : "9b02b7aa1d5fd940",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656522271522,
+        "stop" : 1656522275924,
+        "duration" : 4402
+      }
+    }, {
+      "uid" : "f3b8cab72aea2eca",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656517170843,
+        "stop" : 1656517175342,
+        "duration" : 4499
+      }
+    }, {
+      "uid" : "359da458c8c1aa17",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656516895924,
+        "stop" : 1656516900416,
+        "duration" : 4492
+      }
+    }, {
+      "uid" : "25c73b6c7f48a3d6",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656514694585,
+        "stop" : 1656514698922,
+        "duration" : 4337
+      }
+    }, {
+      "uid" : "58b8cb94138ef3a5",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (1019, 451). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656513308835,
+        "stop" : 1656513313271,
+        "duration" : 4436
+      }
+    }, {
+      "uid" : "8463177890fe715b",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(10) > button\" because element wasn't found",
+      "time" : {
+        "start" : 1656513098468,
+        "stop" : 1656513108599,
+        "duration" : 10131
+      }
+    }, {
+      "uid" : "d7e262db53de08f9",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"tr:nth-child(15) > td:nth-child(10) > button\" because element wasn't found",
+      "time" : {
+        "start" : 1656512905017,
+        "stop" : 1656512915148,
+        "duration" : 10131
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7d4b8ff9f472ace.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

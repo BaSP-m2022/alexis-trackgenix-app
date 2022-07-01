@@ -1,0 +1,138 @@
+{
+  "uid" : "8f2107d7374e1937",
+  "name" : "Remove last task",
+  "fullName" : "Task tests: Task delete.Remove last task",
+  "historyId" : "98e2e7ea770199f7431f3f51041d4791",
+  "time" : {
+    "start" : 1656684874934,
+    "stop" : 1656684879265,
+    "duration" : 4331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (912, 560). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (912, 560). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (912, 560). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (912, 560). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656684874935,
+        "stop" : 1656684874954,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5691b6c9d4c8df3",
+        "name" : "Request",
+        "source" : "5691b6c9d4c8df3.json",
+        "type" : "application/json",
+        "size" : 100
+      }, {
+        "uid" : "81b2d425590a18ac",
+        "name" : "Response",
+        "source" : "81b2d425590a18ac.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/bfc868ea-591b-499f-bf9c-0666ef59f0fa/click",
+      "time" : {
+        "start" : 1656684874957,
+        "stop" : 1656684879265,
+        "duration" : 4308
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonDelete__21fw6\">...</button> is not clickable at point (912, 560). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656684879157,
+          "stop" : 1656684879262,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a2780e24f8919ca",
+          "name" : "Screenshot",
+          "source" : "3a2780e24f8919ca.png",
+          "type" : "image/png",
+          "size" : 48409
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Task tests: Task delete"
+  }, {
+    "name" : "testClass",
+    "value" : "Task tests: Task delete"
+  }, {
+    "name" : "testMethod",
+    "value" : "Remove last task"
+  }, {
+    "name" : "package",
+    "value" : "Task tests: Task delete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f2107d7374e1937.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

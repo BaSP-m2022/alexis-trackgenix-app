@@ -1,0 +1,133 @@
+{
+  "uid" : "4f772890328b089b",
+  "name" : "Click on admin button",
+  "fullName" : "Login page testing: Admin user.Click on admin button",
+  "historyId" : "411be9355a123b905cf3de3612d79aaf",
+  "time" : {
+    "start" : 1656426151727,
+    "stop" : 1656426152348,
+    "duration" : 621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656426151731,
+        "stop" : 1656426152204,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9d1ba2a418d73eb",
+        "name" : "Request",
+        "source" : "b9d1ba2a418d73eb.json",
+        "type" : "application/json",
+        "size" : 103
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/da201ebb-f45f-438f-87a7-0f1ed02c5577/click",
+      "time" : {
+        "start" : 1656426152237,
+        "stop" : 1656426152317,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656426152320,
+        "stop" : 1656426152342,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9293fb77b9f1532",
+        "name" : "Response",
+        "source" : "f9293fb77b9f1532.json",
+        "type" : "application/json",
+        "size" : 48
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7057806ce4b1f9f9",
+      "name" : "Response",
+      "source" : "7057806ce4b1f9f9.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on admin button"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Admin user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f772890328b089b.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

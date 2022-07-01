@@ -1,0 +1,138 @@
+{
+  "uid" : "33847f31d03c41ac",
+  "name" : "Click on add member",
+  "fullName" : "Projects: Team members.Click on add member",
+  "historyId" : "71edfa039fde08965685ffb956d3fe89",
+  "time" : {
+    "start" : 1656616072603,
+    "stop" : 1656616072749,
+    "duration" : 146
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656616072604,
+        "stop" : 1656616072617,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e579a7ee697c1ab",
+        "name" : "Request",
+        "source" : "1e579a7ee697c1ab.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "43156eb9c28adb5b",
+        "name" : "Response",
+        "source" : "43156eb9c28adb5b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/a41e35e8-f613-4302-b2d8-97f6e92e6422/click",
+      "time" : {
+        "start" : 1656616072619,
+        "stop" : 1656616072749,
+        "duration" : 130
+      },
+      "status" : "failed",
+      "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656616072665,
+          "stop" : 1656616072748,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "414af0cdda12e6b4",
+          "name" : "Screenshot",
+          "source" : "414af0cdda12e6b4.png",
+          "type" : "image/png",
+          "size" : 70626
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on add member"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33847f31d03c41ac.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,202 @@
+{
+  "uid" : "d249b75795bc94c8",
+  "name" : "Click on add member",
+  "fullName" : "Login page testing: Team members.Click on add member",
+  "historyId" : "5ec8b9ae033f14890bae5c4db154a749",
+  "time" : {
+    "start" : 1656439958739,
+    "stop" : 1656439963083,
+    "duration" : 4344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656439958740,
+        "stop" : 1656439958749,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be7289628a20e941",
+        "name" : "Request",
+        "source" : "be7289628a20e941.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "8445f2f662246c62",
+        "name" : "Response",
+        "source" : "8445f2f662246c62.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c5b8602a-edd6-44f1-830b-10ef58cd9f96/click",
+      "time" : {
+        "start" : 1656439958751,
+        "stop" : 1656439963083,
+        "duration" : 4332
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656439963002,
+          "stop" : 1656439963081,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "af85766aadc312c8",
+          "name" : "Screenshot",
+          "source" : "af85766aadc312c8.png",
+          "type" : "image/png",
+          "size" : 59258
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Team members"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Team members"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on add member"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Team members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c4501f209fac8c24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656439867408,
+        "stop" : 1656439867831,
+        "duration" : 423
+      }
+    }, {
+      "uid" : "8c5a89e9fcbbb3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656439777277,
+        "stop" : 1656439777667,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "38f5823160a65709",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656439713041,
+        "stop" : 1656439717344,
+        "duration" : 4303
+      }
+    }, {
+      "uid" : "fc30f1844a6a5d22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656439626855,
+        "stop" : 1656439627165,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "3944a4be7be64ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656439296079,
+        "stop" : 1656439296460,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "b5a3291f04a4019f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656438666690,
+        "stop" : 1656438666982,
+        "duration" : 292
+      }
+    }, {
+      "uid" : "33643efaab103c68",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+      "time" : {
+        "start" : 1656438576763,
+        "stop" : 1656438581176,
+        "duration" : 4413
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d249b75795bc94c8.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

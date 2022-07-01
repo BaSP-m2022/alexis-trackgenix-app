@@ -21,10 +21,14 @@ describe('Time-sheets', () => {
             await expect(TimeSheetsPage.chooseTaskError).toHaveText('Task is a required field');
         })
         it('Click on create with valid data', async () => {
-            await TimeSheetsPage.chooseProject.click();
-            await TimeSheetsPage.selectProject.waitForClickable({ timeout: 3000 });
-            await TimeSheetsPage.chooseTask.click();
-            await TimeSheetsPage.selectTask.waitForClickable({ timeout: 3000 });
+            const chooseProject = TimeSheetsPage.chooseProject;
+            await chooseProject.selectByAttribute("value", "62bb13d245683b1b6687f868")
+            const chooseTask = TimeSheetsPage.chooseTask;
+            await chooseTask.selectByAttribute("value", "62a90fc97d879a5af00e7220")
+            // await TimeSheetsPage.chooseProject.click();
+            // await TimeSheetsPage.selectProject.click();
+            // await TimeSheetsPage.chooseTask.click();
+            // await TimeSheetsPage.selectTask.click();
             await TimeSheetsPage.approvedCheckbox.click();
             await TimeSheetsPage.createBtn.click();
             await expect(TimeSheetsPage.successMessage).toExist();

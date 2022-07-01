@@ -1,0 +1,298 @@
+{
+  "uid" : "a672ce00d1cb17dc",
+  "name" : "Click on edit timesheet button without data",
+  "fullName" : "Time-sheets: Edit timesheet.Click on edit timesheet button without data",
+  "historyId" : "afe82a50be59fdfbaf51ecd320b92949",
+  "time" : {
+    "start" : 1656516886935,
+    "stop" : 1656516895910,
+    "duration" : 8975
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656516886935,
+        "stop" : 1656516886942,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "884d80b53582101c",
+        "name" : "Request",
+        "source" : "884d80b53582101c.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "2bf1845a7c27bd9a",
+        "name" : "Response",
+        "source" : "2bf1845a7c27bd9a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/05974e11-20f4-4380-bc85-11e46ce782fa/click",
+      "time" : {
+        "start" : 1656516886944,
+        "stop" : 1656516886979,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656516886979,
+        "stop" : 1656516887005,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff066f2f9e6650d9",
+        "name" : "Request",
+        "source" : "ff066f2f9e6650d9.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "bdacbde69ef25050",
+        "name" : "Response",
+        "source" : "bdacbde69ef25050.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656516887007,
+        "stop" : 1656516887015,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5df070c202bac96c",
+        "name" : "Request",
+        "source" : "5df070c202bac96c.json",
+        "type" : "application/json",
+        "size" : 88
+      }, {
+        "uid" : "cd415f5d80a14a6a",
+        "name" : "Response",
+        "source" : "cd415f5d80a14a6a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656516887020,
+        "stop" : 1656516887029,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddc40941a6dbffae",
+        "name" : "Request",
+        "source" : "ddc40941a6dbffae.json",
+        "type" : "application/json",
+        "size" : 105
+      }, {
+        "uid" : "d2e0a8568a739ac",
+        "name" : "Response",
+        "source" : "d2e0a8568a739ac.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/53870a28-d233-47fd-a38f-6f81f74b3017/click",
+      "time" : {
+        "start" : 1656516887031,
+        "stop" : 1656516891410,
+        "duration" : 4379
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656516891319,
+          "stop" : 1656516891409,
+          "duration" : 90
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f8881f49a0bbc2a1",
+          "name" : "Screenshot",
+          "source" : "f8881f49a0bbc2a1.png",
+          "type" : "image/png",
+          "size" : 58244
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656516891411,
+        "stop" : 1656516891419,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9df9daf28c547ec0",
+        "name" : "Request",
+        "source" : "9df9daf28c547ec0.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "5ab4e9bcaf1a5875",
+        "name" : "Response",
+        "source" : "5ab4e9bcaf1a5875.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/e249bf48-dc6a-42b2-97b8-e39500c8c194/click",
+      "time" : {
+        "start" : 1656516891421,
+        "stop" : 1656516895910,
+        "duration" : 4489
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <select class=\"select_select__2uejj\" name=\"projectId\">...</select> is not clickable at point (517, 226). Other element would receive the click: <div class=\"errorsuccessmodal_header__2A1Ry\">...</div>\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656516895778,
+          "stop" : 1656516895909,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a0458125fad24735",
+          "name" : "Screenshot",
+          "source" : "a0458125fad24735.png",
+          "type" : "image/png",
+          "size" : 58244
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on edit timesheet button without data"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Edit timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a672ce00d1cb17dc.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

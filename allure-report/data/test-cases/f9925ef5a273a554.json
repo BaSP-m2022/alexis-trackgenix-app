@@ -1,0 +1,138 @@
+{
+  "uid" : "f9925ef5a273a554",
+  "name" : "Click on add member",
+  "fullName" : "Projects: Team members.Click on add member",
+  "historyId" : "71edfa039fde08965685ffb956d3fe89",
+  "time" : {
+    "start" : 1656606445772,
+    "stop" : 1656606450216,
+    "duration" : 4444
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656606445773,
+        "stop" : 1656606445781,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bac2700529a6a525",
+        "name" : "Request",
+        "source" : "bac2700529a6a525.json",
+        "type" : "application/json",
+        "size" : 108
+      }, {
+        "uid" : "625ca9d4e70dc162",
+        "name" : "Response",
+        "source" : "625ca9d4e70dc162.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4cbecc68-1cd3-4cd6-ae73-9e9fdcf5df3b/click",
+      "time" : {
+        "start" : 1656606445782,
+        "stop" : 1656606450216,
+        "duration" : 4434
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (955, 15). Other element would receive the click: <div class=\"modal-form_container__A3c7w\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656606450118,
+          "stop" : 1656606450215,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1cbe2fbe4f9b7c8c",
+          "name" : "Screenshot",
+          "source" : "1cbe2fbe4f9b7c8c.png",
+          "type" : "image/png",
+          "size" : 59353
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on add member"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Team members"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9925ef5a273a554.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "6a57aea4e16ada53",
+  "name" : "Click on confirm",
+  "fullName" : "Time-sheets: Remove timesheet.Click on confirm",
+  "historyId" : "4a61c0d1fa93f6f040ac91b1b1d6cd69",
+  "time" : {
+    "start" : 1656514709036,
+    "stop" : 1656514709181,
+    "duration" : 145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656514709040,
+        "stop" : 1656514709054,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4039b07588b20735",
+        "name" : "Request",
+        "source" : "4039b07588b20735.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "52b371a9dab59ab9",
+        "name" : "Response",
+        "source" : "52b371a9dab59ab9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/8b9cdbdd-546d-414b-94a1-f021ba8a0d2f/click",
+      "time" : {
+        "start" : 1656514709056,
+        "stop" : 1656514709181,
+        "duration" : 125
+      },
+      "status" : "failed",
+      "statusMessage" : "element not interactable: element not interactable\n                  (Session info: chrome=103.0.5060.53)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656514709101,
+          "stop" : 1656514709181,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4a92cc409e6722ae",
+          "name" : "Screenshot",
+          "source" : "4a92cc409e6722ae.png",
+          "type" : "image/png",
+          "size" : 58244
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on confirm"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Remove timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a57aea4e16ada53.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

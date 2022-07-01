@@ -1,0 +1,160 @@
+{
+  "uid" : "a876d22e0d8edc4b",
+  "name" : "Click on create project without data",
+  "fullName" : "Projects: Add projects.Click on create project without data",
+  "historyId" : "c5264c08fa2139dad67a6a5499a18ae8",
+  "time" : {
+    "start" : 1656633637770,
+    "stop" : 1656633638028,
+    "duration" : 258
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656633637771,
+        "stop" : 1656633637818,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc8d7c2966b6af96",
+        "name" : "Request",
+        "source" : "dc8d7c2966b6af96.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "a2f9f44cec71c77a",
+        "name" : "Response",
+        "source" : "a2f9f44cec71c77a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d7418597-5ee0-47b2-9b05-3927b136e248/click",
+      "time" : {
+        "start" : 1656633637821,
+        "stop" : 1656633637963,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656633637964,
+        "stop" : 1656633637995,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86030bbdccc0e2d3",
+        "name" : "Request",
+        "source" : "86030bbdccc0e2d3.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "b367ec2b6db9b2f0",
+        "name" : "Response",
+        "source" : "b367ec2b6db9b2f0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/046d3929-8dd6-40e6-900c-4847384ac305/text",
+      "time" : {
+        "start" : 1656633637997,
+        "stop" : 1656633638027,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bce525b31b2e9e39",
+        "name" : "Response",
+        "source" : "bce525b31b2e9e39.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on create project without data"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a876d22e0d8edc4b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

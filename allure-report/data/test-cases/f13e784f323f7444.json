@@ -1,0 +1,160 @@
+{
+  "uid" : "f13e784f323f7444",
+  "name" : "Click on create without data",
+  "fullName" : "Time-sheets: Add timesheet.Click on create without data",
+  "historyId" : "715d14efcbb924ebfc366a2c791f80f7",
+  "time" : {
+    "start" : 1656526579919,
+    "stop" : 1656526580046,
+    "duration" : 127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526579920,
+        "stop" : 1656526579938,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "448b27dba681415f",
+        "name" : "Request",
+        "source" : "448b27dba681415f.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "50f5fd57a9dfe68a",
+        "name" : "Response",
+        "source" : "50f5fd57a9dfe68a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/dfece0ed-b0b9-460d-b48e-a485c8cdb96e/click",
+      "time" : {
+        "start" : 1656526579941,
+        "stop" : 1656526580004,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656526580005,
+        "stop" : 1656526580023,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9dda995690a2ef8",
+        "name" : "Request",
+        "source" : "e9dda995690a2ef8.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "c60f814fb32ce1b4",
+        "name" : "Response",
+        "source" : "c60f814fb32ce1b4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/7aa4989c-18b5-4fcc-90c8-594d7109d887/text",
+      "time" : {
+        "start" : 1656526580026,
+        "stop" : 1656526580045,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "543dd194651d9a57",
+        "name" : "Response",
+        "source" : "543dd194651d9a57.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Time-sheets: Add timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Time-sheets: Add timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on create without data"
+  }, {
+    "name" : "package",
+    "value" : "Time-sheets: Add timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f13e784f323f7444.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

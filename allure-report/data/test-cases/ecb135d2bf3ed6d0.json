@@ -1,0 +1,96 @@
+{
+  "uid" : "ecb135d2bf3ed6d0",
+  "name" : "Click on edit project with valid data",
+  "fullName" : "Projects: Edit projects.Click on edit project with valid data",
+  "historyId" : "8c5e78377eadf6d95e76c703f1064e27",
+  "time" : {
+    "start" : 1656631507570,
+    "stop" : 1656631567584,
+    "duration" : 60014
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+    "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656631507571,
+        "stop" : 1656631567584,
+        "duration" : 60013
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3745661f9e8fea3",
+        "name" : "Request",
+        "source" : "f3745661f9e8fea3.json",
+        "type" : "application/json",
+        "size" : 208
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Edit projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Edit projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on edit project with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Edit projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecb135d2bf3ed6d0.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

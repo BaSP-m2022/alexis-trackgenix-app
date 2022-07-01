@@ -1,0 +1,101 @@
+{
+  "uid" : "c23930226a4195f0",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login page testing.\"before all\" hook",
+  "historyId" : "4c9203de1f101a64b3a93e9a0e362395",
+  "time" : {
+    "start" : 1656687726805,
+    "stop" : 1656687726807,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656687726808,
+        "stop" : 0,
+        "duration" : -1656687726808
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c8bc7931270cf02",
+        "name" : "Request",
+        "source" : "9c8bc7931270cf02.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "374cd5bf0b08b29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656604662258,
+        "stop" : 1656604662260,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c23930226a4195f0.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

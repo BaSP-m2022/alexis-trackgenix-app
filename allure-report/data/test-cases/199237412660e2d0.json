@@ -1,0 +1,138 @@
+{
+  "uid" : "199237412660e2d0",
+  "name" : "Exit create form",
+  "fullName" : "Projects: Add projects.Exit create form",
+  "historyId" : "9aa67a09d49cc003e82b0c3048f5578b",
+  "time" : {
+    "start" : 1656632884613,
+    "stop" : 1656632889074,
+    "duration" : 4461
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <img class=\"modal-form_closeButton__gvsPs\" src=\"/assets/images/close-icon.svg\"> is not clickable at point (734, 6). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <img class=\"modal-form_closeButton__gvsPs\" src=\"/assets/images/close-icon.svg\"> is not clickable at point (734, 6). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <img class=\"modal-form_closeButton__gvsPs\" src=\"/assets/images/close-icon.svg\"> is not clickable at point (734, 6). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <img class=\"modal-form_closeButton__gvsPs\" src=\"/assets/images/close-icon.svg\"> is not clickable at point (734, 6). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656632884614,
+        "stop" : 1656632884633,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4992fbeb8ab11cd7",
+        "name" : "Request",
+        "source" : "4992fbeb8ab11cd7.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "1fe43b364bc9117a",
+        "name" : "Response",
+        "source" : "1fe43b364bc9117a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b835e389-7c98-4448-b82d-d3313e2f336d/click",
+      "time" : {
+        "start" : 1656632884637,
+        "stop" : 1656632889074,
+        "duration" : 4437
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <img class=\"modal-form_closeButton__gvsPs\" src=\"/assets/images/close-icon.svg\"> is not clickable at point (734, 6). Other element would receive the click: <div class=\"errorsuccessmodal_container__JBOhN\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656632888965,
+          "stop" : 1656632889071,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5abea5333da6a760",
+          "name" : "Screenshot",
+          "source" : "5abea5333da6a760.png",
+          "type" : "image/png",
+          "size" : 54486
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Exit create form"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Add projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "199237412660e2d0.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "2d54df7fb94e16b3",
+  "name" : "Confirm delete",
+  "fullName" : "Projects: Delete projects.Confirm delete",
+  "historyId" : "62336e4a70c7d150db81bc78dea48662",
+  "time" : {
+    "start" : 1656631807663,
+    "stop" : 1656631867668,
+    "duration" : 60005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+    "statusTrace" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656631807663,
+        "stop" : 1656631867668,
+        "duration" : 60005
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "880147613cef9b0f",
+        "name" : "Request",
+        "source" : "880147613cef9b0f.json",
+        "type" : "application/json",
+        "size" : 109
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Confirm delete"
+  }, {
+    "name" : "package",
+    "value" : "Projects: Delete projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d54df7fb94e16b3.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

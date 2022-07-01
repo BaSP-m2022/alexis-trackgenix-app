@@ -1,0 +1,95 @@
+{
+  "uid" : "e6980f1dd119aea3",
+  "name" : "Click on create project with valid data",
+  "fullName" : "Login page testing: Edit projects.Click on create project with valid data",
+  "historyId" : "1a5b201ac97f7d46d45b04f02b5e5abe",
+  "time" : {
+    "start" : 1656429478116,
+    "stop" : 1656429478259,
+    "duration" : 143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: this.editName is not a function",
+  "statusTrace" : "TypeError: this.editName is not a function\n                    at AdminPage.edit (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\admin.page.js:68:20)\n                    at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\admin.spec.js:56:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: this.editName is not a function",
+    "statusTrace" : "TypeError: this.editName is not a function\n                    at AdminPage.edit (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\pageobjects\\admin.page.js:68:20)\n                    at UserContext.<anonymous> (C:\\Users\\Martin\\Desktop\\BaSP etapa 3\\alexis-trackgenix-app\\test\\specs\\admin.spec.js:56:29)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656429478120,
+        "stop" : 1656429478258,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7dd2160e56eaa91",
+        "name" : "Screenshot",
+        "source" : "d7dd2160e56eaa91.png",
+        "type" : "image/png",
+        "size" : 59859
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page testing: Edit projects"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page testing: Edit projects"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on create project with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Login page testing: Edit projects"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6980f1dd119aea3.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
