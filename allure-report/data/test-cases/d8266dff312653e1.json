@@ -1,0 +1,214 @@
+{
+  "uid" : "d8266dff312653e1",
+  "name" : "\"TRACKGENIX\" sidebar title should redirect to the home page",
+  "fullName" : "Admin page: Sidebar title functionality.\"TRACKGENIX\" sidebar title should redirect to the home page",
+  "historyId" : "7d4a099b5a62dd35cafa2774c2a29839",
+  "time" : {
+    "start" : 1656617031090,
+    "stop" : 1656617031664,
+    "duration" : 574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656617031091,
+        "stop" : 1656617031103,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74203b9e024ed4ed",
+        "name" : "Request",
+        "source" : "74203b9e024ed4ed.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "819cfc7e7c576b70",
+        "name" : "Response",
+        "source" : "819cfc7e7c576b70.json",
+        "type" : "application/json",
+        "size" : 1043
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656617031105,
+        "stop" : 1656617031114,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2191a9b2a0331be5",
+        "name" : "Request",
+        "source" : "2191a9b2a0331be5.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "eeeee495c3a1cd48",
+        "name" : "Response",
+        "source" : "eeeee495c3a1cd48.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1656617031617,
+        "stop" : 1656617031625,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "366a5b7e1c20b31a",
+        "name" : "Request",
+        "source" : "366a5b7e1c20b31a.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "dd4109f172be5a31",
+        "name" : "Response",
+        "source" : "dd4109f172be5a31.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656617031627,
+        "stop" : 1656617031635,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6c67fb9285a8cf7",
+        "name" : "Request",
+        "source" : "f6c67fb9285a8cf7.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "8a95814b7787ac78",
+        "name" : "Response",
+        "source" : "8a95814b7787ac78.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/64ba1da9-14d2-4f4d-aae6-ca1d28f411f7/click",
+      "time" : {
+        "start" : 1656617031637,
+        "stop" : 1656617031659,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656617031659,
+        "stop" : 1656617031663,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94768c02544b33b6",
+        "name" : "Response",
+        "source" : "94768c02544b33b6.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Admin page: Sidebar title functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin page: Sidebar title functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"TRACKGENIX\" sidebar title should redirect to the home page"
+  }, {
+    "name" : "package",
+    "value" : "Admin page: Sidebar title functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8266dff312653e1.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,898 @@
+{
+  "uid" : "ed2656a5d810735a",
+  "name" : "Checking the functionality of the Instagram button",
+  "fullName" : "Home page: Footer elements.Checking the functionality of the Instagram button",
+  "historyId" : "74b9657189510c9ed676cd22cc9159bb",
+  "time" : {
+    "start" : 1656732798717,
+    "stop" : 1656732799852,
+    "duration" : 1135
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 41,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732798718,
+        "stop" : 1656732798882,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d4a85b911813232",
+        "name" : "Request",
+        "source" : "9d4a85b911813232.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732798882,
+        "stop" : 1656732798886,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea5c6d393db974ba",
+        "name" : "Response",
+        "source" : "ea5c6d393db974ba.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656732798886,
+        "stop" : 1656732798894,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36ae34db842daa94",
+        "name" : "Request",
+        "source" : "36ae34db842daa94.json",
+        "type" : "application/json",
+        "size" : 117
+      }, {
+        "uid" : "6324dca436cf648d",
+        "name" : "Response",
+        "source" : "6324dca436cf648d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b8f0e3c9-4042-4f3b-ba79-5a8f54683dc3/click",
+      "time" : {
+        "start" : 1656732798896,
+        "stop" : 1656732798926,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1656732798926,
+        "stop" : 1656732798929,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fad42f7f9c34e8cc",
+        "name" : "Response",
+        "source" : "fad42f7f9c34e8cc.json",
+        "type" : "application/json",
+        "size" : 190
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1656732798929,
+        "stop" : 1656732798940,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20a8607cf1a508c5",
+        "name" : "Request",
+        "source" : "20a8607cf1a508c5.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732798940,
+        "stop" : 1656732798943,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "997a547082df6422",
+        "name" : "Response",
+        "source" : "997a547082df6422.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1656732798943,
+        "stop" : 1656732798946,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73f3733d202eaad6",
+        "name" : "Response",
+        "source" : "73f3733d202eaad6.json",
+        "type" : "application/json",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656732798946,
+        "stop" : 1656732798950,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9309fd63c24d7cf2",
+        "name" : "Request",
+        "source" : "9309fd63c24d7cf2.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1656732798950,
+        "stop" : 1656732798961,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88cf2076c7f7f258",
+        "name" : "Request",
+        "source" : "88cf2076c7f7f258.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732798961,
+        "stop" : 1656732798965,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db73fc2056f6c941",
+        "name" : "Response",
+        "source" : "db73fc2056f6c941.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1656732798966,
+        "stop" : 1656732798969,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52b91b822991d58c",
+        "name" : "Response",
+        "source" : "52b91b822991d58c.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656732798969,
+        "stop" : 1656732798985,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31d4923c7b5eed7a",
+        "name" : "Request",
+        "source" : "31d4923c7b5eed7a.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1656732798985,
+        "stop" : 1656732798998,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2559b249799f61a",
+        "name" : "Request",
+        "source" : "b2559b249799f61a.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732798998,
+        "stop" : 1656732799003,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51c399548284dab7",
+        "name" : "Response",
+        "source" : "51c399548284dab7.json",
+        "type" : "application/json",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1656732799003,
+        "stop" : 1656732799010,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17e08a8680ddc899",
+        "name" : "Response",
+        "source" : "17e08a8680ddc899.json",
+        "type" : "application/json",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656732799010,
+        "stop" : 1656732799015,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c87112a350d3b6d6",
+        "name" : "Request",
+        "source" : "c87112a350d3b6d6.json",
+        "type" : "application/json",
+        "size" : 81
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1656732799015,
+        "stop" : 1656732799026,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c743e817dc4e728a",
+        "name" : "Request",
+        "source" : "c743e817dc4e728a.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732799026,
+        "stop" : 1656732799831,
+        "duration" : 805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4de4729fe3cdc1db",
+        "name" : "Response",
+        "source" : "4de4729fe3cdc1db.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732799831,
+        "stop" : 1656732799834,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "412817dee6142f60",
+        "name" : "Response",
+        "source" : "412817dee6142f60.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1656732799834,
+        "stop" : 1656732799837,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c08be93b020fc03",
+        "name" : "Response",
+        "source" : "1c08be93b020fc03.json",
+        "type" : "application/json",
+        "size" : 190
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1656732799837,
+        "stop" : 1656732799847,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62dac3d31b660399",
+        "name" : "Request",
+        "source" : "62dac3d31b660399.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732799847,
+        "stop" : 1656732799851,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81022cf0edc3057b",
+        "name" : "Response",
+        "source" : "81022cf0edc3057b.json",
+        "type" : "application/json",
+        "size" : 47
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 23,
+    "hasContent" : true,
+    "stepsCount" : 23
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home page: Footer elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page: Footer elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking the functionality of the Instagram button"
+  }, {
+    "name" : "package",
+    "value" : "Home page: Footer elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d1c8f88c6e9d2c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732646265,
+        "stop" : 1656732647611,
+        "duration" : 1346
+      }
+    }, {
+      "uid" : "37c49edd4948e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656721594877,
+        "stop" : 1656721596118,
+        "duration" : 1241
+      }
+    }, {
+      "uid" : "9f731f4a2352d248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656721499105,
+        "stop" : 1656721500325,
+        "duration" : 1220
+      }
+    }, {
+      "uid" : "d4fbc8d897198b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656721439378,
+        "stop" : 1656721440592,
+        "duration" : 1214
+      }
+    }, {
+      "uid" : "54bd3061bbe8c0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656630076748,
+        "stop" : 1656630077936,
+        "duration" : 1188
+      }
+    }, {
+      "uid" : "3e39c566cc712955",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656629957590,
+        "stop" : 1656629958871,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "94eb49aa86c98a62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656617026177,
+        "stop" : 1656617027406,
+        "duration" : 1229
+      }
+    }, {
+      "uid" : "64f4bee0e98b4b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656616699446,
+        "stop" : 1656616700718,
+        "duration" : 1272
+      }
+    }, {
+      "uid" : "883e3db28e4fcaaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656616152989,
+        "stop" : 1656616154308,
+        "duration" : 1319
+      }
+    }, {
+      "uid" : "9015b34b90ac9d61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656616075669,
+        "stop" : 1656616076915,
+        "duration" : 1246
+      }
+    }, {
+      "uid" : "1e997e402b9ffccd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615825174,
+        "stop" : 1656615826429,
+        "duration" : 1255
+      }
+    }, {
+      "uid" : "7e14c12913da247d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615679661,
+        "stop" : 1656615680919,
+        "duration" : 1258
+      }
+    }, {
+      "uid" : "a0084b32b7d3ff62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656615391183,
+        "stop" : 1656615392329,
+        "duration" : 1146
+      }
+    }, {
+      "uid" : "ef1376913f1d4c01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656535641779,
+        "stop" : 1656535642935,
+        "duration" : 1156
+      }
+    }, {
+      "uid" : "56dfacde8b1e4919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656534748623,
+        "stop" : 1656534749907,
+        "duration" : 1284
+      }
+    }, {
+      "uid" : "25e53e3e554fe8f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656534657588,
+        "stop" : 1656534658772,
+        "duration" : 1184
+      }
+    }, {
+      "uid" : "51e1df9099448d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656534578387,
+        "stop" : 1656534579602,
+        "duration" : 1215
+      }
+    }, {
+      "uid" : "55e58eeb37abd775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656534020337,
+        "stop" : 1656534021833,
+        "duration" : 1496
+      }
+    }, {
+      "uid" : "2d1f9e9353220664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656533893390,
+        "stop" : 1656533894604,
+        "duration" : 1214
+      }
+    }, {
+      "uid" : "d29b97165a86241f",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:13)\n                --- End of stack trace ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:73:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656533814583,
+        "stop" : 1656533814602,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "16a043697d50f026",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:13)\n                --- End of stack trace ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:73:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656533781124,
+        "stop" : 1656533781139,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "8e606c7b936a5c9d",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:13)\n                --- End of stack trace ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:74:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656533740875,
+        "stop" : 1656533740892,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "863d8953e047a31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656533694103,
+        "stop" : 1656533695271,
+        "duration" : 1168
+      }
+    }, {
+      "uid" : "8a8298404763727e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656533621932,
+        "stop" : 1656533623188,
+        "duration" : 1256
+      }
+    }, {
+      "uid" : "cd444144c2f3b41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656533501615,
+        "stop" : 1656533502851,
+        "duration" : 1236
+      }
+    }, {
+      "uid" : "37489e8f0d3cc1a",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:13)\n                --- End of stack trace ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:74:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656533454019,
+        "stop" : 1656533454036,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "ddba19b7f5626435",
+      "status" : "failed",
+      "statusDetails" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=103.0.5060.66)",
+      "time" : {
+        "start" : 1656533416422,
+        "stop" : 1656533416436,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "b10db898d281ca14",
+      "status" : "failed",
+      "statusDetails" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=103.0.5060.66)",
+      "time" : {
+        "start" : 1656533357837,
+        "stop" : 1656533357849,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "610f453c225a4fb7",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call click on element with selector \"#root > div > footer > div.footer_socialContainer__3bbz9 > a:nth-child(3)\" because element wasn't found",
+      "time" : {
+        "start" : 1656533232631,
+        "stop" : 1656533242751,
+        "duration" : 10120
+      }
+    }, {
+      "uid" : "26c0f7222045a0bd",
+      "status" : "failed",
+      "statusDetails" : "Error: No window found with title, url or name matching \"https://www.instagram.com/home/\"",
+      "time" : {
+        "start" : 1656533170427,
+        "stop" : 1656533171792,
+        "duration" : 1365
+      }
+    }, {
+      "uid" : "b52069b8cf7faba5",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:53:35)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: No window found with title, url or name matching \"https://www.instagram.com/home/\"\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:75:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656533073072,
+        "stop" : 1656533084464,
+        "duration" : 11392
+      }
+    }, {
+      "uid" : "96a5736e2f194594",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:53:35)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: No window found with title, url or name matching \"https://www.instagram.com/home/\"\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:75:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656532965666,
+        "stop" : 1656532977340,
+        "duration" : 11674
+      }
+    }, {
+      "uid" : "4e96e6b5777c4093",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:53:35)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: No window found with title, url or name matching \"https://www.instagram.com/home/\"\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:75:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656532831931,
+        "stop" : 1656532844029,
+        "duration" : 12098
+      }
+    }, {
+      "uid" : "c3f343d48cd1d832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656532588159,
+        "stop" : 1656532589610,
+        "duration" : 1451
+      }
+    }, {
+      "uid" : "d8cc495adf57fa23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656532142845,
+        "stop" : 1656532144214,
+        "duration" : 1369
+      }
+    }, {
+      "uid" : "29fc219edfc3b08f",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://www.instagram.com/home/\"\n                Received: \"https://www.instagram.com/accounts/login/?next=/home/\"",
+      "time" : {
+        "start" : 1656532067703,
+        "stop" : 1656532078326,
+        "duration" : 10623
+      }
+    }, {
+      "uid" : "9552aefbf36ef71c",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    ReferenceError: home is not defined\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:29)\n                --- End of stack trace ---\n                \n                    ReferenceError: home is not defined\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:73:29)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656532004473,
+        "stop" : 1656532004475,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "85276850a74c7032",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656531265943,
+        "stop" : 1656531268664,
+        "duration" : 2721
+      }
+    }, {
+      "uid" : "d19cb1bcb4a6a012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656530785428,
+        "stop" : 1656530788312,
+        "duration" : 2884
+      }
+    }, {
+      "uid" : "9af8c337c70e61af",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:52:13)\n                --- End of stack trace ---\n                \n                    no such window: no such window: target window already closed\n                    from unknown error: web view not found\n                      (Session info: chrome=103.0.5060.66)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:70:13)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656530519844,
+        "stop" : 1656530519864,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "f6734927c9887877",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://Instagram.com/home\"\n                Received: \"https://www.instagram.com/home/\"",
+      "time" : {
+        "start" : 1656530086131,
+        "stop" : 1656530096844,
+        "duration" : 10713
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed2656a5d810735a.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

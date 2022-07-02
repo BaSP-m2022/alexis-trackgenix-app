@@ -1,0 +1,186 @@
+{
+  "uid" : "e95a7bcb8ea5b62d",
+  "name" : "Te edit button should deploy the correct modal and it should work correctly",
+  "fullName" : "Admin page: Test the functionality of the edit button.Te edit button should deploy the correct modal and it should work correctly",
+  "historyId" : "d9736cea467b9c222b49da249fe8a20a",
+  "time" : {
+    "start" : 1656730176527,
+    "stop" : 1656730180953,
+    "duration" : 4426
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730176527,
+        "stop" : 1656730176536,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "904423024a90ec30",
+        "name" : "Request",
+        "source" : "904423024a90ec30.json",
+        "type" : "application/json",
+        "size" : 115
+      }, {
+        "uid" : "bb076763f8b64664",
+        "name" : "Response",
+        "source" : "bb076763f8b64664.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730176537,
+        "stop" : 1656730176545,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a655aa5197c595fa",
+        "name" : "Request",
+        "source" : "a655aa5197c595fa.json",
+        "type" : "application/json",
+        "size" : 142
+      }, {
+        "uid" : "8529425fbf039f41",
+        "name" : "Response",
+        "source" : "8529425fbf039f41.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/930b3618-a57e-4048-98cf-97f475978a70/text",
+      "time" : {
+        "start" : 1656730176546,
+        "stop" : 1656730176559,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "760dd5e205ab5ef9",
+        "name" : "Response",
+        "source" : "760dd5e205ab5ef9.json",
+        "type" : "application/json",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/151ed4c2-48e3-4d68-a8df-742f795b087e/click",
+      "time" : {
+        "start" : 1656730176560,
+        "stop" : 1656730180953,
+        "duration" : 4393
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656730180871,
+          "stop" : 1656730180951,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "65c467600775ddb3",
+          "name" : "Screenshot",
+          "source" : "65c467600775ddb3.png",
+          "type" : "image/png",
+          "size" : 48963
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Te edit button should deploy the correct modal and it should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e95a7bcb8ea5b62d.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

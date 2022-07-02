@@ -1,14 +1,18 @@
 const Home = require('../pageobjects/home.page');
-const AdminHome = require('../pageobjects/adminHome.page');
+const Login = require('../pageobjects/login.page');
+const AdminHome = require('../pageobjects/adminHome.page')
 const Admin = require('../pageobjects/admin.page');
 
-describe('Admins table page', ()=> {
-    beforeAll('Should deploy the admin sub page', async ()=> {
-        await Home.open('home');
-        await Home.adminBtn.click();
+describe('Admin page', ()=> {
+    beforeAll('Should deploy the "TrackGENIX" admin page', async ()=> {
+        await Home.open();
+        await Home.sidebarLogin.click();
+        await Login.email('testAdmin@radium.com');
+        await Login.password('admin123');
+        await Login.loginBtn.click();
+        await AdminHome.projectsSidebar.click();
         await AdminHome.adminsSidebar.click();
-        await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/admins');
-    })
+    });
 
     describe('Checking the existence of the elements', ()=> {
         it('The elements should exist', async ()=> {
@@ -47,13 +51,58 @@ describe('Admins table page', ()=> {
     describe('Test the functionality of the edit button', ()=> {
         it('Te edit button should deploy the correct modal and it should work correctly', async ()=> {
             const row = await $('#root > div > div > section > div > div > table > tbody > tr:last-child')
-            const rowBtn = await $('#root > div > div > section > div > div > table > tbody > tr:last-child > td:nth-child(7) > button' )
+            const rowBtn = await $(
+                '#root > div > div > section > div > div > table > tbody > tr:last-child > td:nth-child(7) > button'
+            )
             await expect(row).toHaveTextContaining('leonel');
             await rowBtn.click();
             await expect(Admin.editModalTitle).toBeDisplayed();
-            await browser.pause(6000);
         })
     })
 
-    describe('')
+    describe('Checking the edit modal functionality', ()=> {
+        it('Edit modal elements should exist', async ()=> {
+            await expect(Admin.firstNameEdit).toExist();
+            await expect(Admin.lastNameEdit).toExist();
+            await expect(Admin.emailEdit).toExist();
+            await expect(Admin.passwordEdit).toExist();
+        })
+        it('Validations should be displayed correctly', async ()=> {
+            await Admin.editFirstName('@');
+            await Admin.editLastName('@');
+            await Admin.editEmail('@');
+            await Admin.editPassword('@');
+            await expect(Admin.firstNameEditMsg).toBeDisplayedInViewport();
+            await expect(Admin.lastNameEditMsg).toBeDisplayedInViewport();
+            await expect(Admin.emailEditMsg).toBeDisplayedInViewport();
+            await Admin.editModalBtn.click();
+            await expect(Admin.passwordEditMsg).toBeDisplayedInViewport();
+            await Admin.editFirstName('Leonela');
+            await Admin.editLastName('listroa');
+            await Admin.editEmail('leonelalistro@gmail.com');
+            await Admin.editPassword('asdasd789a');
+            await Admin.editModalBtn.click();
+            await expect(Admin.successEditMsg).toExist();
+            await Admin.crossSuccessEdit.click();
+        })
+    })
+
+    describe('Checking the functionality of the delete button', ()=> {
+        it('Admin should be deleted', async ()=> {
+            const rowDeleteBtn = await $(
+                '#root > div > div > section > div > div > table > tbody > tr:last-child > td:nth-child(8) > button'
+            )
+            await rowDeleteBtn.click();
+            await expect(Admin.deleteTitle).toBeDisplayedInViewport();
+            await expect(Admin.deleteP).toHaveTextContaining('Are you sure you want to delete this admin?')
+            await Admin.deleteClose.click();
+            await rowDeleteBtn.click();
+            await Admin.deleteConfirm.click();
+            await expect(Admin.successDeleteMsg).toBeDisplayedInViewport();
+            await expect(Admin.successDeleteMsg).toHaveTextContaining('Success')
+            await Admin.successDeleteCross.click();
+            await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/admins')
+        })
+    })
+
 })

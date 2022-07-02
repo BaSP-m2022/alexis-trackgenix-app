@@ -2,52 +2,52 @@ class SignUp {
 
     // Getters
 
-    get signUpTitle () {return $('#root > div > form > h2')}
+    get signUpTitle () {return $('#root > div > header > div.header_pathname__qN2RB')}
 
-    get firstNameTitle () {return $('#root > div > form > div > div:nth-child(1) > label')}
-    get firstNameInput () {return $('#root > div > form > div > div:nth-child(1) > input')}
-    get firstNameMsg () {return $('#root > div > form > div > div:nth-child(1) > p')}
-    get lastNameTitle () {return $('#root > div > form > div > div:nth-child(2) > label')}
-    get lastNameInput () {return $('#root > div > form > div > div:nth-child(2) > input')}
-    get lastNameMsg () {return $('#root > div > form > div > div:nth-child(2) > p')}
-    get phoneTitle () {return $('#root > div > form > div > div:nth-child(3) > label')}
-    get phoneInput () {return $('#root > div > form > div > div:nth-child(3) > input')}
-    get phoneMsg () {return $('#root > div > form > div > div:nth-child(3) > p')}
-    get emailTitle () {return $('#root > div > form > div > div:nth-child(4) > label')}
-    get emailInput () {return $('#root > div > form > div > div:nth-child(4) > input')}
-    get emailMsg () {return $('#root > div > form > div > div:nth-child(4) > p')}
-    get passwordTitle () {return $('#root > div > form > div > div:nth-child(5) > label')}
-    get passwordInput () {return $('#root > div > form > div > div:nth-child(5) > input')}
-    get passwordMsg () {return $('#root > div > form > div > div:nth-child(5) > p')}
-    get repeatTitle () {return $('#root > div > form > div > div:nth-child(6) > label')}
-    get repeatInput () {return $('#root > div > form > div > div:nth-child(6) > input')}
-    get repeatMsg () {return $('#root > div > form > div > div:nth-child(6) > p')}
+    get firstNameTitle () {return $('#root > div > div > form > div > div:nth-child(1) > label')}
+    get firstNameInput () {return $('#root > div > div > form > div > div:nth-child(1) > input')}
+    get firstNameMsg () {return $('#root > div > div > form > div > div:nth-child(1) > p')}
+    get lastNameTitle () {return $('#root > div > div > form > div > div:nth-child(2) > label')}
+    get lastNameInput () {return $('#root > div > div > form > div > div:nth-child(2) > input')}
+    get lastNameMsg () {return $('#root > div > div > form > div > div:nth-child(2) > p')}
+    get phoneTitle () {return $('#root > div > div > form > div > div:nth-child(3) > label')}
+    get phoneInput () {return $('#root > div > div > form > div > div:nth-child(3) > input')}
+    get phoneMsg () {return $('#root > div > div > form > div > div:nth-child(3) > p')}
+    get emailTitle () {return $('#root > div > div > form > div > div:nth-child(4) > label')}
+    get emailInput () {return $('#root > div > div > form > div > div:nth-child(4) > input')}
+    get emailMsg () {return $('#root > div > div > form > div > div:nth-child(4) > p')}
+    get passwordTitle () {return $('#root > div > div > form > div > div:nth-child(5) > label')}
+    get passwordInput () {return $('#root > div > div > form > div > div:nth-child(5) > input')}
+    get passwordMsg () {return $('#root > div > div > form > div > div:nth-child(5) > p')}
+    get repeatTitle () {return $('#root > div > div > form > div > div:nth-child(6) > label')}
+    get repeatInput () {return $('#root > div > div > form > div > div:nth-child(6) > input')}
+    get repeatMsg () {return $('#root > div > div > form > div > div:nth-child(6) > p')}
 
-    get createBtn () {return $('#root > div > form > button')}
+    get createBtn () {return $('#root > div > div > form > button')}
 
     // Setters
 
-    async setName (name) {
+    async setName(name) {
         await this.firstNameInput.setValue(name);
     }
 
-    async setLastName (lastName) {
+    async setLastName(lastName) {
         await this.lastNameInput.setValue(lastName)
     }
 
-    async setPhone (phone) {
+    async setPhone(phone) {
         await this.phoneInput.setValue(phone)
     }
 
-    async setEmail (email) {
+    async setEmail(email) {
         await this.emailInput.setValue(email)
     }
 
-    async setPassword (password) {
+    async setPassword(password) {
         await this.passwordInput.setValue(password)
     }
 
-    async setRepeat (repeat) {
+    async setRepeat(repeat) {
         await this.repeatInput.setValue(repeat)
     }
 

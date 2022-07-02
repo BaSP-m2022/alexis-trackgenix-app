@@ -1,11 +1,10 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "5b71245d531c6a3e",
+      "uid" : "694a7162d5b66bcf",
       "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
       "status" : "passed",
       "time" : {
@@ -22,5 +21,1338 @@
       "parameters" : [ "chrome-103.0.5060.66" ]
     } ],
     "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
-  } ]
+  }, {
+    "name" : "Home page",
+    "children" : [ {
+      "name" : "Should deploy the \"TrackGENIX\" home page",
+      "uid" : "54ef208bc3435654",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656443245932,
+        "stop" : 1656443246565,
+        "duration" : 633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "<unknown test>",
+      "uid" : "5fdaa4f793ad689e",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656533095805,
+        "stop" : 1656533095806,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "7a3d2ffe1bfbc01e",
+      "parentUid" : "b98fe6c318e17fb112606f80a487ab1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732794898,
+        "stop" : 1656732795369,
+        "duration" : 471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 55,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "b98fe6c318e17fb112606f80a487ab1e"
+  }, {
+    "name" : "Home page: Header elements",
+    "children" : [ {
+      "name" : "Checking the elements of the header",
+      "uid" : "bf598d383a477c2d",
+      "parentUid" : "aa6b23b5604d30b7bf63f7641f3b5e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656444280628,
+        "stop" : 1656444280709,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the existence of the header elements",
+      "uid" : "8a86f9a54713e714",
+      "parentUid" : "aa6b23b5604d30b7bf63f7641f3b5e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732795430,
+        "stop" : 1656732795512,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 51,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "aa6b23b5604d30b7bf63f7641f3b5e7a"
+  }, {
+    "name" : "Home page: Main Page elements",
+    "children" : [ {
+      "name" : "Checking the main elements",
+      "uid" : "48366fb93b488b44",
+      "parentUid" : "37dde2156429ee01b67be1d461f4ed85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656444280712,
+        "stop" : 1656444280880,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the existence of the main elements",
+      "uid" : "ac941c7c6b05233a",
+      "parentUid" : "37dde2156429ee01b67be1d461f4ed85",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656616686244,
+        "stop" : 1656616696620,
+        "duration" : 10376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 43,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the existence of the main buttons and their functionality",
+      "uid" : "effbf36cec90a369",
+      "parentUid" : "37dde2156429ee01b67be1d461f4ed85",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656629924214,
+        "stop" : 1656629954510,
+        "duration" : 30296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the existence of the main links and their functionality",
+      "uid" : "637ec082e57b0c6d",
+      "parentUid" : "37dde2156429ee01b67be1d461f4ed85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656630073640,
+        "stop" : 1656630073799,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the existence of the main title",
+      "uid" : "e3d4970cabbb8a31",
+      "parentUid" : "37dde2156429ee01b67be1d461f4ed85",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656732643258,
+        "stop" : 1656732643381,
+        "duration" : 123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "37dde2156429ee01b67be1d461f4ed85"
+  }, {
+    "name" : "Home page: Functionality of main page elements and sidebar title",
+    "children" : [ {
+      "name" : "Checking the functionality of the buttons",
+      "uid" : "89a1463c9d2a5dd9",
+      "parentUid" : "9e21748f137d34dabdeb80be2dd466e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656444280892,
+        "stop" : 1656444281524,
+        "duration" : 632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the links",
+      "uid" : "e594692169568298",
+      "parentUid" : "9e21748f137d34dabdeb80be2dd466e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656630073816,
+        "stop" : 1656630074454,
+        "duration" : 638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 46,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "9e21748f137d34dabdeb80be2dd466e3"
+  }, {
+    "name" : "Home page: Footer elements",
+    "children" : [ {
+      "name" : "Checking the functionality of the facebook button",
+      "uid" : "be9b7e839bb35c37",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656529263553,
+        "stop" : 1656529264414,
+        "duration" : 861
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the instagram button",
+      "uid" : "c2f6878316dabf44",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656529264414,
+        "stop" : 1656529264933,
+        "duration" : 519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "b8b8ff6ab7bad117",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656533415126,
+        "stop" : 1656533415316,
+        "duration" : 190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the twitter button",
+      "uid" : "11d1cfed398a9ca0",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732796199,
+        "stop" : 1656732797255,
+        "duration" : 1056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 51,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the Facebook button",
+      "uid" : "6cce1fa49b6af300",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732797255,
+        "stop" : 1656732798717,
+        "duration" : 1462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 41,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the Instagram button",
+      "uid" : "ed2656a5d810735a",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732798717,
+        "stop" : 1656732799852,
+        "duration" : 1135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 41,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality of the GitHub button",
+      "uid" : "48849131b71c75a6",
+      "parentUid" : "94c4e962bf1579c4d7c3323d14cc593a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732799864,
+        "stop" : 1656732801188,
+        "duration" : 1324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 43,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "94c4e962bf1579c4d7c3323d14cc593a"
+  }, {
+    "name" : "Admin page: Sidebar elements functionality",
+    "children" : [ {
+      "name" : "\"TRACKGENIX\" sidebar title should redirect to the home page",
+      "uid" : "8da84126ffa8efee",
+      "parentUid" : "49c0e71b90dfc78d9d6bfc1f354ffcb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656534753616,
+        "stop" : 1656534754183,
+        "duration" : 567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "49c0e71b90dfc78d9d6bfc1f354ffcb8"
+  }, {
+    "name" : "Admin page: Sidebar home link functionality",
+    "children" : [ {
+      "name" : "\"Home\" sidebar link should redirect to the home admin page",
+      "uid" : "216fcc1172bba382",
+      "parentUid" : "b706f31cf8b1a8f9edcf52b16c18e622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656535133096,
+        "stop" : 1656535133937,
+        "duration" : 841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "b706f31cf8b1a8f9edcf52b16c18e622"
+  }, {
+    "name" : "Employee page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "a22a84f97ed70b17",
+      "parentUid" : "4070031677cad6842a30cd344a983936",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656618872791,
+        "stop" : 1656618873290,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "4070031677cad6842a30cd344a983936"
+  }, {
+    "name" : "Employee page: Sidebar links functionality",
+    "children" : [ {
+      "name" : "\"Home\" sidebar link should redirect to the home employee page",
+      "uid" : "b5ed36d44c66eb1f",
+      "parentUid" : "e3010b571e6b5bf604c91a630d1e2e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656619166375,
+        "stop" : 1656619167721,
+        "duration" : 1346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"Projects\" sidebar link should redirect to the projects employee page",
+      "uid" : "f5ba1af6335ec5bc",
+      "parentUid" : "e3010b571e6b5bf604c91a630d1e2e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656619167722,
+        "stop" : 1656619168507,
+        "duration" : 785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"Time-Sheet\" sidebar link should redirect to the projects employee page",
+      "uid" : "788b2fdf37ae1957",
+      "parentUid" : "e3010b571e6b5bf604c91a630d1e2e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656619168507,
+        "stop" : 1656619169319,
+        "duration" : 812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "e3010b571e6b5bf604c91a630d1e2e05"
+  }, {
+    "name" : "Employee page: Checking the \"Profile\" button",
+    "children" : [ {
+      "name" : "The button should redirect to the profile page",
+      "uid" : "1086ec9b2f36bb25",
+      "parentUid" : "a6e123691808034e9c71c50be923a9cb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656619169333,
+        "stop" : 1656619180197,
+        "duration" : 10864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "a6e123691808034e9c71c50be923a9cb"
+  }, {
+    "name" : "Employee page: Checking the link of the \"Profile\" button",
+    "children" : [ {
+      "name" : "The link should redirect to the profile page",
+      "uid" : "28b4d69d8d491360",
+      "parentUid" : "9c800f9ad8cbb262796b1411a48c7c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656619180205,
+        "stop" : 1656619181068,
+        "duration" : 863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "9c800f9ad8cbb262796b1411a48c7c14"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Firs Name input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "1ddc6c3fa22e8308",
+      "parentUid" : "6632dd4a781e0e796789bd1553ab5f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656623752878,
+        "stop" : 1656623753256,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "6632dd4a781e0e796789bd1553ab5f67"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Create button",
+    "children" : [ {
+      "name" : "The button should work correctly",
+      "uid" : "201813cd3af42244",
+      "parentUid" : "a6be0f6d61de946552998e73aae72bfd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656625200331,
+        "stop" : 1656625220942,
+        "duration" : 20611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality when the fields are empty",
+      "uid" : "6d1ee090e25b47f3",
+      "parentUid" : "a6be0f6d61de946552998e73aae72bfd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656732806264,
+        "stop" : 1656732826846,
+        "duration" : 20582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Checking the functionality when the fields have correct data",
+      "uid" : "b056258743aa3d54",
+      "parentUid" : "a6be0f6d61de946552998e73aae72bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732826847,
+        "stop" : 1656732827379,
+        "duration" : 532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "a6be0f6d61de946552998e73aae72bfd"
+  }, {
+    "name" : "Admins table page: Test the functionality of the add button",
+    "children" : [ {
+      "name" : "The add button should deploy the modal",
+      "uid" : "1af8ad562428813f",
+      "parentUid" : "d87a1a80dc7292ae9ae898374475efd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656631230286,
+        "stop" : 1656631240774,
+        "duration" : 10488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "The add button should deploy the modal and it should work correctly",
+      "uid" : "adc3240fdb535ce9",
+      "parentUid" : "d87a1a80dc7292ae9ae898374475efd1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656728278700,
+        "stop" : 1656728288840,
+        "duration" : 10140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 23,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "d87a1a80dc7292ae9ae898374475efd1"
+  }, {
+    "name" : "Admins table page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "f4abf2afd8dd6218",
+      "parentUid" : "82c958733cf3f073614e878e284d72a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656635213237,
+        "stop" : 1656635214353,
+        "duration" : 1116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 33,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "82c958733cf3f073614e878e284d72a4"
+  }, {
+    "name" : "Login page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "c7656d4926031405",
+      "parentUid" : "c2d57503ceff46fd1c9bad0fe50e2008",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656723590606,
+        "stop" : 1656723591094,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "c2d57503ceff46fd1c9bad0fe50e2008"
+  }, {
+    "name" : "Admins table page: Checking the existence of the elements",
+    "children" : [ {
+      "name" : "The elements should exist",
+      "uid" : "83cd98858cdae489",
+      "parentUid" : "e7c7f29a6716b9c4bc9791e9f1116574",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656728218649,
+        "stop" : 1656728278663,
+        "duration" : 60014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 34,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "e7c7f29a6716b9c4bc9791e9f1116574"
+  }, {
+    "name" : "Admins table page: Test the functionality of the edit button",
+    "children" : [ {
+      "name" : "Te edit button should deploy the correct modal and it should work correctly",
+      "uid" : "98aa50f315df91c9",
+      "parentUid" : "5efd346fd2def742f4fe73d9690f5223",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656728288851,
+        "stop" : 1656728319037,
+        "duration" : 30186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 23,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "5efd346fd2def742f4fe73d9690f5223"
+  }, {
+    "name" : "Admin page",
+    "children" : [ {
+      "name" : "<unknown test>",
+      "uid" : "5d08a3e9be6dc743",
+      "parentUid" : "84b46a60be9775335b648a9730d80805",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656729784527,
+        "stop" : 1656729784528,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "771dfcc5f5670f0f",
+      "parentUid" : "84b46a60be9775335b648a9730d80805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732843964,
+        "stop" : 1656732846781,
+        "duration" : 2817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 42,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "84b46a60be9775335b648a9730d80805"
+  }, {
+    "name" : "Admin page: Checking the edit modal functionality",
+    "children" : [ {
+      "name" : "Elements should exist",
+      "uid" : "1b5e2d2474e76292",
+      "parentUid" : "1c3b241fc3fae3c72e7690dfbed03f83",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656730566575,
+        "stop" : 1656730566762,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Edit modal elements should exist",
+      "uid" : "f730d50308fdc3a0",
+      "parentUid" : "1c3b241fc3fae3c72e7690dfbed03f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732849562,
+        "stop" : 1656732849630,
+        "duration" : 68
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Validations should be displayed correctly",
+      "uid" : "ce5cb7b9c2d35846",
+      "parentUid" : "1c3b241fc3fae3c72e7690dfbed03f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732849630,
+        "stop" : 1656732850951,
+        "duration" : 1321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "1c3b241fc3fae3c72e7690dfbed03f83"
+  }, {
+    "name" : "Home page: Sidebar elements",
+    "children" : [ {
+      "name" : "Checking the sidebar title",
+      "uid" : "cddceeb5b7933441",
+      "parentUid" : "ee7413d3a9108c3287d42e5b91daefed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732795370,
+        "stop" : 1656732795422,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 55,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "ee7413d3a9108c3287d42e5b91daefed"
+  }, {
+    "name" : "Home page: Functionality of the sidebar links",
+    "children" : [ {
+      "name" : "Checking the functionality of the links",
+      "uid" : "d90315bd013a181e",
+      "parentUid" : "42d49c7c2bfc1d0848c877d9ef85028c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732795515,
+        "stop" : 1656732796194,
+        "duration" : 679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "42d49c7c2bfc1d0848c877d9ef85028c"
+  }, {
+    "name" : "Home page: Footer copyright",
+    "children" : [ {
+      "name" : "Should have the correct text",
+      "uid" : "6a3033b731642351",
+      "parentUid" : "dc7406f5b7168465c206b135f74b8597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732801203,
+        "stop" : 1656732801418,
+        "duration" : 215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 38,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "dc7406f5b7168465c206b135f74b8597"
+  }, {
+    "name" : "Sign Up page",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "1015c93ba806088b",
+      "parentUid" : "c7ff4eb43f25d50fab3bb1cd182bc191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732803088,
+        "stop" : 1656732803556,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "c7ff4eb43f25d50fab3bb1cd182bc191"
+  }, {
+    "name" : "Sign Up page: Checking the main title page",
+    "children" : [ {
+      "name" : "The title should exist",
+      "uid" : "4fea06561d973560",
+      "parentUid" : "da1c77b0a050915a80c8d0686cd86cd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732803557,
+        "stop" : 1656732804105,
+        "duration" : 548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "da1c77b0a050915a80c8d0686cd86cd7"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the First Name input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "db41aa4e35c286bf",
+      "parentUid" : "f9ef4824e334040f97adbc7dc4585a68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732804111,
+        "stop" : 1656732804485,
+        "duration" : 374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "f9ef4824e334040f97adbc7dc4585a68"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Last Name input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "7cf4d6b26cb0c969",
+      "parentUid" : "c91fe7860df404a7236ec6794876b526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732804492,
+        "stop" : 1656732804819,
+        "duration" : 327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "c91fe7860df404a7236ec6794876b526"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Phone input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "46005710a25f1348",
+      "parentUid" : "965270466c5855fd62da50811c0dd456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732804839,
+        "stop" : 1656732805178,
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "965270466c5855fd62da50811c0dd456"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Email input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "a68cc45a9e935e0",
+      "parentUid" : "6b85bf2693b73d5cabb3f937cf650b23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732805187,
+        "stop" : 1656732805551,
+        "duration" : 364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "6b85bf2693b73d5cabb3f937cf650b23"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Password input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "c9c4a31aef491df1",
+      "parentUid" : "4568d9d63b71dd3cf55b08ad72dd4c52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732805561,
+        "stop" : 1656732805905,
+        "duration" : 344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "4568d9d63b71dd3cf55b08ad72dd4c52"
+  }, {
+    "name" : "Sign Up page: Checking the functionality of the Repeat Password input",
+    "children" : [ {
+      "name" : "The input should work correctly",
+      "uid" : "d0a3230b782c6b14",
+      "parentUid" : "297096db84f387fabb34ba8aed1761ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732805911,
+        "stop" : 1656732806255,
+        "duration" : 344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "297096db84f387fabb34ba8aed1761ae"
+  }, {
+    "name" : "Login page: Checking the functionality of the sidebar \"Home\" button",
+    "children" : [ {
+      "name" : "The button should redirect to the home page",
+      "uid" : "d5e64fe58d95b3d7",
+      "parentUid" : "0afba79ab4b41d9d6c43b3cd5254369e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732829109,
+        "stop" : 1656732830131,
+        "duration" : 1022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "0afba79ab4b41d9d6c43b3cd5254369e"
+  }, {
+    "name" : "Login page: Checking the existence of the main elements",
+    "children" : [ {
+      "name" : "Subtitles, inputs and buttons should exist",
+      "uid" : "b8e3fdeea53092a9",
+      "parentUid" : "98f36a5656b5cf877523b386fb1c7940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732830139,
+        "stop" : 1656732831019,
+        "duration" : 880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "98f36a5656b5cf877523b386fb1c7940"
+  }, {
+    "name" : "Login page: Checking the validations of the inputs",
+    "children" : [ {
+      "name" : "Error message should be displayed it the data is not correct",
+      "uid" : "39fac98286106369",
+      "parentUid" : "0b07b15e615d7f5dfc65ba48be730f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732831025,
+        "stop" : 1656732832149,
+        "duration" : 1124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "0b07b15e615d7f5dfc65ba48be730f0e"
+  }, {
+    "name" : "Login page: Checking the login whit an admin user",
+    "children" : [ {
+      "name" : "Should login correctly",
+      "uid" : "5beaa27233bce1f",
+      "parentUid" : "50de11bb3b390d57cdd7a44c37f96e77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732832165,
+        "stop" : 1656732834078,
+        "duration" : 1913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "50de11bb3b390d57cdd7a44c37f96e77"
+  }, {
+    "name" : "Login page: Checking the login whit an employee user",
+    "children" : [ {
+      "name" : "Should login correctly",
+      "uid" : "727fd70dce8e9821",
+      "parentUid" : "fdbb3e43bf91c97742348a55769b3867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732834083,
+        "stop" : 1656732835480,
+        "duration" : 1397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "fdbb3e43bf91c97742348a55769b3867"
+  }, {
+    "name" : "Login page: Checking the login whit an super admin user",
+    "children" : [ {
+      "name" : "Should login correctly",
+      "uid" : "499f3d40297718c5",
+      "parentUid" : "84d7cb305f4ff54fdb81f3480f69d58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732835497,
+        "stop" : 1656732836391,
+        "duration" : 894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "84d7cb305f4ff54fdb81f3480f69d58f"
+  }, {
+    "name" : "Admin page: Checking the titles existence",
+    "children" : [ {
+      "name" : "Header title and main page title should exist",
+      "uid" : "3bb9c185c15e395a",
+      "parentUid" : "0d7662ffd268dad5d91a60dbc766b428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732840317,
+        "stop" : 1656732840914,
+        "duration" : 597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "0d7662ffd268dad5d91a60dbc766b428"
+  }, {
+    "name" : "Admin page: Sidebar title functionality",
+    "children" : [ {
+      "name" : "\"TRACKGENIX\" sidebar title should redirect to the home page",
+      "uid" : "e9cc06d29eee19db",
+      "parentUid" : "0e080e422d98038dc936da2dc8113ef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732840923,
+        "stop" : 1656732840974,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 19,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "0e080e422d98038dc936da2dc8113ef4"
+  }, {
+    "name" : "Admin page: Sidebar links functionality",
+    "children" : [ {
+      "name" : "\"Home\" sidebar link should redirect to the home admin page",
+      "uid" : "cc770dbf889fd042",
+      "parentUid" : "bd76d2e543c93acea9ce41640a630982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732840976,
+        "stop" : 1656732841785,
+        "duration" : 809
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"Super-Admins\" sidebar link should redirect to the home super-admin page",
+      "uid" : "aa37c37a9b1783ff",
+      "parentUid" : "bd76d2e543c93acea9ce41640a630982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732841876,
+        "stop" : 1656732841957,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "\"Admins\" sidebar link should redirect to the home admin page",
+      "uid" : "94766d5a1d5c7fb0",
+      "parentUid" : "bd76d2e543c93acea9ce41640a630982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732841957,
+        "stop" : 1656732842278,
+        "duration" : 321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 25,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "bd76d2e543c93acea9ce41640a630982"
+  }, {
+    "name" : "Admin page: Checking the existence of the elements",
+    "children" : [ {
+      "name" : "The elements should exist",
+      "uid" : "447f9d61f4ef4032",
+      "parentUid" : "6b868c6c5a5493f296993987d5f236d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732846781,
+        "stop" : 1656732847562,
+        "duration" : 781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 23,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "6b868c6c5a5493f296993987d5f236d9"
+  }, {
+    "name" : "Admin page: Test the functionality of the add button",
+    "children" : [ {
+      "name" : "The add button should deploy the modal and it should work correctly",
+      "uid" : "7882ce52b380669d",
+      "parentUid" : "09cf092b159b4fa2b7cc90433f017130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732847575,
+        "stop" : 1656732849475,
+        "duration" : 1900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "09cf092b159b4fa2b7cc90433f017130"
+  }, {
+    "name" : "Admin page: Test the functionality of the edit button",
+    "children" : [ {
+      "name" : "Te edit button should deploy the correct modal and it should work correctly",
+      "uid" : "d859f5d750960ad8",
+      "parentUid" : "5fdfbd76de646f1bae07f613fcbac8c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732849482,
+        "stop" : 1656732849558,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "5fdfbd76de646f1bae07f613fcbac8c0"
+  }, {
+    "name" : "Admin page: Checking the functionality of the delete button",
+    "children" : [ {
+      "name" : "Admin should be deleted",
+      "uid" : "d058dd18b8c07350",
+      "parentUid" : "1b5a423fcbd2d1a05293bd18e8a4ff4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732850979,
+        "stop" : 1656732851730,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "1b5a423fcbd2d1a05293bd18e8a4ff4d"
+  } ],
+  "name" : "suites"
 }

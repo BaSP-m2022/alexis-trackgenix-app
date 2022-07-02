@@ -1,0 +1,252 @@
+{
+  "uid" : "1015c93ba806088b",
+  "name" : "\"before all\" hook",
+  "fullName" : "Sign Up page.\"before all\" hook",
+  "historyId" : "5efd960b040c202da85f0345759795fc",
+  "time" : {
+    "start" : 1656732803088,
+    "stop" : 1656732803556,
+    "duration" : 468
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732803089,
+        "stop" : 1656732803503,
+        "duration" : 414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d18c82750d6861ae",
+        "name" : "Request",
+        "source" : "d18c82750d6861ae.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656732803504,
+        "stop" : 1656732803516,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5eadf2a83d2237f2",
+        "name" : "Request",
+        "source" : "5eadf2a83d2237f2.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "b6498289c730cb5c",
+        "name" : "Response",
+        "source" : "b6498289c730cb5c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/8b1e4e68-65e4-4956-9b55-8bb47ef38de8/click",
+      "time" : {
+        "start" : 1656732803520,
+        "stop" : 1656732803547,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656732803549,
+        "stop" : 1656732803554,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12203e654ab55bdd",
+        "name" : "Response",
+        "source" : "12203e654ab55bdd.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Sign Up page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign Up page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Sign Up page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae55e5170d9d8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732650883,
+        "stop" : 1656732651360,
+        "duration" : 477
+      }
+    }, {
+      "uid" : "2882846aaef52203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656724771036,
+        "stop" : 1656724771498,
+        "duration" : 462
+      }
+    }, {
+      "uid" : "43ed7e8284455f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656724751110,
+        "stop" : 1656724751636,
+        "duration" : 526
+      }
+    }, {
+      "uid" : "f5c064f79f9edcfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656724565666,
+        "stop" : 1656724566122,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "dbf692a7c729e60d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656724525092,
+        "stop" : 1656724525593,
+        "duration" : 501
+      }
+    }, {
+      "uid" : "eebb3b3713cc97e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656625576795,
+        "stop" : 1656625577288,
+        "duration" : 493
+      }
+    }, {
+      "uid" : "2a29ae273e5a54cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656625197078,
+        "stop" : 1656625197583,
+        "duration" : 505
+      }
+    }, {
+      "uid" : "e0d5d63754b1846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656625033863,
+        "stop" : 1656625034363,
+        "duration" : 500
+      }
+    }, {
+      "uid" : "bbf4b8b3543ed2fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656624963082,
+        "stop" : 1656624963575,
+        "duration" : 493
+      }
+    }, {
+      "uid" : "f369ac4c6bbb89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656624363330,
+        "stop" : 1656624363841,
+        "duration" : 511
+      }
+    }, {
+      "uid" : "65818920b4145c61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656623751886,
+        "stop" : 1656623752324,
+        "duration" : 438
+      }
+    }, {
+      "uid" : "42c19f621debeeef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656623715228,
+        "stop" : 1656623715725,
+        "duration" : 497
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1015c93ba806088b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

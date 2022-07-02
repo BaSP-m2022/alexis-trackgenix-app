@@ -2,6 +2,10 @@ class AdminHome {
 
     // Getters
 
+    get adminTitle () {return $('#root > div > header > div.header_pathname__qN2RB')}
+
+    get mainTitle () {return $('#root > div > div > section > h2')}
+
     get homeSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(1) > a')}
     get adminsSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(2) > a')}
     get superAdminsSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(3) > a')}

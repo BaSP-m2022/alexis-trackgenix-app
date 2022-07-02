@@ -22,10 +22,11 @@ exports.config = {
     //
     specs: [
         './test/specs/homePage.js',
-        './test/specs/adminHomePage.js',
-        './test/specs/employeeHomePage.js',
         './test/specs/signUpPage.js',
-        './test/specs/adminPage.js'
+        './test/specs/loginPage.js',
+        './test/specs/adminHomePage.js',
+        './test/specs/adminPage.js',
+        // './test/specs/employeeHomePage.js'
     ],
     // Patterns to exclude.
     exclude: [

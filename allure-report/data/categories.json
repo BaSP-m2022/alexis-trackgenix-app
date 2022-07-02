@@ -1,5 +1,299 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "ReferenceError: window is not defined",
+      "children" : [ {
+        "name" : "Checking the functionality of the facebook button",
+        "uid" : "be9b7e839bb35c37",
+        "parentUid" : "33effaee042b160049cacf889642c1ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656529263553,
+          "stop" : 1656529264414,
+          "duration" : 861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      }, {
+        "name" : "Checking the functionality of the instagram button",
+        "uid" : "c2f6878316dabf44",
+        "parentUid" : "33effaee042b160049cacf889642c1ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656529264414,
+          "stop" : 1656529264933,
+          "duration" : 519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "33effaee042b160049cacf889642c1ef"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"https://alexis-trackgenix-app.vercel.app/\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
+      "children" : [ {
+        "name" : "<unknown test>",
+        "uid" : "5fdaa4f793ad689e",
+        "parentUid" : "aa8637c2aff682d605dd12e21b5518ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656533095805,
+          "stop" : 1656533095806,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "aa8637c2aff682d605dd12e21b5518ce"
+    }, {
+      "name" : "Expect $(`#root > div > section > div > div > button:nth-child(1) > a`) to have attribute href\n                \n                Expected: \"href=\\\"/admin\\\"\"\n                Received: \"/admin\"",
+      "children" : [ {
+        "name" : "Checking the existence of the main elements",
+        "uid" : "ac941c7c6b05233a",
+        "parentUid" : "ca906b1fe9e374fed8628636c4d52b84",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656616686244,
+          "stop" : 1656616696620,
+          "duration" : 10376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 43,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "ca906b1fe9e374fed8628636c4d52b84"
+    }, {
+      "name" : "Expect $(`#root > div > div > section > div > button:nth-child(4)`) to have attribute href\n                \n                Expected: \"/employee/profile\"\n                Received: null",
+      "children" : [ {
+        "name" : "The button should redirect to the profile page",
+        "uid" : "1086ec9b2f36bb25",
+        "parentUid" : "833a664df52c3bb723b5764ffd7fe0d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656619169333,
+          "stop" : 1656619180197,
+          "duration" : 10864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "833a664df52c3bb723b5764ffd7fe0d2"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\signUpPage.js:123:47)\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\signUpPage.js:128:44)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "The button should work correctly",
+        "uid" : "201813cd3af42244",
+        "parentUid" : "812e97d8c33e97046a082a1b317362b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656625200331,
+          "stop" : 1656625220942,
+          "duration" : 20611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "812e97d8c33e97046a082a1b317362b4"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:30:41)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:33:44)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:36:42)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Checking the existence of the main buttons and their functionality",
+        "uid" : "effbf36cec90a369",
+        "parentUid" : "ebc1dd822fa7df309cbe1a770c335ca4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656629924214,
+          "stop" : 1656629954510,
+          "duration" : 30296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "ebc1dd822fa7df309cbe1a770c335ca4"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:19:44)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:20:44)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:27:41)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:28:41)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:29:43)\n                --- End of stack trace ---\n                \n                    Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                        at <Jasmine>\n                        at listOnTimeout (node:internal/timers:559:17)\n                        at processTimers (node:internal/timers:502:7)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "The elements should exist",
+        "uid" : "83cd98858cdae489",
+        "parentUid" : "c38fd843b32e08699628351dee746396",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656728218649,
+          "stop" : 1656728278663,
+          "duration" : 60014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 34,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "c38fd843b32e08699628351dee746396"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"#root > div > div > section > div > button\" because element wasn't found",
+      "children" : [ {
+        "name" : "The add button should deploy the modal and it should work correctly",
+        "uid" : "adc3240fdb535ce9",
+        "parentUid" : "d3d5fe5fadfe81458e34bcfd9265c72f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656728278700,
+          "stop" : 1656728288840,
+          "duration" : 10140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "d3d5fe5fadfe81458e34bcfd9265c72f"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:32:40)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:55:31)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > div > table > tbody > tr:last-child > td:nth-child(7) > button\" because element wasn't found\n                        at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:56:13)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Te edit button should deploy the correct modal and it should work correctly",
+        "uid" : "98aa50f315df91c9",
+        "parentUid" : "33a8456ac608d8d773080892d406c9b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656728288851,
+          "stop" : 1656728319037,
+          "duration" : 30186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "33a8456ac608d8d773080892d406c9b3"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"https://alexis-trackgenix-app.vercel.app/admin/admins\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/admin\"",
+      "children" : [ {
+        "name" : "<unknown test>",
+        "uid" : "5d08a3e9be6dc743",
+        "parentUid" : "8b15f8d6c7bd6adf299a9ed7a8d36117",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656729784527,
+          "stop" : 1656729784528,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "8b15f8d6c7bd6adf299a9ed7a8d36117"
+    }, {
+      "name" : "Expected undefined to exist.      \n                      actual expected\n                      \n                      undefined[]\n                      ",
+      "children" : [ {
+        "name" : "Elements should exist",
+        "uid" : "1b5e2d2474e76292",
+        "parentUid" : "9d25caa56f0f213b64880bfa689804d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656730566575,
+          "stop" : 1656730566762,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "9d25caa56f0f213b64880bfa689804d6"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to be clickable.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:29:42)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to have link '/admin'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:30:42)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:31:45)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to be clickable.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:32:45)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to have link '/employee'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:33:45)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:34:43)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to be clickable.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:35:43)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Expected undefined to have link '/signup'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:36:43)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Checking the existence of the main title",
+        "uid" : "e3d4970cabbb8a31",
+        "parentUid" : "b51409af55d380274ec28fa06ee8ba03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656732643258,
+          "stop" : 1656732643381,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "b51409af55d380274ec28fa06ee8ba03"
+    }, {
+      "name" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\signUpPage.js:123:47)\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\signUpPage.js:128:44)\n                        at runMicrotasks (<anonymous>)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "children" : [ {
+        "name" : "Checking the functionality when the fields are empty",
+        "uid" : "6d1ee090e25b47f3",
+        "parentUid" : "567d52ea50ea3e7e346375a980df22d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656732806264,
+          "stop" : 1656732826846,
+          "duration" : 20582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "567d52ea50ea3e7e346375a980df22d4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }

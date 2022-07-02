@@ -1,0 +1,144 @@
+{
+  "uid" : "4419d22a2319e949",
+  "name" : "Te edit button should deploy the correct modal and it should work correctly",
+  "fullName" : "Admins table page: Test the functionality of the edit button.Te edit button should deploy the correct modal and it should work correctly",
+  "historyId" : "736588793839b26de4acc7444b80eb6b",
+  "time" : {
+    "start" : 1656634392230,
+    "stop" : 1656634392371,
+    "duration" : 141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "invalid selector: The selector \"#root > div > div > section > div > div > table > tbody > tr:last-child() > td:last-child() > button\" used with strategy \"css selector\" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors",
+  "statusTrace" : "invalid selector: The selector \"#root > div > div > section > div > div > table > tbody > tr:last-child() > td:last-child() > button\" used with strategy \"css selector\" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:50:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "invalid selector: The selector \"#root > div > div > section > div > div > table > tbody > tr:last-child() > td:last-child() > button\" used with strategy \"css selector\" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors",
+    "statusTrace" : "invalid selector: The selector \"#root > div > div > section > div > div > table > tbody > tr:last-child() > td:last-child() > button\" used with strategy \"css selector\" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:50:28)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656634392231,
+        "stop" : 1656634392242,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67a6146cac13734b",
+        "name" : "Request",
+        "source" : "67a6146cac13734b.json",
+        "type" : "application/json",
+        "size" : 115
+      }, {
+        "uid" : "25fe56da8ad704cf",
+        "name" : "Response",
+        "source" : "25fe56da8ad704cf.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656634392244,
+        "stop" : 1656634392371,
+        "duration" : 127
+      },
+      "status" : "failed",
+      "statusMessage" : "invalid selector: The selector \"#root > div > div > section > div > div > table > tbody > tr:last-child() > td:last-child() > button\" used with strategy \"css selector\" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminPage.js:50:28)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656634392276,
+          "stop" : 1656634392370,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "26a63aff40d9cd54",
+          "name" : "Screenshot",
+          "source" : "26a63aff40d9cd54.png",
+          "type" : "image/png",
+          "size" : 81568
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "c3f674acd4b1cf82",
+        "name" : "Request",
+        "source" : "c3f674acd4b1cf82.json",
+        "type" : "application/json",
+        "size" : 144
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Admins table page: Test the functionality of the edit button"
+  }, {
+    "name" : "testClass",
+    "value" : "Admins table page: Test the functionality of the edit button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Te edit button should deploy the correct modal and it should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Admins table page: Test the functionality of the edit button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4419d22a2319e949.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

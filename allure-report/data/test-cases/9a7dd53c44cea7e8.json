@@ -1,0 +1,558 @@
+{
+  "uid" : "9a7dd53c44cea7e8",
+  "name" : "Validations should be displayed correctly",
+  "fullName" : "Admin page: Checking the edit modal functionality.Validations should be displayed correctly",
+  "historyId" : "35acc8c21f6351f446d03d29ad4188d1",
+  "time" : {
+    "start" : 1656730865301,
+    "stop" : 1656730869866,
+    "duration" : 4565
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element click intercepted: element click intercepted: Element <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"pencil\" class=\"svg-inline--fa fa-pencil \" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">...</svg> is not clickable at point (854, 318). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"pencil\" class=\"svg-inline--fa fa-pencil \" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">...</svg> is not clickable at point (854, 318). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element click intercepted: element click intercepted: Element <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"pencil\" class=\"svg-inline--fa fa-pencil \" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">...</svg> is not clickable at point (854, 318). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"pencil\" class=\"svg-inline--fa fa-pencil \" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">...</svg> is not clickable at point (854, 318). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865301,
+        "stop" : 1656730865309,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ea44f9e8f5572b0",
+        "name" : "Request",
+        "source" : "2ea44f9e8f5572b0.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "ff6fead052d68cb5",
+        "name" : "Response",
+        "source" : "ff6fead052d68cb5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/3c472f53-04d4-4961-ad63-a5307edef4c6/click",
+      "time" : {
+        "start" : 1656730865310,
+        "stop" : 1656730865324,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865325,
+        "stop" : 1656730865331,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a331f150c888252c",
+        "name" : "Request",
+        "source" : "a331f150c888252c.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "550a5d49b5e209be",
+        "name" : "Response",
+        "source" : "550a5d49b5e209be.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/3c472f53-04d4-4961-ad63-a5307edef4c6/clear",
+      "time" : {
+        "start" : 1656730865331,
+        "stop" : 1656730865343,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/3c472f53-04d4-4961-ad63-a5307edef4c6/value",
+      "time" : {
+        "start" : 1656730865343,
+        "stop" : 1656730865368,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "909e014a2c196792",
+        "name" : "Request",
+        "source" : "909e014a2c196792.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865369,
+        "stop" : 1656730865376,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75684573e6e329cc",
+        "name" : "Request",
+        "source" : "75684573e6e329cc.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "7b7f53455bdcac65",
+        "name" : "Response",
+        "source" : "7b7f53455bdcac65.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/97e973ef-029d-430a-8744-32cc3953da57/click",
+      "time" : {
+        "start" : 1656730865377,
+        "stop" : 1656730865393,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865393,
+        "stop" : 1656730865400,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5934a56a00b1599f",
+        "name" : "Request",
+        "source" : "5934a56a00b1599f.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "b9ebc8afc0aa1346",
+        "name" : "Response",
+        "source" : "b9ebc8afc0aa1346.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/97e973ef-029d-430a-8744-32cc3953da57/clear",
+      "time" : {
+        "start" : 1656730865401,
+        "stop" : 1656730865415,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/97e973ef-029d-430a-8744-32cc3953da57/value",
+      "time" : {
+        "start" : 1656730865415,
+        "stop" : 1656730865441,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d435d5f34b88ae00",
+        "name" : "Request",
+        "source" : "d435d5f34b88ae00.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865441,
+        "stop" : 1656730865448,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2a3dcfabc2c84a2",
+        "name" : "Request",
+        "source" : "c2a3dcfabc2c84a2.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "7b6a49e17ca2f5de",
+        "name" : "Response",
+        "source" : "7b6a49e17ca2f5de.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/46146c6e-5fa8-4d23-b752-0b755585359c/click",
+      "time" : {
+        "start" : 1656730865449,
+        "stop" : 1656730865471,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865471,
+        "stop" : 1656730865477,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f8c7abe3638c573",
+        "name" : "Request",
+        "source" : "6f8c7abe3638c573.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "bc880b761e1bbb10",
+        "name" : "Response",
+        "source" : "bc880b761e1bbb10.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/46146c6e-5fa8-4d23-b752-0b755585359c/clear",
+      "time" : {
+        "start" : 1656730865478,
+        "stop" : 1656730865489,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/46146c6e-5fa8-4d23-b752-0b755585359c/value",
+      "time" : {
+        "start" : 1656730865489,
+        "stop" : 1656730865510,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b73a7e942276969",
+        "name" : "Request",
+        "source" : "2b73a7e942276969.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865510,
+        "stop" : 1656730865516,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a042459f419cbfa2",
+        "name" : "Request",
+        "source" : "a042459f419cbfa2.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "bbb854cf42ce4249",
+        "name" : "Response",
+        "source" : "bbb854cf42ce4249.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/74c6fcdc-7334-4ce5-b4dd-1f1ebf5d942f/click",
+      "time" : {
+        "start" : 1656730865517,
+        "stop" : 1656730865534,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865535,
+        "stop" : 1656730865541,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f63cd9219037aedf",
+        "name" : "Request",
+        "source" : "f63cd9219037aedf.json",
+        "type" : "application/json",
+        "size" : 110
+      }, {
+        "uid" : "4299faf49cde1788",
+        "name" : "Response",
+        "source" : "4299faf49cde1788.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/74c6fcdc-7334-4ce5-b4dd-1f1ebf5d942f/clear",
+      "time" : {
+        "start" : 1656730865542,
+        "stop" : 1656730865554,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/74c6fcdc-7334-4ce5-b4dd-1f1ebf5d942f/value",
+      "time" : {
+        "start" : 1656730865554,
+        "stop" : 1656730865583,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88e99de122605c60",
+        "name" : "Request",
+        "source" : "88e99de122605c60.json",
+        "type" : "application/json",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656730865583,
+        "stop" : 1656730865589,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63a34d0c597c7f17",
+        "name" : "Request",
+        "source" : "63a34d0c597c7f17.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "ef8097e87502427d",
+        "name" : "Response",
+        "source" : "ef8097e87502427d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/8bf60bb3-41c6-4397-b901-15c19cf2d779/click",
+      "time" : {
+        "start" : 1656730865590,
+        "stop" : 1656730869866,
+        "duration" : 4276
+      },
+      "status" : "failed",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"pencil\" class=\"svg-inline--fa fa-pencil \" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\">...</svg> is not clickable at point (854, 318). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656730869780,
+          "stop" : 1656730869865,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4107000961caf2b3",
+          "name" : "Screenshot",
+          "source" : "4107000961caf2b3.png",
+          "type" : "image/png",
+          "size" : 52148
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 23,
+    "hasContent" : true,
+    "stepsCount" : 23
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Admin page: Checking the edit modal functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin page: Checking the edit modal functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validations should be displayed correctly"
+  }, {
+    "name" : "package",
+    "value" : "Admin page: Checking the edit modal functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a7dd53c44cea7e8.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "68821d20e6e3ca9f",
+  "name" : "\"Home\" sidebar link should redirect to the home admin page",
+  "fullName" : "Admin page: Sidebar links functionality.\"Home\" sidebar link should redirect to the home admin page",
+  "historyId" : "a1791174a3526a11d3616dbe2aef5dd1",
+  "time" : {
+    "start" : 1656725718426,
+    "stop" : 1656725718529,
+    "duration" : 103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: Login is not defined",
+  "statusTrace" : "ReferenceError: Login is not defined\n                    at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminHomePage.js:33:13)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "ReferenceError: Login is not defined",
+    "statusTrace" : "ReferenceError: Login is not defined\n                    at UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\adminHomePage.js:33:13)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656725718426,
+        "stop" : 1656725718432,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d7d50c8037bfd9d",
+        "name" : "Request",
+        "source" : "5d7d50c8037bfd9d.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "80d81cf99797094e",
+        "name" : "Response",
+        "source" : "80d81cf99797094e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656725718436,
+        "stop" : 1656725718528,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bedb6d42ad3e2a6",
+        "name" : "Screenshot",
+        "source" : "4bedb6d42ad3e2a6.png",
+        "type" : "image/png",
+        "size" : 42825
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Admin page: Sidebar links functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin page: Sidebar links functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"Home\" sidebar link should redirect to the home admin page"
+  }, {
+    "name" : "package",
+    "value" : "Admin page: Sidebar links functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68821d20e6e3ca9f.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

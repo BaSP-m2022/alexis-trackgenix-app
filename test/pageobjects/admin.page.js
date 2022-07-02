@@ -28,6 +28,27 @@ class Admin {
     get successCross () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[7]/div/div/img')}
 
     get editModalTitle () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[1]/h2')}
+    get firstNameEdit () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[1]/input')}
+    get firstNameEditMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[1]/p')}
+    get lastNameEdit () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[2]/input')}
+    get lastNameEditMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[2]/p')}
+    get emailEdit () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[3]/input')}
+    get emailEditMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[3]/p')}
+    get passwordEdit () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[4]/input')}
+    get passwordEditMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[4]/p')}
+    get editModalBtn () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[6]/button')}
+    get editCross () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[1]/img')}
+
+    get successEditMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[7]/div/div/h2')}
+    get crossSuccessEdit () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]/form/div[7]/div/div/img')}
+
+    get deleteTitle () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[1]/h2')}
+    get deleteP () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[2]')}
+    get deleteClose () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[3]/button[2]')}
+    get deleteConfirm () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div[3]/button[1]')}
+
+    get successDeleteMsg () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div/h2')}
+    get successDeleteCross () {return $('//*[@id="root"]/div/div/section/div/div[2]/div/div/img')}
 
     // Setters
 
@@ -42,8 +63,25 @@ class Admin {
     async setAdminEmail (email) {
         await this.modalEmail.setValue(email);
     }
+
     async setAdminPassword (password) {
         await this.modalPass.setValue(password);
+    }
+
+    async setEditName (name) {
+        await this.firstNameEdit.setValue(name);
+    }
+
+    async setEditLastName (lastName) {
+        await this.lastNameEdit.setValue(lastName);
+    }
+
+    async setEditEmail (email) {
+        await this.emailEdit.setValue(email);
+    }
+
+    async setEditPassword (password) {
+        await this.passwordEdit.setValue(password);
     }
 
     // Methods
@@ -84,6 +122,42 @@ class Admin {
 
     async crossModalButton() {
         await this.successCross.click();
+    }
+
+    async editFirstName(name) {
+        await this.firstNameEdit.click();
+        await this.setEditName(name);
+    }
+
+    async editLastName(lastName) {
+        await this.lastNameEdit.click();
+        await this.setEditLastName(lastName);
+    }
+
+    async editEmail(email) {
+        await this.emailEdit.click();
+        await this.setEditEmail(email);
+    }
+
+    async editPassword(password) {
+        await this.passwordEdit.click();
+        await this.setEditPassword(password);
+    }
+
+    async clickEditModalButton() {
+        await this.editModalBtn.click();
+    }
+
+    async clickEditCross () {
+        await this.editCross.click();
+    }
+
+    async clickSuccessEditCross() {
+        await this.crossSuccessEdit.click();
+    }
+
+    async clickSuccessDeleteCross() {
+        await this.successDeleteCross.click();
     }
 }
 

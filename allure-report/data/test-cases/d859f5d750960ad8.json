@@ -1,0 +1,331 @@
+{
+  "uid" : "d859f5d750960ad8",
+  "name" : "Te edit button should deploy the correct modal and it should work correctly",
+  "fullName" : "Admin page: Test the functionality of the edit button.Te edit button should deploy the correct modal and it should work correctly",
+  "historyId" : "d9736cea467b9c222b49da249fe8a20a",
+  "time" : {
+    "start" : 1656732849482,
+    "stop" : 1656732849558,
+    "duration" : 76
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656732849482,
+        "stop" : 1656732849493,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa8a792e618e33c7",
+        "name" : "Request",
+        "source" : "fa8a792e618e33c7.json",
+        "type" : "application/json",
+        "size" : 115
+      }, {
+        "uid" : "dbf0174b04412137",
+        "name" : "Response",
+        "source" : "dbf0174b04412137.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656732849494,
+        "stop" : 1656732849504,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ca15fed692813ca",
+        "name" : "Request",
+        "source" : "6ca15fed692813ca.json",
+        "type" : "application/json",
+        "size" : 142
+      }, {
+        "uid" : "f9e536fe74ba692b",
+        "name" : "Response",
+        "source" : "f9e536fe74ba692b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/fbea93d9-84e5-4209-bc56-61c443597f47/text",
+      "time" : {
+        "start" : 1656732849506,
+        "stop" : 1656732849519,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9696a4ed8401e9f2",
+        "name" : "Response",
+        "source" : "9696a4ed8401e9f2.json",
+        "type" : "application/json",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2c7917b6-9416-448c-a737-42782b2006b9/click",
+      "time" : {
+        "start" : 1656732849519,
+        "stop" : 1656732849542,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656732849543,
+        "stop" : 1656732849551,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de385853acb7ac54",
+        "name" : "Request",
+        "source" : "de385853acb7ac54.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "6e049fc89fba685d",
+        "name" : "Response",
+        "source" : "6e049fc89fba685d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656732849553,
+        "stop" : 1656732849558,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "736a973b71071370",
+        "name" : "Request",
+        "source" : "736a973b71071370.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "614e051f455d128",
+        "name" : "Response",
+        "source" : "614e051f455d128.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "testClass",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Te edit button should deploy the correct modal and it should work correctly"
+  }, {
+    "name" : "package",
+    "value" : "Admin page: Test the functionality of the edit button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6071e68ab1b79be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732697573,
+        "stop" : 1656732697645,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "56bbbe47ec3b088e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732449718,
+        "stop" : 1656732449794,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "97e8a054dc864558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656732233550,
+        "stop" : 1656732233620,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "a1904e4e0c5c179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656731244435,
+        "stop" : 1656731244508,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "b7c5a1678c6a6c8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656731084532,
+        "stop" : 1656731084609,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "596ebdd9356ad741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656731015063,
+        "stop" : 1656731015139,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "328a820ef461548",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+      "time" : {
+        "start" : 1656730860885,
+        "stop" : 1656730865286,
+        "duration" : 4401
+      }
+    }, {
+      "uid" : "e423a34113907fb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656730813313,
+        "stop" : 1656730813389,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "4650bbbfee9aa54a",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+      "time" : {
+        "start" : 1656730743657,
+        "stop" : 1656730747911,
+        "duration" : 4254
+      }
+    }, {
+      "uid" : "b316e13d795a160a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656730696838,
+        "stop" : 1656730696910,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "16193989d7d05f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656730566487,
+        "stop" : 1656730566562,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "76d6d46d3dcd5efc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656730475058,
+        "stop" : 1656730475129,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "e95a7bcb8ea5b62d",
+      "status" : "failed",
+      "statusDetails" : "element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_buttonEdit__8w9Ru\">...</button> is not clickable at point (854, 734). Other element would receive the click: <div class=\"modal-form_form__1d3ca modal-form_noselect__1pLwl\">...</div>\n                  (Session info: chrome=103.0.5060.66)",
+      "time" : {
+        "start" : 1656730176527,
+        "stop" : 1656730180953,
+        "duration" : 4426
+      }
+    }, {
+      "uid" : "c9c66348a99c6318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656730096110,
+        "stop" : 1656730096183,
+        "duration" : 73
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d859f5d750960ad8.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}
