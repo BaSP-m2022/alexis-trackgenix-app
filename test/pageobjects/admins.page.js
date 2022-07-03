@@ -52,35 +52,35 @@ class Admin {
 
     // Setters
 
-    async setAdminName (name) {
+    async setAdminName(name) {
         await this.modalFirst.setValue(name);
     }
 
-    async setAdminLastName (lastName) {
+    async setAdminLastName(lastName) {
         await this.modalLast.setValue(lastName);
     }
 
-    async setAdminEmail (email) {
+    async setAdminEmail(email) {
         await this.modalEmail.setValue(email);
     }
 
-    async setAdminPassword (password) {
+    async setAdminPassword(password) {
         await this.modalPass.setValue(password);
     }
 
-    async setEditName (name) {
+    async setEditName(name) {
         await this.firstNameEdit.setValue(name);
     }
 
-    async setEditLastName (lastName) {
+    async setEditLastName(lastName) {
         await this.lastNameEdit.setValue(lastName);
     }
 
-    async setEditEmail (email) {
+    async setEditEmail(email) {
         await this.emailEdit.setValue(email);
     }
 
-    async setEditPassword (password) {
+    async setEditPassword(password) {
         await this.passwordEdit.setValue(password);
     }
 
