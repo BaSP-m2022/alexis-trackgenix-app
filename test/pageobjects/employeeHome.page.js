@@ -13,7 +13,6 @@ class EmployeeHome {
         await this.homeSidebar.click();
         await this.projectsSidebar.click();
         await this.timesheetSidebar.click();
-
         await this.profileSidebar.click();
     }
 }
