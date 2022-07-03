@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e62fa8703f275d6",
+      "uid" : "efecf3aea7c27b12",
       "status" : "passed",
       "time" : {
         "start" : 1656633161161,
@@ -28,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "288facc450b9bb03",
+      "uid" : "56f5ee0315dff32e",
       "status" : "passed",
       "time" : {
         "start" : 1656634780955,
         "stop" : 1656634782515,
         "duration" : 1560
+      }
+    } ]
+  },
+  "b83a03fb7b415bc40e8daceec0bc1b00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b78dcf132f5187e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815019148,
+        "stop" : 1656815019825,
+        "duration" : 677
       }
     } ]
   },
@@ -47,7 +66,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66526ab60ea355ee",
+      "uid" : "3c8e5fa65fe92e3a",
       "status" : "passed",
       "time" : {
         "start" : 1656633161061,
@@ -66,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1981cbba95d3acbb",
+      "uid" : "3ee9c463551499bc",
       "status" : "passed",
       "time" : {
         "start" : 1656634775434,
@@ -85,7 +104,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3b84548684655ba0",
+      "uid" : "aaf55c860d12c2ad",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    stale element reference: stale element reference: element is not attached to the page document\n                      (Session info: chrome=103.0.5060.53)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    stale element reference: stale element reference: element is not attached to the page document\n                      (Session info: chrome=103.0.5060.53)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
       "time" : {
@@ -105,17 +124,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc408f8ee05137ec",
+      "uid" : "977f92f3082fe27c",
       "status" : "passed",
       "time" : {
-        "start" : 1656620414575,
-        "stop" : 1656620414635,
-        "duration" : 60
+        "start" : 1656815006948,
+        "stop" : 1656815006996,
+        "duration" : 48
       }
     } ]
   },
   "7a37abf4ee9b516fe0e637c7f84f5453" : {
     "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c41158f4f2422e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815019084,
+        "stop" : 1656815019130,
+        "duration" : 46
+      }
+    } ]
+  },
+  "90d88145e470ccb77341a2c85a107cc8" : {
+    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
@@ -124,73 +162,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3436bc4bf19911bc",
+      "uid" : "983234094673692c",
       "status" : "failed",
-      "statusDetails" : "TypeError: expect(...).toExists is not a function",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password is a required field\"\n                Received: \"\"",
       "time" : {
-        "start" : 1656620415667,
-        "stop" : 1656620415736,
-        "duration" : 69
+        "start" : 1656816873972,
+        "stop" : 1656816884692,
+        "duration" : 10720
       }
     } ]
   },
   "4e7b68e83587532c26db327280ec9339" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a40d365065126219",
-      "status" : "failed",
-      "statusDetails" : "Expected undefined to exist.      \n                      actual expected\n                      \n                      undefined[]\n                      ",
+      "uid" : "c681405ccab53c96",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620415278,
-        "stop" : 1656620415346,
-        "duration" : 68
-      }
-    } ]
-  },
-  "7054fe01617c7886472cbc12edd6f3c8" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "18bc58b969f06a36",
-      "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:37:43)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:38:43)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > aside > nav > ul > li:nth-child(6) > a\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:39:7)\n                --- End of stack trace ---\n                ",
-      "time" : {
-        "start" : 1656636326208,
-        "stop" : 1656636396934,
-        "duration" : 70726
-      }
-    } ]
-  },
-  "1bcd3147e2e292e7010d4af837b91ddd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "780303171c23d8ab",
-      "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:37:40)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:38:32)\n                --- End of stack trace ---\n                ",
-      "time" : {
-        "start" : 1656620414937,
-        "stop" : 1656620415028,
-        "duration" : 91
+        "start" : 1656815018834,
+        "stop" : 1656815018878,
+        "duration" : 44
       }
     } ]
   },
@@ -204,7 +201,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ade520918d2c24f",
+      "uid" : "6687a6b6efaf6103",
       "status" : "passed",
       "time" : {
         "start" : 1656633160556,
@@ -213,7 +210,7 @@
       }
     } ]
   },
-  "c693ee05e781b2aff1a4eca87006242a" : {
+  "7054fe01617c7886472cbc12edd6f3c8" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -223,13 +220,70 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "19f942d23d00cda6",
+      "uid" : "40635b54256160d9",
       "status" : "failed",
-      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:37:43)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:38:43)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > aside > nav > ul > li:nth-child(6) > a\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:39:7)\n                --- End of stack trace ---\n                ",
       "time" : {
-        "start" : 1656620415736,
-        "stop" : 1656620415816,
-        "duration" : 80
+        "start" : 1656636326208,
+        "stop" : 1656636396934,
+        "duration" : 70726
+      }
+    } ]
+  },
+  "1bcd3147e2e292e7010d4af837b91ddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e51e8a06df8f96b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815007061,
+        "stop" : 1656815008445,
+        "duration" : 1384
+      }
+    } ]
+  },
+  "dcea6e5bde0d64c520635af8ddc7726d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab2fee7294831eb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816886054,
+        "stop" : 1656816886700,
+        "duration" : 646
+      }
+    } ]
+  },
+  "c693ee05e781b2aff1a4eca87006242a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbf658fafff4eb77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815019131,
+        "stop" : 1656815019148,
+        "duration" : 17
       }
     } ]
   },
@@ -243,12 +297,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86ca9cc8ce9ccea7",
+      "uid" : "9cda00e434ba001a",
       "status" : "passed",
       "time" : {
         "start" : 1656634773262,
         "stop" : 1656634774396,
         "duration" : 1134
+      }
+    } ]
+  },
+  "a707f0f0fa0bf81d88c56141fdd7a70b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36693ab73b7cfbf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816919490,
+        "stop" : 1656816921893,
+        "duration" : 2403
+      }
+    } ]
+  },
+  "50cc47704585e4d22c8ac6b4723ff5ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c27b95f2bf0c05d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815019825,
+        "stop" : 1656815019939,
+        "duration" : 114
       }
     } ]
   },
@@ -262,7 +354,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2355c4ffa6f5d31b",
+      "uid" : "3ee53796204ad141",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/admin\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/admin\"",
       "time" : {
@@ -274,21 +366,20 @@
   },
   "4164ef5ce34ce3beeb0146e5fabe5c80" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7de90307a925efc",
-      "status" : "failed",
-      "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/home\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
+      "uid" : "65e18eac30d2fdbf",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620404355,
-        "stop" : 1656620414565,
-        "duration" : 10210
+        "start" : 1656789297097,
+        "stop" : 1656789298805,
+        "duration" : 1708
       }
     } ]
   },
@@ -302,32 +393,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dab0b55e8711ce90",
+      "uid" : "444fb6410f753740",
       "status" : "passed",
       "time" : {
-        "start" : 1656620414635,
-        "stop" : 1656620414657,
+        "start" : 1656815006997,
+        "stop" : 1656815007019,
         "duration" : 22
+      }
+    } ]
+  },
+  "e9f71396f6c4741c18fb3b247ee87457" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b9ad856fdc3df30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816869002,
+        "stop" : 1656816869007,
+        "duration" : 5
+      }
+    } ]
+  },
+  "c4d52775a4bc05409da65fd408f31309" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8df73c45de580531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816869012,
+        "stop" : 1656816872053,
+        "duration" : 3041
       }
     } ]
   },
   "dac42c1cbae3d9f8a34e3ea2c59848ce" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb7fefbfe27828d3",
-      "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:43:41)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:44:33)\n                --- End of stack trace ---\n                ",
+      "uid" : "4ed450bb8e6a744c",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620415029,
-        "stop" : 1656620415115,
-        "duration" : 86
+        "start" : 1656815008446,
+        "stop" : 1656815012097,
+        "duration" : 3651
       }
     } ]
   },
@@ -341,7 +469,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "88afb70f295abf66",
+      "uid" : "7c0e802668c27394",
       "status" : "passed",
       "time" : {
         "start" : 1656633160604,
@@ -360,7 +488,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1224b19fe9a4012",
+      "uid" : "ce1837e22a5a9ced",
       "status" : "passed",
       "time" : {
         "start" : 1656633160687,
@@ -379,7 +507,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eb40977958477e70",
+      "uid" : "87286b5fc4fb19b4",
       "status" : "passed",
       "time" : {
         "start" : 1656634774397,
@@ -390,21 +518,20 @@
   },
   "b6be1c60565296dbe48543ae7503dbc3" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b052d1f941507be7",
-      "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:49:42)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:50:34)\n                --- End of stack trace ---\n                ",
+      "uid" : "e43832712bd48cdb",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620415116,
-        "stop" : 1656620415168,
-        "duration" : 52
+        "start" : 1656815012097,
+        "stop" : 1656815016189,
+        "duration" : 4092
       }
     } ]
   },
@@ -418,7 +545,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c0b4577a03c4f80",
+      "uid" : "1e093ca333af8f33",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:76:46)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:77:46)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(3)\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:78:7)\n                --- End of stack trace ---\n                ",
       "time" : {
@@ -438,7 +565,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a077315fa483bc80",
+      "uid" : "94767d9e51a82917",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/employee\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/employee\"",
       "time" : {
@@ -448,27 +575,7 @@
       }
     } ]
   },
-  "e0f542eff3d34d641cd10c10eb1dc6a2" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "244cb69a8246afd9",
-      "status" : "failed",
-      "statusDetails" : "Expected undefined to have text 'Rosario, Argentina'.      \n                      actual expected\n                      \n                      undefined'Rosario, Argentina'\n                      ",
-      "time" : {
-        "start" : 1656620415347,
-        "stop" : 1656620415481,
-        "duration" : 134
-      }
-    } ]
-  },
-  "cc3fed439401cb0b0b311b8727596312" : {
+  "babc8d0429a27b871be798d347cd1bb7" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -478,12 +585,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "628d02c7844eb942",
+      "uid" : "d1422b32217a7d41",
       "status" : "passed",
       "time" : {
-        "start" : 1656634771061,
-        "stop" : 1656634772149,
-        "duration" : 1088
+        "start" : 1656816921894,
+        "stop" : 1656816923560,
+        "duration" : 1666
+      }
+    } ]
+  },
+  "e0f542eff3d34d641cd10c10eb1dc6a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b15b0fce9118bb61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815018878,
+        "stop" : 1656815018922,
+        "duration" : 44
       }
     } ]
   },
@@ -497,7 +623,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51365d0f433817de",
+      "uid" : "67fe0d9c15eeb267",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:88:45)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:89:45)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(4)\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:90:7)\n                --- End of stack trace ---\n                ",
       "time" : {
@@ -507,23 +633,41 @@
       }
     } ]
   },
-  "54d78628f557ad5a227b3785613d7c4d" : {
+  "cc3fed439401cb0b0b311b8727596312" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9aff832ca27c935a",
-      "status" : "failed",
-      "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/employee/home\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
+      "uid" : "1dae22c7e84e59e8",
+      "status" : "passed",
       "time" : {
-        "start" : 1656636396940,
-        "stop" : 1656636407153,
-        "duration" : 10213
+        "start" : 1656634771061,
+        "stop" : 1656634772149,
+        "duration" : 1088
+      }
+    } ]
+  },
+  "d8c3719fb90f102bada5c2375dcf8edf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a91d3268b8eb87d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815005005,
+        "stop" : 1656815006888,
+        "duration" : 1883
       }
     } ]
   },
@@ -537,7 +681,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc7e1ceb9dee30e1",
+      "uid" : "274838a023bc553e",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:82:50)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:83:50)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(3) > a\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:84:7)\n                --- End of stack trace ---\n                ",
       "time" : {
@@ -547,7 +691,7 @@
       }
     } ]
   },
-  "40e9987410b7c71ee89918262c0b7195" : {
+  "54d78628f557ad5a227b3785613d7c4d" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -557,13 +701,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed62a99c43473b03",
+      "uid" : "aae8422320460969",
       "status" : "failed",
-      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Expected undefined to exist.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:55:39)\n                --- End of stack trace ---\n                \n                    TypeError: Cannot read properties of undefined (reading 'click')\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/home.spec.js:56:31)\n                --- End of stack trace ---\n                ",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/employee/home\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/home\"",
       "time" : {
-        "start" : 1656620415168,
-        "stop" : 1656620415271,
-        "duration" : 103
+        "start" : 1656636396940,
+        "stop" : 1656636407153,
+        "duration" : 10213
+      }
+    } ]
+  },
+  "40e9987410b7c71ee89918262c0b7195" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acb7fba62b9b1785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815016189,
+        "stop" : 1656815018827,
+        "duration" : 2638
       }
     } ]
   },
@@ -577,12 +740,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51062921295bec1",
+      "uid" : "76a0533193e89e9f",
       "status" : "passed",
       "time" : {
         "start" : 1656634782515,
         "stop" : 1656634783508,
         "duration" : 993
+      }
+    } ]
+  },
+  "5559ec280f0bd922e06845ef3e7c10df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0c305c5cfdf9658",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815006889,
+        "stop" : 1656815006941,
+        "duration" : 52
       }
     } ]
   },
@@ -596,7 +778,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dba1921ff1e6ea0a",
+      "uid" : "cd37dc3e2fecbfc1",
       "status" : "passed",
       "time" : {
         "start" : 1656633160785,
@@ -615,7 +797,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40acfbc3d0c16e67",
+      "uid" : "e902cfdd24c39c6e",
       "status" : "passed",
       "time" : {
         "start" : 1656634765911,
@@ -634,7 +816,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33626b04c8450a2a",
+      "uid" : "bf8b7df4f06ca5cd",
       "status" : "passed",
       "time" : {
         "start" : 1656636325548,
@@ -653,7 +835,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a21e11161295bf2c",
+      "uid" : "391c6b30663c26d9",
       "status" : "passed",
       "time" : {
         "start" : 1656633149580,
@@ -672,7 +854,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a57caf42834f3b8",
+      "uid" : "14de15d8e4ddb319",
       "status" : "passed",
       "time" : {
         "start" : 1656634778795,
@@ -691,7 +873,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eb9b9fb6e05435a4",
+      "uid" : "308a7568f2d5dd87",
       "status" : "passed",
       "time" : {
         "start" : 1656636323132,
@@ -710,7 +892,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b066e7832c89139e",
+      "uid" : "84efb8df4396d440",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/admin\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/admin\"",
       "time" : {
@@ -720,23 +902,41 @@
       }
     } ]
   },
-  "fce3162ce058571d735e12aeedc5b556" : {
+  "fe0ab39525a73600caec70eab986124e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67cb548948848d66",
-      "status" : "failed",
-      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'getCSSProperty')",
+      "uid" : "8b36bac2ca9f3f59",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620414828,
-        "stop" : 1656620414937,
-        "duration" : 109
+        "start" : 1656816884693,
+        "stop" : 1656816886053,
+        "duration" : 1360
+      }
+    } ]
+  },
+  "fce3162ce058571d735e12aeedc5b556" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c510f7ac01ba6e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815007042,
+        "stop" : 1656815007061,
+        "duration" : 19
       }
     } ]
   },
@@ -750,7 +950,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5561e67573c8afeb",
+      "uid" : "87289af9e2949e0",
       "status" : "passed",
       "time" : {
         "start" : 1656633160969,
@@ -761,21 +961,39 @@
   },
   "b56e66700eb9260ea7d49b22d3c8999e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "db424902098b70a1",
-      "status" : "failed",
-      "statusDetails" : "Expected undefined to have text 'Copyright © 2022 Trackgenix SA. All rights reserved.'.      \n                      actual expected\n                      \n                      undefined'Copyright © 2022 Trackgenix SA. All rights reserved.'\n                      ",
+      "uid" : "b01d81b034dd9507",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620415547,
-        "stop" : 1656620415641,
-        "duration" : 94
+        "start" : 1656815018972,
+        "stop" : 1656815019027,
+        "duration" : 55
+      }
+    } ]
+  },
+  "fa21257aaead128ac66ae3a9411fa24e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac237a892c1f7bcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816923562,
+        "stop" : 1656816926024,
+        "duration" : 2462
       }
     } ]
   },
@@ -789,7 +1007,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ff788892bce0e6f",
+      "uid" : "fa8cdfb66703641d",
       "status" : "passed",
       "time" : {
         "start" : 1656634772149,
@@ -800,41 +1018,39 @@
   },
   "92dd0b1c82c38ec5f6c592f2ce8d84f0" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "adb4a9a02f69cdfd",
-      "status" : "failed",
-      "statusDetails" : "Expected undefined to exist.      \n                      actual expected\n                      \n                      undefined[]\n                      ",
+      "uid" : "f30799742bd8fa0d",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620415483,
-        "stop" : 1656620415546,
-        "duration" : 63
+        "start" : 1656815018925,
+        "stop" : 1656815018970,
+        "duration" : 45
       }
     } ]
   },
   "ea897596daa6f7a53bffc41c623acaeb" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7fb6f113d22f3d4b",
-      "status" : "failed",
-      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(118,160,104,1)', parsed: Object({ hex: '#76a068', alpha: 1, type: 'color', rgba: 'rgba(118,160,104,1)' }) }) to be '#76a068'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgba(118,160,104,1)', parsed: { hex: '#76a068', alpha: 1, type: 'color', rgba: 'rgba(118,160,104,1)' } }\n                      ",
+      "uid" : "6054bff39f03ace5",
+      "status" : "passed",
       "time" : {
-        "start" : 1656620414658,
-        "stop" : 1656620414823,
-        "duration" : 165
+        "start" : 1656815007019,
+        "stop" : 1656815007039,
+        "duration" : 20
       }
     } ]
   },
@@ -848,7 +1064,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e767d077b1e1721",
+      "uid" : "75ca642fe6d22097",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:94:49)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:95:49)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(4) > a\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:96:7)\n                --- End of stack trace ---\n                ",
       "time" : {
@@ -868,12 +1084,90 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8fbdf6fd85b0633",
+      "uid" : "e59af1728fc1ccbb",
       "status" : "passed",
       "time" : {
-        "start" : 1656620404348,
-        "stop" : 1656620404350,
+        "start" : 1656815005000,
+        "stop" : 1656815005002,
         "duration" : 2
+      }
+    } ]
+  },
+  "6c0248ff9ca796ce99aae0f446ce475b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e546650e8722644b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656815019939,
+        "stop" : 1656815020053,
+        "duration" : 114
+      }
+    } ]
+  },
+  "7041f8d37714ba8c077f713ceed462c0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0a8d26676e72923",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656816908317,
+        "stop" : 1656816919488,
+        "duration" : 11171
+      }
+    } ]
+  },
+  "89483e9d7320ed89d781e9d7a8fd3483" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "133af863b0f21fbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656816872058,
+        "stop" : 1656816873972,
+        "duration" : 1914
+      }
+    } ]
+  },
+  "f893de065b0f4f2972a04f9802908829" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5befde989b9068d1",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain at least 8 characters\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656816886700,
+        "stop" : 1656816897445,
+        "duration" : 10745
       }
     } ]
   },
@@ -887,12 +1181,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "472d4c02244cd1ed",
+      "uid" : "9b0abca700b979c0",
       "status" : "passed",
       "time" : {
         "start" : 1656633160876,
         "stop" : 1656633160967,
         "duration" : 91
+      }
+    } ]
+  },
+  "c64a550bed3658273ad97f44beffa5eb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28440bbe7195427a",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656816897445,
+        "stop" : 1656816908316,
+        "duration" : 10871
       }
     } ]
   },
@@ -906,7 +1220,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46206cc0f7d9f686",
+      "uid" : "c7d5550849e02c7d",
       "status" : "passed",
       "time" : {
         "start" : 1656636323140,
@@ -925,12 +1239,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe53511093265ee7",
+      "uid" : "fe85f8ec53660c8c",
       "status" : "passed",
       "time" : {
-        "start" : 1656620415643,
-        "stop" : 1656620415665,
-        "duration" : 22
+        "start" : 1656815019033,
+        "stop" : 1656815019083,
+        "duration" : 50
       }
     } ]
   },
@@ -944,7 +1258,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ae2b1a57b92f635",
+      "uid" : "145c3fb561679048",
       "status" : "passed",
       "time" : {
         "start" : 1656634765918,
@@ -963,31 +1277,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd9ae68815dd5e8",
+      "uid" : "5f22d328a0ad419f",
       "status" : "passed",
       "time" : {
         "start" : 1656634777637,
         "stop" : 1656634778794,
         "duration" : 1157
-      }
-    } ]
-  },
-  "9835ec8d7a59235ce5373674a02d81af" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b29191ba614f4bd1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656634776538,
-        "stop" : 1656634777636,
-        "duration" : 1098
       }
     } ]
   },
@@ -1001,12 +1296,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1617dfe0cf07ee0",
+      "uid" : "33efa3d320db0705",
       "status" : "passed",
       "time" : {
         "start" : 1656634779809,
         "stop" : 1656634780955,
         "duration" : 1146
+      }
+    } ]
+  },
+  "9835ec8d7a59235ce5373674a02d81af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac40b4301cd7e75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656634776538,
+        "stop" : 1656634777636,
+        "duration" : 1098
       }
     } ]
   },
@@ -1020,7 +1334,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "21755ccc4c8cffeb",
+      "uid" : "f8118089f090cee9",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"http://alexis-trackgenix-app.vercel.app/employee\"\n                Received: \"https://alexis-trackgenix-app.vercel.app/employee\"",
       "time" : {
@@ -1040,7 +1354,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73ea9e4977b43227",
+      "uid" : "7dd797302bc81b25",
       "status" : "failed",
       "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:60:47)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:61:47)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > div > section > div > button:nth-child(2)\" because element wasn't found\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:62:7)\n                --- End of stack trace ---\n                ",
       "time" : {

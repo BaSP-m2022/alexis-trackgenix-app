@@ -1,5 +1,8 @@
 class footer {
   //Getters
+  get footerContainer() {
+    return $('#root > div > footer');
+  }
   get twitterIcon() {
     return $('#root > div > footer > div.footer_socialContainer__3bbz9 > a:nth-child(1)');
   }
@@ -19,4 +22,4 @@ class footer {
     return $('#root > div > footer > div.footer_license__1FrkS > div.footer_copyright__1FoOh');
   }
 }
-module.expors = new footer();
+module.exports = new footer();

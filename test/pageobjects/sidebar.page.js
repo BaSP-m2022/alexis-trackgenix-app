@@ -6,11 +6,17 @@ class sidebar {
   get sidebarHeader() {
     return $('#root > div > aside > div > a');
   }
-
-  //Getters - ADMIN HOME
+  get loginTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
+  }
+  get signUpTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(2) > a');
+  }
   get homeTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
   }
+
+  //Getters - ADMIN HOME
   get adminTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(2) > a');
   }
@@ -20,15 +26,12 @@ class sidebar {
   get employeesTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
   }
-
   get projectsTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(5) > a');
   }
-
   get timesheetsTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(6) > a');
   }
-
   get tasksTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(7) > a');
   }

@@ -9,11 +9,16 @@ describe('Home testing', () => {
   });
 
   describe('Correct browser url', () => {
-    it('browser', async () => {
-      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/home');
+    it('Browser', async () => {
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
+    });
+    it('Home title', async () => {
+      await expect(homePage.homeTitle).toExist();
+      await expect(homePage.homeTitle).toHaveText('WELCOME TO TRACKGENIX');
     });
   });
 
+  //HEADER
   describe('Checking header container', () => {
     it('Header title', async () => {
       await expect(header.headerTitle).toExist();
@@ -24,38 +29,47 @@ describe('Home testing', () => {
     });
     it('Header color', async () => {
       const headerColor = await header.headerContainer.getCSSProperty('background-color');
-      await expect(headerColor).toBe('#76a068');
+      await expect(headerColor.value).toBe('rgba(118,160,104,1)');
     });
   });
 
+  //FOOTER
   describe('Checking footer container', () => {
     it('Footer color', async () => {
       const footerColor = await footer.footerContainer.getCSSProperty('background-color');
-      await expect(footerColor).toBe('#76a068');
+      await expect(footerColor.value).toBe('rgba(118,160,104,1)');
     });
     it('Twitter icon', async () => {
       await expect(footer.twitterIcon).toExist();
       await footer.twitterIcon.click();
-      await expect(browser).newWindow('https://twitter.com/home');
-      await browser.switchWindow('http://alexis-trackgenix-app.vercel.app/home');
+      await browser.switchWindow('https://twitter.com/');
+      await expect(browser).toHaveUrl('https://twitter.com/');
+      await browser.switchWindow('https://alexis-trackgenix-app.vercel.app/home');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
     it('Facebook icon', async () => {
       await expect(footer.facebookIcon).toExist();
       await footer.facebookIcon.click();
-      await expect(browser).newWindow('https://www.facebook.com/');
-      await browser.switchWindow('http://alexis-trackgenix-app.vercel.app/home');
+      await browser.switchWindow('https://www.facebook.com/');
+      await expect(browser).toHaveUrl('https://www.facebook.com/');
+      await browser.switchWindow('https://alexis-trackgenix-app.vercel.app/home');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
     it('Instagram icon', async () => {
       await expect(footer.instagramIcon).toExist();
       await footer.instagramIcon.click();
-      await expect(browser).newWindow('https://www.instagram.com/');
-      await browser.switchWindow('http://alexis-trackgenix-app.vercel.app/home');
+      await browser.switchWindow('https://www.instagram.com/');
+      await expect(browser).toHaveUrl('https://www.instagram.com/');
+      await browser.switchWindow('https://alexis-trackgenix-app.vercel.app/home');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
     it('GitHub icon', async () => {
       await expect(footer.githubIcon).toExist();
       await footer.githubIcon.click();
-      await expect(browser).newWindow('https://github.com/BaSP-m2022/alexis-trackgenix-app');
-      await browser.switchWindow('http://alexis-trackgenix-app.vercel.app/home');
+      await browser.switchWindow('https://github.com/BaSP-m2022/alexis-trackgenix-app');
+      await expect(browser).toHaveUrl('https://github.com/BaSP-m2022/alexis-trackgenix-app');
+      await browser.switchWindow('https://alexis-trackgenix-app.vercel.app/home');
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
   });
 
@@ -84,43 +98,31 @@ describe('Home testing', () => {
       await expect(sidebar.sidebarContainer).toExist();
     });
     it('Sidebar header exists', async () => {
-      await expect(sidebar.sidebarHeader).toExists();
+      await expect(sidebar.sidebarHeader).toExist();
       await expect(sidebar.sidebarHeader).toHaveTextContaining('TRACKGENIX');
     });
     it('Sidebar background color', async () => {
       const sidebarColor = await sidebar.sidebarContainer.getCSSProperty('background-color');
-      await expect(sidebarColor).toBe('rgb(55, 56, 103)');
+      await expect(sidebarColor.value).toBe('rgba(55,56,103,1)');
     });
-  });
-
-  describe('Entities buttons', () => {
-    beforeEach('Position in home browser again', async () => {
-      await browser.url('http://alexis-trackgenix-app.vercel.app/home');
+    it('Login button', async () => {
+      await expect(sidebar.loginTab).toExist();
+      await expect(sidebar.loginTab).toBeClickable();
+      await sidebar.loginTab.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/login');
+      await expect(sidebar.homeTab).toBeDisplayed();
     });
-
-    it('Admin home button', async () => {
-      await expect(homePage.adminBtn).toExist();
-      await expect(homePage.adminBtn).toBeClickable();
-      await homePage.adminBtn.click();
-      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/admin');
+    it('Home button', async () => {
+      await expect(sidebar.homeTab).toExist();
+      await expect(sidebar.homeTab).toBeClickable();
+      await sidebar.homeTab.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
-    it('Admin btn link', async () => {
-      await expect(homePage.adminLink).toExist();
-      await expect(homePage.adminLink).toBeClickable();
-      await homePage.adminLink.click();
-      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/admin');
-    });
-    it('Employee home button', async () => {
-      await expect(homePage.employeeBtn).toExist();
-      await expect(homePage.employeeBtn).toBeClickable();
-      await homePage.employeeBtn.click();
-      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/employee');
-    });
-    it('Employee btn link', async () => {
-      await expect(homePage.employeeLink).toExist();
-      await expect(homePage.employeeLink).toBeClickable();
-      await homePage.employeeLink.click();
-      await expect(browser).toHaveUrl('http://alexis-trackgenix-app.vercel.app/employee');
+    it('Sign up button', async () => {
+      await expect(sidebar.signUpTab).toExist();
+      await expect(sidebar.signUpTab).toBeClickable();
+      await sidebar.signUpTab.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/signup');
     });
   });
 });
