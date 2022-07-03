@@ -13,6 +13,7 @@ class AdminHome {
     get projectsSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(5) > a')}
     get timesheetSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(6) > a')}
     get tasksSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(7) > a')}
+    get logoutSidebar () {return $('#root > div > aside > nav > ul > li:nth-child(8) > a')}
 
     // Methods
 
@@ -24,6 +25,7 @@ class AdminHome {
         await this.projectsSidebar.click();
         await this.timesheetSidebar.click();
         await this.tasksSidebar.click();
+        await this.logoutSidebar.click();
     }
 }
 

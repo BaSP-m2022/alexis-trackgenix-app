@@ -7,7 +7,7 @@ class Projects {
 
     get nameTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[1]')}
     get descriptionTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[2]')}
-    get statDateTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[3]')}
+    get startDateTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[3]')}
     get endDateTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[4]')}
     get clientNameTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[5]')}
     get activeTitle () {return $('//*[@id="root"]/div/div/section/div/table/thead/tr/th[6]')}
