@@ -45,5 +45,8 @@ class sidebar {
   get empTimesheetsTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
   }
+  get empProfileTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
+  }
 }
 module.exports = new sidebar();
