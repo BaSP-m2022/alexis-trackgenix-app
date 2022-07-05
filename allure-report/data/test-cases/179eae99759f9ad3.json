@@ -1,0 +1,122 @@
+{
+  "uid" : "179eae99759f9ad3",
+  "name" : "Valid email and pw shorter than 8 characteres",
+  "fullName" : "Testing Login Page: Login.Valid email and pw shorter than 8 characteres",
+  "historyId" : "f893de065b0f4f2972a04f9802908829",
+  "time" : {
+    "start" : 1656816886700,
+    "stop" : 1656816897445,
+    "duration" : 10745
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain at least 8 characters\"\n                Received: \"\"",
+  "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/login.spec.js:47:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain at least 8 characters\"\n                Received: \"\"",
+    "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/login.spec.js:47:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9fcabfe697cd55a3",
+      "name" : "Screenshot",
+      "source" : "9fcabfe697cd55a3.png",
+      "type" : "image/png",
+      "size" : 42315
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Valid email and pw shorter than 8 characteres"
+  }, {
+    "name" : "package",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c7e04cbe06fab6d",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain at least 8 characters\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656816607584,
+        "stop" : 1656816618876,
+        "duration" : 11292
+      }
+    }, {
+      "uid" : "71187186e86b7c96",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain at least 8 characters\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656815936209,
+        "stop" : 1656815946507,
+        "duration" : 10298
+      }
+    }, {
+      "uid" : "bf85ee9cc6a3352f",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656815784028,
+        "stop" : 1656815784196,
+        "duration" : 168
+      }
+    }, {
+      "uid" : "786e1b25ff00fe5e",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656815024741,
+        "stop" : 1656815024917,
+        "duration" : 176
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "179eae99759f9ad3.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
