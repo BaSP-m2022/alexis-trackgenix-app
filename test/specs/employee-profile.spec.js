@@ -3,7 +3,6 @@ const sidebar = require('../pageobjects/sidebar.page');
 const header = require('../pageobjects/header.page');
 const loginPage = require('../pageobjects/login.page');
 const employeeProfile = require('../pageobjects/employee-profile.page');
-const { not } = require('joi');
 
 describe('Testing Employee Profile', () => {
   beforeAll('Go to Profile screen', () => {

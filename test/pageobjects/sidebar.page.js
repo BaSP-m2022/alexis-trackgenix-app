@@ -35,6 +35,9 @@ class sidebar {
   get tasksTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(7) > a');
   }
+  get logOutTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(8) > a');
+  }
   //Getters - EMPLOYEE HOME
   get empHomeTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
