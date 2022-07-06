@@ -3,6 +3,7 @@ const sidebar = require('../pageobjects/sidebar.page');
 const header = require('../pageobjects/header.page');
 const loginPage = require('../pageobjects/login.page');
 const employeeProfile = require('../pageobjects/employee-profile.page');
+const { not } = require('joi');
 
 describe('Testing Employee Profile', () => {
   beforeAll('Go to Profile screen', () => {
@@ -143,6 +144,59 @@ describe('Testing Employee Profile', () => {
       await expect(employeeProfile.dobData).toHaveText('2022-06-29');
       const textColor = employeeProfile.dobData.getCSSProperty('color');
       await expect(textColor.value).toBe('rgba(55,56,103,1)');
+    });
+  });
+  describe('Edit btn and modal', () => {
+    it('Edit button', async () => {
+      await expect(employeeProfile.editBtn).toExist();
+      await expect(employeeProfile.editBtn).toBeClickable();
+      await employeeProfile.editBtn.click();
+      await expect(employeeProfile.modalProfile).toBeDisplayed();
+    });
+    it('Modal for Profile edit', async () => {
+      await expect(employeeProfile.modalProfile).toExist();
+    });
+    it('Modal header', async () => {
+      await expect(employeeProfile.modalHeader).toExist();
+      await expect(employeeProfile.modalHeader).toHaveTextContaining();
+      const modalHeaderColor = await employeeProfile.modalHeader.getCSSProperty('background-color');
+      await expect(modalHeaderColor.value).toBe('rgba(55,56,103,1)');
+    });
+    it('Modal title', async () => {
+      await expect(employeeProfile.modalTitle).toExist();
+      await expect(employeeProfile.modalTitle).toHaveText('Edit Personal Data');
+      const textColor = employeeProfile.modalTitle.getCSSProperty('color');
+      await expect(textColor.value).toMatch('rgba(0,0,0,0)');
+    });
+  });
+  describe('Modal btns', () => {
+    beforeEach('Open modal', () => {
+      employeeProfile.editBtn.click();
+    });
+    it('Modal Cancel btn', async () => {
+      await expect(employeeProfile.modalCancel).toExist();
+      await expect(employeeProfile.modalCancel).toBeClickable();
+      await employeeProfile.modalCancel.click();
+      await expect(employeeProfile.modalProfile).not.toBeDisplayed();
+    });
+    it('Modal Cross btn', async () => {
+      await expect(employeeProfile.crossBtnModal).toExist();
+      await expect(employeeProfile.crossBtnModal).toBeClickable();
+      await employeeProfile.crossBtnModal.click();
+      await expect(employeeProfile.modalProfile).not.toBeDisplayed();
+    });
+    it('Edit button to save the data', async () => {
+      await expect(employeeProfile.modalEdit).toExist();
+      await expect(employeeProfile.modalEdit).toBeClickable();
+      await employeeProfile.modalEdit.click();
+      await expect(employeeProfile.errorModal).toBeDisplayed();
+      await expect(employeeProfile.errorModal).toHaveText(/'There haven't been any changes'/);
+    });
+    it('Error modal cross btn', async () => {
+      await expect(employeeProfile.crossBtnError).toExist();
+      await expect(employeeProfile.crossBtnError).toBeClickable();
+      await employeeProfile.crossBtnError.click();
+      await expect(employeeProfile.errorModal).not.toBeDisplayed();
     });
   });
 });

@@ -72,9 +72,14 @@ class employeeProfile {
   get modalProfile() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
   }
-  get modalTitle() {
+  get modalHeader() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl'
+    );
+  }
+  get modalTitle() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > h2'
     );
   }
 
@@ -139,6 +144,16 @@ class employeeProfile {
   get crossBtnModal() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > img'
+    );
+  }
+  get errorModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div > div > p'
+    );
+  }
+  get crossBtnError() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div > div > div > img'
     );
   }
 }
