@@ -1,0 +1,186 @@
+{
+  "uid" : "5764a5ed428950f5",
+  "name" : "Header title",
+  "fullName" : "Testing Employee - Projects: Titles.Header title",
+  "historyId" : "cc63b09d224aa60d702c1c057a83d611",
+  "time" : {
+    "start" : 1656990006497,
+    "stop" : 1656990017876,
+    "duration" : 11379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Employee - Projects: Titles"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Employee - Projects: Titles"
+  }, {
+    "name" : "testMethod",
+    "value" : "Header title"
+  }, {
+    "name" : "package",
+    "value" : "Testing Employee - Projects: Titles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b070dd513b3c707",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656989832203,
+        "stop" : 1656989843043,
+        "duration" : 10840
+      }
+    }, {
+      "uid" : "fb46fd9c9b5efc77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656989461518,
+        "stop" : 1656989474794,
+        "duration" : 13276
+      }
+    }, {
+      "uid" : "11bbd2d859325dff",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Can't call click on element with selector \"#root > div > aside > nav > ul > li:nth-child(5) > a\" because element wasn't found\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-projects.spec.js:18:40)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call click on element with selector \"#root > div > aside > nav > ul > li:nth-child(5) > a\" because element wasn't found\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656989210684,
+        "stop" : 1656989222594,
+        "duration" : 11910
+      }
+    }, {
+      "uid" : "82f44c9b85d633e3",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_button__1I711\">...</button> is not clickable at point (578, 370). Other element would receive the click: <section class=\"preloader_containerLoading__3xSuo\">...</section>\n                      (Session info: chrome=103.0.5060.53)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-projects.spec.js:18:40)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    element click intercepted: element click intercepted: Element <button type=\"button\" class=\"button_button__1I711\">...</button> is not clickable at point (578, 370). Other element would receive the click: <section class=\"preloader_containerLoading__3xSuo\">...</section>\n                      (Session info: chrome=103.0.5060.53)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656989107036,
+        "stop" : 1656989123225,
+        "duration" : 16189
+      }
+    }, {
+      "uid" : "428d7702b5f45446",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Can't call setValue on element with selector \"#root > div > div > form > div:nth-child(1) > input\" because element wasn't found\n                        at async loginPage.login (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/pageobjects/login.page.js:35:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-projects.spec.js:18:40)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Can't call setValue on element with selector \"#root > div > div > form > div:nth-child(1) > input\" because element wasn't found\n                        at async loginPage.login (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/pageobjects/login.page.js:35:5)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656988771150,
+        "stop" : 1656988786618,
+        "duration" : 15468
+      }
+    }, {
+      "uid" : "3822c81676d9edf3",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656988616090,
+        "stop" : 1656988632776,
+        "duration" : 16686
+      }
+    }, {
+      "uid" : "8b9c877cb80d5acb",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error: Malformed type for \"elementId\" parameter of command elementClick\n                    Expected: string\n                    Actual: undefined\n                    For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Can't call setValue on element with selector \"#root > div > div > form > div:nth-child(1) > input\" because element wasn't found\n                        at async loginPage.login (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/pageobjects/login.page.js:35:5)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-projects.spec.js:20:40)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    error properties: Object({ matcherName: '', passed: false, expected: '', actual: '' })\n                    Error: Malformed type for \"elementId\" parameter of command elementClick\n                    Expected: string\n                    Actual: undefined\n                    For more info see https://w3c.github.io/webdriver/#dfn-element-click\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656988470018,
+        "stop" : 1656988482310,
+        "duration" : 12292
+      }
+    }, {
+      "uid" : "ea344f690c295a9a",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656988365377,
+        "stop" : 1656988375560,
+        "duration" : 10183
+      }
+    }, {
+      "uid" : "daddb0be2ab460c5",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656988193460,
+        "stop" : 1656988205756,
+        "duration" : 12296
+      }
+    }, {
+      "uid" : "5cf22d984c5b16f",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656987966512,
+        "stop" : 1656987978604,
+        "duration" : 12092
+      }
+    }, {
+      "uid" : "394103784ae62477",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656987757190,
+        "stop" : 1656987774352,
+        "duration" : 17162
+      }
+    }, {
+      "uid" : "17adf38293450a27",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656987623122,
+        "stop" : 1656987638067,
+        "duration" : 14945
+      }
+    }, {
+      "uid" : "6824a6cb32cb6526",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656987321456,
+        "stop" : 1656987336439,
+        "duration" : 14983
+      }
+    }, {
+      "uid" : "2fda89545fe01f33",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Projects\"\n                Received: \"Employee\"",
+      "time" : {
+        "start" : 1656987002247,
+        "stop" : 1656987017065,
+        "duration" : 14818
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5764a5ed428950f5.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

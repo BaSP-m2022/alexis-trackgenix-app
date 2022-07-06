@@ -1,0 +1,122 @@
+{
+  "uid" : "9d5edeecaba56083",
+  "name" : "Valid email and pw with only letters",
+  "fullName" : "Testing Login Page: Login.Valid email and pw with only letters",
+  "historyId" : "7041f8d37714ba8c077f713ceed462c0",
+  "time" : {
+    "start" : 1656816908317,
+    "stop" : 1656816919488,
+    "duration" : 11171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+  "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/login.spec.js:61:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+    "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/login.spec.js:61:45)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73c349dda0f1e0b5",
+      "name" : "Screenshot",
+      "source" : "73c349dda0f1e0b5.png",
+      "type" : "image/png",
+      "size" : 42326
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Valid email and pw with only letters"
+  }, {
+    "name" : "package",
+    "value" : "Testing Login Page: Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d63bf7df3952664d",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656816629728,
+        "stop" : 1656816640624,
+        "duration" : 10896
+      }
+    }, {
+      "uid" : "c5da581295fda161",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > div > form > div:nth-child(2) > p`) to have text\n                \n                Expected: \"Password must contain both letters and numbers\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1656815953238,
+        "stop" : 1656815963656,
+        "duration" : 10418
+      }
+    }, {
+      "uid" : "23459edf1f12b20f",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656815784345,
+        "stop" : 1656815784496,
+        "duration" : 151
+      }
+    }, {
+      "uid" : "91f3c8f37ea4f1c4",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read properties of undefined (reading 'setValue')",
+      "time" : {
+        "start" : 1656815025110,
+        "stop" : 1656815025308,
+        "duration" : 198
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d5edeecaba56083.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

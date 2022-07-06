@@ -9,6 +9,9 @@ class employeeProjects {
   get tableHeader() {
     return $('#root > div > div > section > div > table > thead');
   }
+  get bodyTable() {
+    return $('#root > div > div > section > div > table > tbody');
+  }
   get projects() {
     return $('#root > div > div > section > div > table > thead > tr > th:nth-child(1)');
   }
@@ -29,9 +32,6 @@ class employeeProjects {
   }
   get rate() {
     return $('#root > div > div > section > div > table > thead > tr > th:nth-child(7)');
-  }
-  get bodyTable() {
-    return $('#root > div > div > section > div > table > tbody');
   }
 }
 

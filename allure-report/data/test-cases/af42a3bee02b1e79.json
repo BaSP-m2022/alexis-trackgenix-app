@@ -1,0 +1,238 @@
+{
+  "uid" : "af42a3bee02b1e79",
+  "name" : "Sidebar background color",
+  "fullName" : "Home testing: Checking sidebar.Sidebar background color",
+  "historyId" : "c693ee05e781b2aff1a4eca87006242a",
+  "time" : {
+    "start" : 1656815019131,
+    "stop" : 1656815019148,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 20,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home testing: Checking sidebar"
+  }, {
+    "name" : "testClass",
+    "value" : "Home testing: Checking sidebar"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sidebar background color"
+  }, {
+    "name" : "package",
+    "value" : "Home testing: Checking sidebar"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "81982dced09ddd4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656793618552,
+        "stop" : 1656793618569,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "b19dec6dff8a551a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656793565231,
+        "stop" : 1656793565248,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "90c5ddf97d4d5b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656793534714,
+        "stop" : 1656793534731,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "453a80ba281774cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656793477361,
+        "stop" : 1656793477377,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "3bdc6118ee658c4d",
+      "status" : "failed",
+      "statusDetails" : "Expected 'rgba(55,56,103,1)' to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      'rgbargb(55, 56, 103,1)'\n                      ",
+      "time" : {
+        "start" : 1656793093645,
+        "stop" : 1656793093809,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "da828a7660ea9e79",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656791532593,
+        "stop" : 1656791532669,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "8e5ed06f9c3a5e4b",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656791292891,
+        "stop" : 1656791292989,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "2d4076d03ca02316",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656791215403,
+        "stop" : 1656791215529,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "e1cbf01a5d27ac",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656791038539,
+        "stop" : 1656791038674,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "508c866755f27b6d",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656790453101,
+        "stop" : 1656790453206,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "99dd8f41e2f32166",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656790200918,
+        "stop" : 1656790201034,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "d8e30e6b71ad664d",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656790102024,
+        "stop" : 1656790102139,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "5802cc14bd8bd0ce",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789977445,
+        "stop" : 1656789977543,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "1df3ec6cfe846f5f",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789874903,
+        "stop" : 1656789875013,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "5f4e463679f87942",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789805952,
+        "stop" : 1656789806042,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "71560da76ade981a",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to match 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789717143,
+        "stop" : 1656789717237,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "e8f3ad79be237c13",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789299923,
+        "stop" : 1656789300051,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "f79c9a66534cf313",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656789014073,
+        "stop" : 1656789014202,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "4e9a59c56b9e7b28",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656620415736,
+        "stop" : 1656620415816,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "de9986f629973e60",
+      "status" : "failed",
+      "statusDetails" : "Expected Object({ property: 'background-color', value: 'rgba(55,56,103,1)', parsed: Object({ hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' }) }) to be 'rgb(55, 56, 103)'.      \n                      actual expected\n                      \n                      { property: 'background-color', value: 'rgbargb(55, 56,103,1)', parsed: { hex: '#373867', alpha: 1, type: 'color', rgba: 'rgba(55,56,103,1)' } }\n                      ",
+      "time" : {
+        "start" : 1656615063884,
+        "stop" : 1656615064052,
+        "duration" : 168
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af42a3bee02b1e79.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
