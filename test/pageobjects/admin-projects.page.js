@@ -1,0 +1,181 @@
+class adminProjects {
+  //Getters
+  get title() {
+    return $('#root > div > div > section > h2');
+  }
+  get table() {
+    return $('#root > div > div > section > div > table');
+  }
+  get tableHeader() {
+    return $('#root > div > div > section > div > table > thead');
+  }
+  get tableBody() {
+    return $('#root > div > div > section > div > table > tbody');
+  }
+  get addBtn() {
+    return $('#root > div > div > section > button');
+  }
+  get membersSelector() {
+    return $(
+      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(7) > div > select'
+    );
+  }
+
+  //Row buttons
+  get editRowBtn() {
+    return $(
+      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(8) > button'
+    );
+  }
+  get deleteBtn() {
+    return $(
+      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(9) > button'
+    );
+  }
+  get modal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
+  }
+  get modalHeader() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl'
+    );
+  }
+  get modalTitle() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > h2'
+    );
+  }
+  get projectNameInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(1) > input'
+    );
+  }
+  get clientNameInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(2) > input'
+    );
+  }
+  get startDateInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(3) > input'
+    );
+  }
+  get endDateInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(4) > input'
+    );
+  }
+  get descriptionInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.textarea_textareaContainer__zy-Jg > textarea'
+    );
+  }
+  get activeCheckbox() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.input_checkboxContainer__3zrAz'
+    );
+  }
+  get createBtn() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > button'
+    );
+  }
+
+  //Created successfully Modal
+  get createdModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div.errorsuccessmodal_container__JBOhN > div'
+    );
+  }
+  get crossCreate() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
+
+  //Edit Modals
+  get editProjectModal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
+  }
+  get editBtn() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > button'
+    );
+  }
+  get noChangesModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div'
+    );
+  }
+  get crossErrorEdit() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div > div > img'
+    );
+  }
+  get successEdit() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div'
+    );
+  }
+  get crossSuccess() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div > div > img'
+    );
+  }
+
+  //Delete Modal
+  get confirmModal() {
+    return $('#root > div > div > section > div.confirmModal_modalOvelay___5vol > div');
+  }
+  get cancelDelete() {
+    return $(
+      '#root > div > div > section > div.confirmModal_modalOvelay___5vol > div > div.confirmModal_modalButton__3CcD9 > button:nth-child(2)'
+    );
+  }
+  get confirmDelete() {
+    return $(
+      '#root > div > div > section > div.confirmModal_modalOvelay___5vol > div > div.confirmModal_modalButton__3CcD9 > button:nth-child(1)'
+    );
+  }
+  get successDelete() {
+    return $('#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div');
+  }
+  get crossDelete() {
+    return $(
+      '#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
+
+  //Setters
+  async setProjectName(project) {
+    await this.projectNameInput.setValue(project);
+  }
+  async setClientName(client) {
+    await this.clientNameInput.setValue(client);
+  }
+  async setStartDate(sDate) {
+    await this.startDateInput.setValue(sDate);
+  }
+  async setEndDate(eDate) {
+    await this.endDateInput.setValue(eDate);
+  }
+  async setDescription(description) {
+    await this.descriptionInput.setValue(description);
+  }
+
+  //SUCCESS MODAL AND REDIRECTION LINK, DELETE MODAL AND BUTTONS, EDIT MODAL AND BUTTONS
+
+  //Methods
+
+  async createProject(project, client, sDate, eDate, description) {
+    await this.projectNameInput.setValue(project);
+    await this.clientNameInput.setValue(client);
+    await this.startDateInput.setValue(sDate);
+    await this.endDateInput.setValue(eDate);
+    await this.descriptionInput.setValue(description);
+    await this.activeCheckbox.click();
+    await this.createBtn.click();
+  }
+}
+
+module.exports = new adminProjects();

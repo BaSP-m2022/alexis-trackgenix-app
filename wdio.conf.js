@@ -29,11 +29,11 @@ exports.config = {
     // ['./test/specs/employee-projects.spec.js'],
     // ['./test/specs/employee-timesheets.spec.js'],
     // ['./test/specs/employee-profile.spec.js'],
-    ['./test/specs/admin-home.spec.js']
+    // ['./test/specs/admin-home.spec.js'],
     // ['./test/specs/admin-admins.spec.js'],
     // ['./test/specs/admin-superadmins.spec.js'],
     // ['./test/specs/admin-employees.spec.js'],
-    // ['./test/specs/admin-projects.spec.js'],
+    ['./test/specs/admin-projects.spec.js']
     // ['./test/specs/admin-timesheets.spec.js'],
     // ['./test/specs/admin-tasks.spec.js']
   ],
