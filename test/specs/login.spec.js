@@ -1,6 +1,5 @@
 const homePage = require('../pageobjects/home.page');
 const sidebar = require('../pageobjects/sidebar.page');
-const login = require('../pageobjects/login.page');
 const loginPage = require('../pageobjects/login.page');
 const header = require('../pageobjects/header.page');
 
@@ -64,8 +63,8 @@ describe('Testing Login Page', () => {
     });
     it('Valid email and pw but not registered', async () => {
       await loginPage.login('arii.maldonado97@gmail.com', 'testing123');
-      await expect(login.errorModal).toBeDisplayed();
-      await expect(login.errorModal).toHaveTextContaining('Wrong email or password');
+      await expect(loginPage.errorModal).toBeDisplayed();
+      await expect(loginPage.errorModal).toHaveTextContaining('Wrong email or password');
     });
     it('Valid and registered employee email and pw', async () => {
       await loginPage.login('testEmployee@radium.com', 'employee123');

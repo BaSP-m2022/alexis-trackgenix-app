@@ -1,0 +1,95 @@
+{
+  "uid" : "724ef1cdaffb5399",
+  "name" : "Checking header title",
+  "fullName" : "Testing Admin - Admins: Testing Titles.Checking header title",
+  "historyId" : "a0f0a478f36a9bc44d8e39923a9519bb",
+  "time" : {
+    "start" : 1657135799115,
+    "stop" : 1657135810994,
+    "duration" : 11879
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Admins\"\n                Received: \"Admin\"",
+  "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/admin-admins.spec.js:18:40)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Admins\"\n                Received: \"Admin\"",
+    "statusTrace" : "Error\n                    at <Jasmine>\n                    at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/admin-admins.spec.js:18:40)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "253cbc71d8e0defe",
+      "name" : "Screenshot",
+      "source" : "253cbc71d8e0defe.png",
+      "type" : "image/png",
+      "size" : 53172
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Admin - Admins: Testing Titles"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Admin - Admins: Testing Titles"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking header title"
+  }, {
+    "name" : "package",
+    "value" : "Testing Admin - Admins: Testing Titles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "99f03722d7f5079d",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#root > div > header > div.header_pathname__qN2RB`) to have text\n                \n                Expected: \"Admins\"\n                Received: \"Admin\"",
+      "time" : {
+        "start" : 1657135404068,
+        "stop" : 1657135418963,
+        "duration" : 14895
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "724ef1cdaffb5399.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

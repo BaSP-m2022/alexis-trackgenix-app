@@ -42,6 +42,18 @@ class signUpPage {
   get createBtn() {
     return $('#root > div > div > form > button');
   }
+  get successModal() {
+    return $('#root > div > div > form > div.errorsuccessmodal_container__JBOhN > div');
+  }
+  get crossSuccess() {
+    return $('#root > div > div > form > div.errorsuccessmodal_container__JBOhN > div > div > img');
+  }
+  get errorModal() {
+    return $('#root > div > div > form > div.errorsuccessmodal_container__JBOhN > div');
+  }
+  get crossError() {
+    return $('#root > div > div > form > div.errorsuccessmodal_container__JBOhN > div > div > img');
+  }
 
   //Setters
   async setFirstName(name) {
