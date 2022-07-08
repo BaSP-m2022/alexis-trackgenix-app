@@ -57,10 +57,6 @@ describe('Testing Admin Timesheets Page', () => {
 
   describe('Testing Edit function', () => {
     it('Edit button modal', async () => {
-      const row = await $(
-        '#root > div > div > section > div > div > table > tbody > tr:last-child'
-      );
-      console.log('ROW DATA', row);
       const rowEdit = await $(
         '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(9) > button'
       );

@@ -1,0 +1,79 @@
+{
+  "uid" : "424352b9afa866f6",
+  "name" : "Checking Employee home title",
+  "fullName" : "Testing Employee Home Page: Testing Titles.Checking Employee home title",
+  "historyId" : "79131dca12f27f4a8be617f4b6edf515",
+  "time" : {
+    "start" : 1656818845066,
+    "stop" : 1656818851136,
+    "duration" : 6070
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Employee Home Page: Testing Titles"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Employee Home Page: Testing Titles"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking Employee home title"
+  }, {
+    "name" : "package",
+    "value" : "Testing Employee Home Page: Testing Titles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ef9642ddd7cb2d5",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:20:40)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-home.spec.js:21:40)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656818531505,
+        "stop" : 1656818551739,
+        "duration" : 20234
+      }
+    }, {
+      "uid" : "2333fd4babd2aa6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656636325548,
+        "stop" : 1656636326194,
+        "duration" : 646
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "424352b9afa866f6.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

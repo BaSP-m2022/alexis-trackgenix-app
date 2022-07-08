@@ -1,0 +1,104 @@
+{
+  "uid" : "ead984c7bc38edb7",
+  "name" : "Table body",
+  "fullName" : "Testing Employee - Timesheets: Table.Table body",
+  "historyId" : "a84bdc1fa444ec2d4242e02e8ab1a068",
+  "time" : {
+    "start" : 1657064806126,
+    "stop" : 1657064806257,
+    "duration" : 131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: elem[prop] is not a function",
+  "statusTrace" : "TypeError: elem[prop] is not a function\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-timesheets.spec.js:34:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: elem[prop] is not a function",
+    "statusTrace" : "TypeError: elem[prop] is not a function\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/employee-timesheets.spec.js:34:25)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b5119748b03e4e",
+      "name" : "Screenshot",
+      "source" : "9b5119748b03e4e.png",
+      "type" : "image/png",
+      "size" : 63289
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Employee - Timesheets: Table"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Employee - Timesheets: Table"
+  }, {
+    "name" : "testMethod",
+    "value" : "Table body"
+  }, {
+    "name" : "package",
+    "value" : "Testing Employee - Timesheets: Table"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "67fe025f4405b37a",
+      "status" : "failed",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1657060921961,
+        "stop" : 1657060922073,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "36fb5d7344e721de",
+      "status" : "failed",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1657060593976,
+        "stop" : 1657060594104,
+        "duration" : 128
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ead984c7bc38edb7.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
