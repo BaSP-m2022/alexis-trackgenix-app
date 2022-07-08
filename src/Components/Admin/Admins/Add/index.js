@@ -46,7 +46,7 @@ const adminSchema = Joi.object({
       'string.pattern.base': 'Invalid password, it must contain both letters and numbers',
       'string.empty': 'Password is a required field'
     }),
-  active: Joi.boolean().required()
+  isDeleted: Joi.boolean().required()
 });
 
 const AdminsAdd = ({ closeModalForm }) => {
@@ -60,7 +60,7 @@ const AdminsAdd = ({ closeModalForm }) => {
       lastName: data.lastName,
       email: data.email,
       password: data.password,
-      active: data.active
+      isDeleted: false
     });
     dispatch(addAdmin(newAdmin, setResponse)).then(() => {
       setShowSuccessModal(true);
@@ -79,7 +79,7 @@ const AdminsAdd = ({ closeModalForm }) => {
       lastName: '',
       email: '',
       password: '',
-      active: false
+      isDeleted: false
     }
   });
 
@@ -116,13 +116,6 @@ const AdminsAdd = ({ closeModalForm }) => {
         placeholder="Insert password"
         register={register}
         error={errors.password?.message}
-      />
-      <Input
-        label="Active"
-        name="active"
-        type="checkbox"
-        register={register}
-        error={errors.active?.message}
       />
       <div className={styles.buttonBox}>
         <ButtonText clickAction={handleSubmit(onSubmit)} label="Create"></ButtonText>

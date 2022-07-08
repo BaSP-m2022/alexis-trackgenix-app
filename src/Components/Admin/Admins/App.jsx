@@ -90,8 +90,8 @@ const App = () => {
       <h2 className={styles.title}>Admins</h2>
       <Table
         data={admins}
-        headers={['_id', 'firstName', 'lastName', 'email', 'password', 'active']}
-        titles={['ID', 'First Name', 'Last Name', 'Email', 'Password', 'Active']}
+        headers={['_id', 'firstName', 'lastName', 'email', 'password']}
+        titles={['ID', 'First Name', 'Last Name', 'Email', 'Password']}
         delAction={(id) => {
           setIdDelete(id);
           setShowModalFormDelete(true);
@@ -100,9 +100,7 @@ const App = () => {
           setIdDelete(id);
           setShowModalFormEdit(true);
         }}
-        modifiers={{
-          active: (x) => (x ? 'Active' : 'Inactive')
-        }}
+        modifiers={{}}
       />
       {modalEdit}
       {modalAdd}
