@@ -17,12 +17,6 @@ class sidebar {
   }
 
   //Getters - ADMIN HOME
-  get adminTab() {
-    return $('#root > div > aside > nav > ul > li:nth-child(2) > a');
-  }
-  get superAdminTab() {
-    return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
-  }
   get employeesTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
   }

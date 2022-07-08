@@ -3,7 +3,6 @@ const header = require('../pageobjects/header.page');
 const sidebar = require('../pageobjects/sidebar.page');
 const loginPage = require('../pageobjects/login.page');
 const adminProjects = require('../pageobjects/admin-projects.page');
-const { deleteBtn } = require('../pageobjects/admin-projects.page');
 
 describe('Testing Admin Projects Page', () => {
   beforeAll('Login as admin and go to Projects section', () => {
@@ -128,7 +127,7 @@ describe('Testing Admin Projects Page', () => {
         'Success',
         'The project was successfully deleted'
       );
-      await adminProjects.crossSuccess.click();
+      await adminProjects.crossDelete.click();
       await expect(adminProjects.successDelete).not.toBeDisplayed();
     });
   });
