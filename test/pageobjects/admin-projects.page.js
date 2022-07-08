@@ -122,6 +122,11 @@ class adminProjects {
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > div > div > img'
     );
   }
+  get editDescription() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > div.form_larger__3VW_g > div.textarea_textareaContainer__zy-Jg > textarea'
+    );
+  }
 
   //Delete Modal
   get confirmModal() {
@@ -163,7 +168,10 @@ class adminProjects {
     await this.descriptionInput.setValue(description);
   }
 
-  //SUCCESS MODAL AND REDIRECTION LINK, DELETE MODAL AND BUTTONS, EDIT MODAL AND BUTTONS
+  //Setters for editing a project
+  async setEditDescription(description) {
+    await this.editDescription.setValue(description);
+  }
 
   //Methods
 

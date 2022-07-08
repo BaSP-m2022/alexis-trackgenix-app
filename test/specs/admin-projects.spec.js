@@ -3,6 +3,7 @@ const header = require('../pageobjects/header.page');
 const sidebar = require('../pageobjects/sidebar.page');
 const loginPage = require('../pageobjects/login.page');
 const adminProjects = require('../pageobjects/admin-projects.page');
+const { deleteBtn } = require('../pageobjects/admin-projects.page');
 
 describe('Testing Admin Projects Page', () => {
   beforeAll('Login as admin and go to Projects section', () => {
@@ -43,7 +44,7 @@ describe('Testing Admin Projects Page', () => {
       await expect(adminProjects.modal).toBeDisplayed();
     });
     it('Create a project modal', async () => {
-      const myProject = await adminProjects.createProject(
+      await adminProjects.createProject(
         'TestingTrackgenix',
         'RadiumRocket',
         '05-11-2020',
@@ -59,28 +60,30 @@ describe('Testing Admin Projects Page', () => {
   });
 
   describe('Testing Edit function', () => {
-    beforeEach('Edit button modal', async () => {
-      const row = await $('#root > div > div > section > div > table > tbody > tr:last-child');
-      const rowEdit = await $(
-        '#root > div > div > section > div > table > tbody > tr:nth-child(14) > td:nth-child(8) > button'
+    it('Edit button modal', async () => {
+      const row = await $(
+        '#root > div > div > section > div > div > table > tbody > tr:last-child'
       );
-      await expect(row).toHaveTextContaining('TestingTrackgenix');
+      console.log('ROW DATA', row);
+      const rowEdit = await $(
+        '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(8) > button'
+      );
       await rowEdit.click();
       await expect(adminProjects.editProjectModal).toBeDisplayed();
       await expect(adminProjects.editProjectModal).toHaveTextContaining('Edit Project');
     });
-    it('Try to edit a project with no changes', async () => {
-      await adminProjects.editBtn.clcik();
+    it('Try to edit with no changes', async () => {
+      await adminProjects.editBtn.click();
       await expect(adminProjects.noChangesModal).toBeDisplayed();
-      await expect(adminProjects.noChangesModal).toHaveTextContaining('ERROR');
       await expect(adminProjects.noChangesModal).toHaveTextContaining(
-        /'There hasn't been any changes'/
+        'Error',
+        "There hasn't been any changes"
       );
       await adminProjects.crossErrorEdit.click();
       await expect(adminProjects.noChangesModal).not.toBeDisplayed();
     });
     it('Try to edit a project', async () => {
-      await adminProjects.setDescription('This is going to be the new description');
+      await adminProjects.setEditDescription('This is going to be the new description');
       await adminProjects.editBtn.click();
       await expect(adminProjects.successEdit).toBeDisplayed();
       await expect(adminProjects.successEdit).toHaveTextContaining(
@@ -88,6 +91,45 @@ describe('Testing Admin Projects Page', () => {
       );
       await adminProjects.crossSuccess.click();
       await expect(adminProjects.successEdit).not.toBeDisplayed();
+    });
+  });
+
+  describe('Testing delete function', () => {
+    it('Button delete button', async () => {
+      const deleteBtn = await $(
+        '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(9) > button'
+      );
+      await expect(deleteBtn).toExist();
+      await expect(deleteBtn).toBeClickable();
+      await deleteBtn.click();
+      await expect(adminProjects.confirmModal).toBeDisplayed();
+      await expect(adminProjects.confirmModal).toHaveTextContaining(
+        'Delete Project',
+        'Are you sure you want to delete this project?'
+      );
+    });
+    it('Cancel delete', async () => {
+      await expect(adminProjects.cancelDelete).toExist();
+      await expect(adminProjects.cancelDelete).toBeClickable();
+      await adminProjects.cancelDelete.click();
+      await expect(adminProjects.confirmModal).not.toBeDisplayed();
+    });
+    it('Confirm delete', async () => {
+      const deleteBtn = await $(
+        '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(9) > button'
+      );
+      await deleteBtn.click();
+      await expect(adminProjects.confirmModal).toBeDisplayed();
+      await expect(adminProjects.confirmDelete).toExist();
+      await expect(adminProjects.confirmDelete).toBeClickable();
+      await adminProjects.confirmDelete.click();
+      await expect(adminProjects.successDelete).toBeDisplayed();
+      await expect(adminProjects.successDelete).toHaveTextContaining(
+        'Success',
+        'The project was successfully deleted'
+      );
+      await adminProjects.crossSuccess.click();
+      await expect(adminProjects.successDelete).not.toBeDisplayed();
     });
   });
 });
