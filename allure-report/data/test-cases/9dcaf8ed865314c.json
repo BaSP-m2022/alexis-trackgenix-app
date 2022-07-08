@@ -1,0 +1,87 @@
+{
+  "uid" : "9dcaf8ed865314c",
+  "name" : "Employee tab",
+  "fullName" : "Testing Admin Home: Checking sidebar.Employee tab",
+  "historyId" : "d28228495dc860b61bac59005b0fea6a",
+  "time" : {
+    "start" : 1656633160876,
+    "stop" : 1656633160967,
+    "duration" : 91
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Admin Home: Checking sidebar"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Admin Home: Checking sidebar"
+  }, {
+    "name" : "testMethod",
+    "value" : "Employee tab"
+  }, {
+    "name" : "package",
+    "value" : "Testing Admin Home: Checking sidebar"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9eef68e850c83772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656633078570,
+        "stop" : 1656633078662,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "e293148cb22ef057",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656633018630,
+        "stop" : 1656633018719,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "2133d968646d3d2b",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/admin-home.spec.js:44:42)\n                --- End of stack trace ---\n                \n                    Error\n                        at <Jasmine>\n                        at UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/admin-home.spec.js:45:42)\n                        at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                --- End of stack trace ---\n                \n                    Error: Can't call click on element with selector \"#root > div > aside > nav > ul > li:nth-child(4) > a\" because element wasn't found\n                        at async UserContext.<anonymous> (/home/radium/Documents/Week-15/alexis-trackgenix-app/test/specs/admin-home.spec.js:46:7)\n                --- End of stack trace ---\n                ",
+      "time" : {
+        "start" : 1656620586661,
+        "stop" : 1656620616543,
+        "duration" : 29882
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dcaf8ed865314c.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

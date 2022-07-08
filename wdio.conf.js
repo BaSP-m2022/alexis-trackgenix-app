@@ -30,9 +30,9 @@ exports.config = {
     // ['./test/specs/employee-timesheets.spec.js'],
     // ['./test/specs/employee-profile.spec.js'],
     // ['./test/specs/admin-home.spec.js'],
-    ['./test/specs/admin-employees.spec.js']
+    // ['./test/specs/admin-employees.spec.js'],
     // ['./test/specs/admin-projects.spec.js'],
-    // ['./test/specs/admin-timesheets.spec.js'],
+    ['./test/specs/admin-timesheets.spec.js']
     // ['./test/specs/admin-tasks.spec.js']
   ],
   // Patterns to exclude.

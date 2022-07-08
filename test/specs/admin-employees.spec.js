@@ -4,7 +4,7 @@ const sidebar = require('../pageobjects/sidebar.page');
 const loginPage = require('../pageobjects/login.page');
 const adminEmployees = require('../pageobjects/admin-employees.page');
 
-describe('Testing Admin Projects Page', () => {
+describe('Testing Admin Employees Page', () => {
   beforeAll('Login as admin and go to Employees section', () => {
     homePage.openBrowser();
     sidebar.loginTab.click();
@@ -77,6 +77,7 @@ describe('Testing Admin Projects Page', () => {
       await adminEmployees.crossCreateModal.click();
     });
   });
+
   describe('Testing Edit function', () => {
     it('Edit button modal', async () => {
       const row = await $(
