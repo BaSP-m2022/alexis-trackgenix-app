@@ -1,0 +1,112 @@
+{
+  "uid" : "f12d0b2368cef0ab",
+  "name" : "Checking the functionality of the links",
+  "fullName" : "Home page: Functionality of main page elements and sidebar title.Checking the functionality of the links",
+  "historyId" : "fdcf6cdfbb30ef4d2f42a20cf93d4533",
+  "time" : {
+    "start" : 1656532004454,
+    "stop" : 1656532004458,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "invalid session id: invalid session id",
+  "statusTrace" : "invalid session id: invalid session id\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:41:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "invalid session id: invalid session id",
+    "statusTrace" : "invalid session id: invalid session id\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:41:13)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656532004455,
+        "stop" : 1656532004458,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "invalid session id: invalid session id\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:41:13)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1656532004457,
+          "stop" : 1656532004458,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "invalid session id: invalid session id\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\Leo\\Desktop\\Curso Rocket\\ETAPA QA\\alexis-trackgenix-app\\test\\specs\\homePage.js:41:13)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "6003eab32d2cfb78",
+        "name" : "Request",
+        "source" : "6003eab32d2cfb78.json",
+        "type" : "application/json",
+        "size" : 103
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Home page: Functionality of main page elements and sidebar title"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page: Functionality of main page elements and sidebar title"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking the functionality of the links"
+  }, {
+    "name" : "package",
+    "value" : "Home page: Functionality of main page elements and sidebar title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f12d0b2368cef0ab.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

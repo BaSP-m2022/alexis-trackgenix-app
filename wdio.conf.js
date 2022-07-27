@@ -23,7 +23,6 @@ exports.config = {
   // will be called from there.
   //
   specs: [
-    // ['./test/specs/landingPage.spec.js'],
     // ['./test/specs/home.spec.js'],
     // ['./test/specs/login.spec.js'],
     // ['./test/specs/employee-home.spec.js'],

@@ -1,0 +1,180 @@
+{
+  "uid" : "d55035c5722c429f",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login page.\"before all\" hook",
+  "historyId" : "5646493ec191fee977b52efdc5bbda6a",
+  "time" : {
+    "start" : 1656723590606,
+    "stop" : 1656723591094,
+    "duration" : 488
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656723590607,
+        "stop" : 1656723591039,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c64471b5040bd677",
+        "name" : "Request",
+        "source" : "c64471b5040bd677.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656723591040,
+        "stop" : 1656723591052,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65b0431ca3b4bfe5",
+        "name" : "Request",
+        "source" : "65b0431ca3b4bfe5.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "3f49b24d8685c309",
+        "name" : "Response",
+        "source" : "3f49b24d8685c309.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/eaa16445-253c-4ce1-8359-9a9dc03ce61b/click",
+      "time" : {
+        "start" : 1656723591056,
+        "stop" : 1656723591085,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1656723591087,
+        "stop" : 1656723591091,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "237a7e0fcd617142",
+        "name" : "Response",
+        "source" : "237a7e0fcd617142.json",
+        "type" : "application/json",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3efc91056411f909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656723544533,
+        "stop" : 1656723545049,
+        "duration" : 516
+      }
+    }, {
+      "uid" : "32f80d5b0210b67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656723327013,
+        "stop" : 1656723335821,
+        "duration" : 8808
+      }
+    }, {
+      "uid" : "b5082fc6da4f62c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656723193701,
+        "stop" : 1656723204526,
+        "duration" : 10825
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d55035c5722c429f.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

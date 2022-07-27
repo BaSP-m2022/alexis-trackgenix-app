@@ -1,0 +1,118 @@
+{
+  "uid" : "5f912c109e96183b",
+  "name" : "Checking the new row",
+  "fullName" : "Timesheet page: Edit the new timesheet.Checking the new row",
+  "historyId" : "15bc35e057eff8cbcc52a98618cb0942",
+  "time" : {
+    "start" : 1656867250698,
+    "stop" : 1656867250721,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656867250698,
+        "stop" : 1656867250707,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1af1770d83033b00",
+        "name" : "Request",
+        "source" : "1af1770d83033b00.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "f28aac78f519015",
+        "name" : "Response",
+        "source" : "f28aac78f519015.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/8c299d6a-3a29-4619-89c1-399a456d00f5/text",
+      "time" : {
+        "start" : 1656867250709,
+        "stop" : 1656867250721,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "904375bcbc78a036",
+        "name" : "Response",
+        "source" : "904375bcbc78a036.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Timesheet page: Edit the new timesheet"
+  }, {
+    "name" : "testClass",
+    "value" : "Timesheet page: Edit the new timesheet"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking the new row"
+  }, {
+    "name" : "package",
+    "value" : "Timesheet page: Edit the new timesheet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f912c109e96183b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

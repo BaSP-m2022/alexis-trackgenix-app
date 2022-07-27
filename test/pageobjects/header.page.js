@@ -9,5 +9,8 @@ class header {
   get headerContainer() {
     return $('#root > div > header');
   }
+  get headerBurger() {
+    return $('#root > div > header > div.header_leftSide__Sjdye > div');
+  }
 }
 module.exports = new header();

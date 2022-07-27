@@ -1,5 +1,6 @@
 class adminProjects {
   //Getters
+
   get title() {
     return $('#root > div > div > section > h2');
   }
@@ -15,23 +16,9 @@ class adminProjects {
   get addBtn() {
     return $('#root > div > div > section > button');
   }
-  get membersSelector() {
-    return $(
-      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(7) > div > select'
-    );
-  }
 
-  //Row buttons
-  get editRowBtn() {
-    return $(
-      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(8) > button'
-    );
-  }
-  get deleteBtn() {
-    return $(
-      '#root > div > div > section > div > table > tbody > tr:nth-child(13) > td:nth-child(9) > button'
-    );
-  }
+  //Add Modal
+
   get modal() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
   }
@@ -80,7 +67,11 @@ class adminProjects {
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > div > button'
     );
   }
-
+get crossBtn() {
+  return $(
+    '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > img'
+  );
+}
   //Created successfully Modal
   get createdModal() {
     return $(

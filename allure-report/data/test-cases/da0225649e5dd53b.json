@@ -1,0 +1,208 @@
+{
+  "uid" : "da0225649e5dd53b",
+  "name" : "Checking the functionality of the edit button",
+  "fullName" : "Employees page: Edit the new employee.Checking the functionality of the edit button",
+  "historyId" : "c2fb1b3851f282ed56d7d0797f490047",
+  "time" : {
+    "start" : 1656784439176,
+    "stop" : 1656784439244,
+    "duration" : 68
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656784439177,
+        "stop" : 1656784439184,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50ba65d441f7e98a",
+        "name" : "Request",
+        "source" : "50ba65d441f7e98a.json",
+        "type" : "application/json",
+        "size" : 136
+      }, {
+        "uid" : "1060168ba52deb25",
+        "name" : "Response",
+        "source" : "1060168ba52deb25.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/9e5d0d68-84b7-4b20-8d3a-91b0f050a286/click",
+      "time" : {
+        "start" : 1656784439185,
+        "stop" : 1656784439207,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656784439208,
+        "stop" : 1656784439213,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "141160d7f405ea97",
+        "name" : "Request",
+        "source" : "141160d7f405ea97.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "4ac87aaec7e45a2e",
+        "name" : "Response",
+        "source" : "4ac87aaec7e45a2e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656784439214,
+        "stop" : 1656784439219,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "626623f61de64441",
+        "name" : "Request",
+        "source" : "626623f61de64441.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "811ef3c513d5eb3",
+        "name" : "Response",
+        "source" : "811ef3c513d5eb3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656784439219,
+        "stop" : 1656784439224,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26d637797db3549f",
+        "name" : "Request",
+        "source" : "26d637797db3549f.json",
+        "type" : "application/json",
+        "size" : 92
+      }, {
+        "uid" : "e22ae477bf8daf4",
+        "name" : "Response",
+        "source" : "e22ae477bf8daf4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/f93118e3-7361-4f26-89f7-0d7352e236b1/click",
+      "time" : {
+        "start" : 1656784439225,
+        "stop" : 1656784439244,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "testClass",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking the functionality of the edit button"
+  }, {
+    "name" : "package",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da0225649e5dd53b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

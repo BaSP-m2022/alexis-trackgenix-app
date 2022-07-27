@@ -1,0 +1,118 @@
+{
+  "uid" : "50743990f81b634",
+  "name" : "Checking the new row",
+  "fullName" : "Employees page: Edit the new employee.Checking the new row",
+  "historyId" : "e79fcd9212bc2d938f1fc8f3de098480",
+  "time" : {
+    "start" : 1656789067916,
+    "stop" : 1656789067941,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656789067916,
+        "stop" : 1656789067926,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c2d33dd52aad32a",
+        "name" : "Request",
+        "source" : "2c2d33dd52aad32a.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "f0633356d3003e02",
+        "name" : "Response",
+        "source" : "f0633356d3003e02.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/14a963a2-db20-406f-8a56-5f2850b0d3db/text",
+      "time" : {
+        "start" : 1656789067928,
+        "stop" : 1656789067940,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9a03f1b6e36ebfe",
+        "name" : "Response",
+        "source" : "c9a03f1b6e36ebfe.json",
+        "type" : "application/json",
+        "size" : 79
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "testClass",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking the new row"
+  }, {
+    "name" : "package",
+    "value" : "Employees page: Edit the new employee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50743990f81b634.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}
