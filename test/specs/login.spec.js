@@ -71,10 +71,15 @@ describe('Testing Login Page', () => {
       await expect(loginPage.errorModal).not.toBeDisplayed();
       await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/employee');
     });
-    it('Valid and registered admin employee and pw', async () => {
+    it('Valid and registered admin email and pw', async () => {
       await loginPage.login('testAdmin@radium.com', 'admin123');
       await expect(loginPage.errorModal).not.toBeDisplayed();
       await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin');
+    });
+    it('Valid and registered super admin email and pw', async () => {
+      await loginPage.login('testSuperadmin@radium.com', 'superadmin123');
+      await expect(loginPage.errorModal).not.toBeDisplayed();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/super-admin');
     });
   });
 });

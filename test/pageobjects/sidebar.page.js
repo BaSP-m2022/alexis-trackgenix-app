@@ -45,5 +45,15 @@ class sidebar {
   get empProfileTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
   }
+  // Getters - SUEPER ADMIN HOME
+  get spHomeTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
+  }
+  get spAdminsTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(2) > a');
+  }
+  get spLogOutTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
+  }
 }
 module.exports = new sidebar();
