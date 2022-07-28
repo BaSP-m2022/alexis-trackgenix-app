@@ -1,24 +1,29 @@
 class loginPage {
   //Getters
   get emailInput() {
-    return $('#root > div > div > form > div:nth-child(1) > input');
+    return $('#root > div > div > form > div.login_fields__10QDW > div:nth-child(1) > input');
   }
   get passwordInput() {
-    return $('#root > div > div > form > div:nth-child(2) > input');
+    return $('#root > div > div > form > div.login_fields__10QDW > div:nth-child(2) > input');
   }
   get loginBtn() {
-    return $('#root > div > div > form > button');
+    return $('#root > div > div > form > div.login_fields__10QDW > button');
   }
   get errorEmail() {
-    return $('#root > div > div > form > div:nth-child(1) > p');
+    return $('#root > div > div > form > div.login_fields__10QDW > div:nth-child(1) > p');
   }
   get errorPassword() {
-    return $('#root > div > div > form > div:nth-child(2) > p');
+    return $('#root > div > div > form > div.login_fields__10QDW > div:nth-child(2) > p');
   }
   get errorModal() {
-    return $('#root > div > div > form > div.errorsuccessmodal_container__JBOhN > div');
+    return $('#root > div > div > form > div.login_errorSuccessModal__1p0de > div > div');
   }
-  get loginContainer() {
+  get crossModal() {
+    return $(
+      '#root > div > div > form > div.login_errorSuccessModal__1p0de > div > div > div > img'
+    );
+  }
+  get loginFormContainer() {
     return $('#root > div > div > form');
   }
 
