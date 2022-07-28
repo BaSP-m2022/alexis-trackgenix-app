@@ -27,6 +27,9 @@ class employeeTimesheets {
   get period() {
     return $('#root > div > div > section > table > thead > tr > th:nth-child(4)');
   }
+  get deleteBtn() {
+    return $('#root > div > div > section > table > tbody > tr:nth-child(4) > td.table_tdButton__2Vvae > button');
+  }
 
   //Getters Add TimeSheet Modal
   get modalTitle() {
@@ -39,6 +42,16 @@ class employeeTimesheets {
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > select'
     );
   }
+  get projectsInputMsg() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > p'
+    );
+  }
+  get projectsInputOption() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div > select > option:nth-child(4)'
+    );
+  }
   get createBtn() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > button'
@@ -47,6 +60,16 @@ class employeeTimesheets {
   get crossBtn() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > img'
+    );
+  }
+  get successAddModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > h2'
+    );
+  }
+  get successAddCrossBtn() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > img'
     );
   }
 
@@ -64,6 +87,16 @@ class employeeTimesheets {
   get deleteConfirmBtn() {
     return $(
       '#root > div > div > section > div.confirmModal_modalOvelay___5vol > div > div.confirmModal_modalButton__3CcD9 > button:nth-child(2)'
+    );
+  }
+  get successDeleteTitle() {
+    return $(
+      '#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div > div > h2'
+    );
+  }
+  get successDeleteCrossBtn() {
+    return $(
+      '#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div > div > img'
     );
   }
 
