@@ -13,8 +13,8 @@ describe('Home testing', () => {
       await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
     it('Home title', async () => {
-      await expect(homePage.homeTitle).toExist();
-      await expect(homePage.homeTitle).toHaveText('WELCOME TO TRACKGENIX');
+      await expect(homePage.firstTitle).toExist();
+      await expect(homePage.firstTitle).toHaveText('What is Trackgenix?');
     });
   });
 
@@ -22,14 +22,33 @@ describe('Home testing', () => {
   describe('Checking header container', () => {
     it('Header title', async () => {
       await expect(header.headerTitle).toExist();
-      await expect(header.headerTitle).toHaveText('Home');
+      await expect(header.headerTitle).toHaveText('Trackgenix');
     });
-    it('Header Profile Pic', async () => {
-      await expect(header.profilePic).toExist();
+    it('Header Login link', async () => {
+      await expect(header.loginBtn).toExist();
+      await expect(header.loginBtn).toBeClickable();
+      await header.loginBtn.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/login');
+    });
+    it('Header Sign Up link', async () => {
+      await expect(header.signUpBtn).toExist();
+      await expect(header.signUpBtn).toBeClickable();
+      await header.signUpBtn.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/signup');
+    });
+    it('Trackgenix title link go to Home', async () => {
+      await expect(header.headerTitle).toBeClickable();
+      await header.headerTitle.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
     });
     it('Header color', async () => {
       const headerColor = await header.headerContainer.getCSSProperty('background-color');
       await expect(headerColor.value).toBe('rgba(118,160,104,1)');
+    });
+    it('Scroll to top', async () => {
+      await homePage.topBtn.scrollIntoView();
+      await homePage.topBtn.click();
+      await expect(homePage.firstTitle).toBeDisplayedInViewport();
     });
   });
 
@@ -90,39 +109,6 @@ describe('Home testing', () => {
       await expect(footer.copyright).toHaveText(
         'Copyright © 2022 Trackgenix SA. All rights reserved.'
       );
-    });
-  });
-
-  describe('Checking sidebar', () => {
-    it('Sidebar exists', async () => {
-      await expect(sidebar.sidebarContainer).toExist();
-    });
-    it('Sidebar header exists', async () => {
-      await expect(sidebar.sidebarHeader).toExist();
-      await expect(sidebar.sidebarHeader).toHaveTextContaining('TRACKGENIX');
-    });
-    it('Sidebar background color', async () => {
-      const sidebarColor = await sidebar.sidebarContainer.getCSSProperty('background-color');
-      await expect(sidebarColor.value).toBe('rgba(55,56,103,1)');
-    });
-    it('Login button', async () => {
-      await expect(sidebar.loginTab).toExist();
-      await expect(sidebar.loginTab).toBeClickable();
-      await sidebar.loginTab.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/login');
-      await expect(sidebar.homeTab).toBeDisplayed();
-    });
-    it('Home button', async () => {
-      await expect(sidebar.homeTab).toExist();
-      await expect(sidebar.homeTab).toBeClickable();
-      await sidebar.homeTab.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/home');
-    });
-    it('Sign up button', async () => {
-      await expect(sidebar.signUpTab).toExist();
-      await expect(sidebar.signUpTab).toBeClickable();
-      await sidebar.signUpTab.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/auth/signup');
     });
   });
 });
