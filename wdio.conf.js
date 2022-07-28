@@ -26,7 +26,7 @@ exports.config = {
     // ['./test/specs/home.spec.js'],
     // ['./test/specs/login.spec.js'],
     // ['./test/specs/signup.spec.js']
-    // ['./test/specs/superadmin-home.spec.js'],
+    ['./test/specs/superadmin-home.spec.js']
     // ['./test/specs/superadmin-admins.spec.js']
     // ['./test/specs/admin-home.spec.js'],
     // ['./test/specs/admin-employees.spec.js'],
@@ -34,7 +34,7 @@ exports.config = {
     // ['./test/specs/employee-home.spec.js'],
     // ['./test/specs/employee-profile.spec.js'],
     // ['./test/specs/employee-projects.spec.js'],
-    ['./test/specs/employee-timesheets.spec.js'],
+    // ['./test/specs/employee-timesheets.spec.js'],
     // ['./test/specs/admin-timesheets.spec.js'],
     // ['./test/specs/admin-tasks.spec.js'],
   ],

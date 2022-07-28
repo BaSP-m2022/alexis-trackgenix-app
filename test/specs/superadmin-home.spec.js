@@ -7,14 +7,14 @@ const loginPage = require('../pageobjects/login.page');
 describe('Testing Super Admin Home Page', () => {
   beforeAll('Go to Super Admin Home', () => {
     homePage.openBrowser();
-    sidebar.loginTab.click();
+    header.loginBtn.click();
     loginPage.login('testSuperadmin@radium.com', 'superadmin123');
   });
 
   describe('Testing Titles', () => {
     it('Checking header title', async () => {
       await expect(header.headerTitle).toExist();
-      await expect(header.headerTitle).toHaveText('Super-Admin');
+      await expect(header.headerTitle).toHaveText('Trackgenix');
     });
     it('Checking Super-Admin home title', async () => {
       await expect(superAdminHome.title).toExist();
@@ -22,11 +22,8 @@ describe('Testing Super Admin Home Page', () => {
     });
   });
   describe('Checking sidebar', () => {
-    it('Home tab', async () => {
-      await expect(sidebar.spHomeTab).toExist();
-      await expect(sidebar.spHomeTab).toBeClickable();
-      await sidebar.spHomeTab.click();
-      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/super-admin');
+    beforeEach('Open sidebar', () => {
+      header.headerBurger.click();
     });
     it('Admins tab', async () => {
       await expect(sidebar.spAdminsTab).toExist();
@@ -35,6 +32,12 @@ describe('Testing Super Admin Home Page', () => {
       await expect(browser).toHaveUrl(
         'https://alexis-trackgenix-app.vercel.app/super-admin/admins'
       );
+    });
+    it('Home tab', async () => {
+      await expect(sidebar.spHomeTab).toExist();
+      await expect(sidebar.spHomeTab).toBeClickable();
+      await sidebar.spHomeTab.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/super-admin');
     });
     it('Log out tab', async () => {
       await expect(sidebar.spLogOutTab).toExist();
