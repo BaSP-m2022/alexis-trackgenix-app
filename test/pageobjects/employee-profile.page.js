@@ -86,47 +86,47 @@ class employeeProfile {
   //Modal inputs
   get firstNameInput() {
     return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(1) > input'
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(1) > input'
     );
   }
   get lastNameInput() {
     return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(2) > input'
-    );
-  }
-  get phoneInput() {
-    return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(3) > input'
-    );
-  }
-  get emailInput() {
-    return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(3) > input'
-    );
-  }
-  get pwInput() {
-    return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(5) > input'
-    );
-  }
-  get addressInput() {
-    return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(6) > input'
-    );
-  }
-  get picLinkInput() {
-    return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(7) > input'
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(2) > input'
     );
   }
   get dniInput() {
     return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(8) > input'
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(3) > input'
     );
   }
   get dobInput() {
     return $(
-      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div:nth-child(9) > input'
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(4) > input'
+    );
+  }
+  get addressInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(5) > input'
+    );
+  }
+  get phoneInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_upperFields__39UY_ > div:nth-child(6) > input'
+      );
+  }
+  get picLinkInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_lowerFields__3S3bo > div:nth-child(1) > input'
+    );
+  }
+  get emailInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_lowerFields__3S3bo > div:nth-child(2) > input'
+    );
+  }
+  get pwInput() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > div > form > div.edit_lowerFields__3S3bo > div:nth-child(3) > input'
     );
   }
 

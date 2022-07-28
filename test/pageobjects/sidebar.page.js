@@ -38,7 +38,7 @@ class sidebar {
     return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
   }
 
-  // Getters - SUEPER ADMIN HOME
+  // Getters - SUPER ADMIN HOME
   get spHomeTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
   }

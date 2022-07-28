@@ -73,5 +73,38 @@ class adminEmployees {
   get activeSortUp () {
     return $('#root > div > div > section > table > thead > tr > th:nth-child(5) > svg.svg-inline--fa.fa-arrow-up')
   }
+
+  //Getters row
+  get goBackBtn() {
+    return $('#root > div > div > section > div.employeePage_btnContainer__oAqUU > button');
+  }
+  get table() {
+    return $('#root > div > div > section > div.employeePage_information__2fRYX');
+  }
+  get projectsTitle() {
+    return $('#root > div > div > section > h2');
+  }
+  get pMSortDown() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-down');
+  }
+  get pMSortUp() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-up');
+  }
+  get roleSortDown() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(2) > svg.svg-inline--fa.fa-arrow-down');
+  }
+  get roleSortUp() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(2) > svg.svg-inline--fa.fa-arrow-up');
+  }
+  get rateSortDown() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(3) > svg.svg-inline--fa.fa-arrow-down');
+  }
+  get rateSortUp() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(3) > svg.svg-inline--fa.fa-arrow-up');
+  }
+  get projectRow() {
+    return $('#root > div > div > section > table > tbody > tr:nth-child(1)');
+  }
+
 }
 module.exports = new adminEmployees();
