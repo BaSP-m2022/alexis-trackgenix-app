@@ -3,8 +3,8 @@ class employeeProfile {
   get title() {
     return $('#root > div > div > section > h2');
   }
-  get profilePic() {
-    return $('#root > div > div > section > div.profile_pictureFrame__2fvBR > img');
+  get profilePict() {
+    return $('#root > div > div > section > div.profile_pictureFrame__2fvBR');
   }
   //Table
   get table() {

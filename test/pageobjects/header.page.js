@@ -15,5 +15,8 @@ class header {
   get signUpBtn() {
     return $('#root > div > header > div.header_rightSide__2qor9 > nav > ul > li:nth-child(2) > a');
   }
+  get profilePic() {
+    return $('#root > div > header > div.header_rightSide__2qor9 > div > a > div > img');
+  }
 }
 module.exports = new header();

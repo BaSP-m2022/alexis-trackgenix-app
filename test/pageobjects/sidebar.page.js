@@ -29,13 +29,13 @@ class sidebar {
     return $('#root > div > aside > nav > ul > li:nth-child(1) > a');
   }
   get empProjectsTab() {
-    return $('#root > div > aside > nav > ul > li:nth-child(2) > a');
+    return $('#root > div > aside > nav > ul > li:nth-child(2)');
   }
   get empTimesheetsTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
   }
   get empLogOutTab() {
-    return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
+    return $('#root > div > aside > nav > ul > li:nth-child(4)');
   }
 
   // Getters - SUPER ADMIN HOME
