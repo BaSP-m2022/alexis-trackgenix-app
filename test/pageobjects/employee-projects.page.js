@@ -1,78 +1,47 @@
 class employeeProjects {
+
   //Getters
-  get title() {
+  get titlePage() {
     return $('#root > div > div > section > h2');
   }
-  get table() {
-    return $('#root > div > div > section > div > table');
+  get showAllProjectsBtn() {
+    return $('#root > div > div > section > div > button:nth-child(1)');
   }
-  get tableHeader() {
-    return $('#root > div > div > section > div > table > thead');
+  get showPmProjects() {
+    return $('#root > div > div > section > div > button:nth-child(2)');
+  }
+  get tablePage() {
+    return $('#root > div > div > section > table');
   }
   get bodyTable() {
-    return $('#root > div > div > section > div > table > tbody');
+    return $('#root > div > div > section > table > tbody');
   }
   get projects() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(1)');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(1)');
+  }
+  get projectsSortDown() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-down');
+  }
+  get projectsSortUp() {
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-up');
   }
   get clientName() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(2)');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(2)');
   }
   get startDate() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(3)');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(3)');
   }
   get endDate() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(4)');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(4)');
   }
   get active() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(5)');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(5)');
   }
   get role() {
-    return $('#root > div > div > section > div > table > thead > tr > th:nth-child(6)');
-  }
-  get showBtn() {
-    return $('#root > div > div > div > div > button');
+    return $('#root > div > div > section > table > thead > tr > th:nth-child(6)');
   }
   get tableRow() {
-    return $('#root > div > div > div > section > table > tbody > tr:nth-child(1)');
-  }
-
-  //Getters Sort
-  get projectNameSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get projectNameSortUp() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(1) > svg.svg-inline--fa.fa-arrow-up');
-  }
-  get clientSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(2) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get clientSortUp() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(2) > svg.svg-inline--fa.fa-arrow-up');
-  }
-  get startDateSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(3) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get startDateSortUp() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(3) > svg.svg-inline--fa.fa-arrow-up');
-  }
-  get endDateSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(4) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get endDateSortUp() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(4) > svg.svg-inline--fa.fa-arrow-up');
-  }
-  get activeSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(5) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get activeSortUp () {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(5) > svg.svg-inline--fa.fa-arrow-up')
-  }
-  get roleSortDown() {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(6) > svg.svg-inline--fa.fa-arrow-down');
-  }
-  get roleSortUp () {
-    return $('#root > div > div > div > section > table > thead > tr > th:nth-child(6) > svg.svg-inline--fa.fa-arrow-up')
+    return $('#root > div > div > section > table > tbody > tr:nth-child(1)');
   }
 
   //Getters Projects by row
@@ -123,8 +92,14 @@ class employeeProjects {
   get employeeAddInput() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div:nth-child(1) > select');
   }
+  get employeeAddInputMsg() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div:nth-child(1) > p');
+  }
   get roleAddInput() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div:nth-child(2) > select');
+  }
+  get roleAddInputMsg() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div:nth-child(2) > p');
   }
   get addBtn() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > button');
@@ -148,6 +123,12 @@ class employeeProjects {
   }
   get crossEditBtn() {
     return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > img');
+  }
+  get errorEditModal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > h2');
+  }
+  get crossEditModal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > img');
   }
 
   //Getters delete member modal
