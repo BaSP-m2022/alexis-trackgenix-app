@@ -26,8 +26,8 @@ exports.config = {
     // ['./test/specs/home.spec.js'],
     // ['./test/specs/login.spec.js'],
     // ['./test/specs/signup.spec.js']
-    ['./test/specs/superadmin-home.spec.js']
-    // ['./test/specs/superadmin-admins.spec.js']
+    // ['./test/specs/superadmin-home.spec.js'],
+    ['./test/specs/superadmin-admins.spec.js']
     // ['./test/specs/admin-home.spec.js'],
     // ['./test/specs/admin-employees.spec.js'],
     // ['./test/specs/admin-projects.spec.js'],

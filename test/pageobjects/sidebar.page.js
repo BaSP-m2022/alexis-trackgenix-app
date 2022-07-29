@@ -48,5 +48,8 @@ class sidebar {
   get spLogOutTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
   }
+  get spRestoreTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
+  }
 }
 module.exports = new sidebar();
