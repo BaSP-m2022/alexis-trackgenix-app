@@ -20,8 +20,11 @@ class sidebar {
   get projectsTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
   }
-  get logOutTab() {
+  get restoreTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
+  }
+  get logOutTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(5) > a');
   }
 
   //Getters - EMPLOYEE HOME
@@ -47,6 +50,9 @@ class sidebar {
   }
   get spLogOutTab() {
     return $('#root > div > aside > nav > ul > li:nth-child(3) > a');
+  }
+  get spRestoreTab() {
+    return $('#root > div > aside > nav > ul > li:nth-child(4) > a');
   }
 }
 module.exports = new sidebar();

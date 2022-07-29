@@ -1,7 +1,7 @@
 class superAdminHome {
   //Getters
   get title() {
-    return $('#root > div > header > div.header_pathname__qN2RB');
+    return $('#root > div > div > section > h2');
   }
 }
 module.exports = new superAdminHome();

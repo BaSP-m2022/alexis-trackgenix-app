@@ -27,15 +27,19 @@ exports.config = {
     // ['./test/specs/login.spec.js'],
     // ['./test/specs/signup.spec.js']
     // ['./test/specs/superadmin-home.spec.js'],
-    // ['./test/specs/superadmin-admins.spec.js']
+    // ['./test/specs/superadmin-admins.spec.js'],
     // ['./test/specs/admin-home.spec.js'],
-    // ['./test/specs/admin-employees.spec.js'],
+    ['./test/specs/admin-employees.spec.js']
     // ['./test/specs/admin-projects.spec.js'],
     // ['./test/specs/employee-home.spec.js'],
     // ['./test/specs/employee-profile.spec.js'],
     ['./test/specs/employee-projects.spec.js'],
     // ['./test/specs/employee-timesheets.spec.js'],
 
+    // ['./test/specs/employee-projects.spec.js'],
+    // ['./test/specs/employee-timesheets.spec.js'],
+    // ['./test/specs/admin-timesheets.spec.js'],
+    // ['./test/specs/admin-tasks.spec.js'],
   ],
   // Patterns to exclude.
   exclude: [

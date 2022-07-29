@@ -27,6 +27,9 @@ class superAdminAdmins {
   }
 
   //Getters Add Modal
+  get addModal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
+  }
   get addModalTitle() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > h2'
@@ -82,8 +85,21 @@ class superAdminAdmins {
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > img'
     );
   }
+  get successModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div'
+    );
+  }
+  get crossSuccessModal() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
 
   //Getters Edit Modal
+  get editModal() {
+    return $('#root > div > div > section > div.modal-form_container__A3c7w > div');
+  }
   get editModalTitle() {
     return $(
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_header__uqsio.modal-form_noselect__1pLwl > h2'
@@ -144,6 +160,21 @@ class superAdminAdmins {
       '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div'
     );
   }
+  get crossEditError() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
+  get editSuccess() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div'
+    );
+  }
+  get crossEditSuccess() {
+    return $(
+      '#root > div > div > section > div.modal-form_container__A3c7w > div > div.modal-form_form__1d3ca.modal-form_noselect__1pLwl > form > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
   //Delete Modal
   get deleteModal() {
     return $('#root > div > div > section > div.confirmModal_modalOvelay___5vol > div');
@@ -161,6 +192,27 @@ class superAdminAdmins {
   get successDelete() {
     return $('#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div');
   }
+  get crossSuccessDelete() {
+    return $(
+      '#root > div > div > section > div.errorsuccessmodal_container__JBOhN > div > div > img'
+    );
+  }
+
+  //Getters Restore Screen
+  get restoreDeleteModal() {
+    return $('#root > div > div > section > div > div');
+  }
+  get restoreConfirmDelete() {
+    return $(
+      '#root > div > div > section > div > div > div.confirmModal_modalButton__3CcD9 > button:nth-child(2)'
+    );
+  }
+  get restoreSuccessDelete() {
+    return $('#root > div > div > section > div > div');
+  }
+  get crossRestoreSuccess() {
+    return $('#root > div > div > section > div > div > div > img');
+  }
 
   //Setters Add Modal
   async setFNameInput(firstName) {
@@ -175,14 +227,33 @@ class superAdminAdmins {
   async setPasswordInput(password) {
     await this.addPasswordInput.setValue(password);
   }
-
+  //Setters Edit Modal
+  async setEditFNameInput(editFirstName) {
+    await this.editFNameInput.setValue(editFirstName);
+  }
+  async setEditLNameInput(editLastName) {
+    await this.editLNameInput.setValue(editLastName);
+  }
+  async setEditEmailInput(editEmail) {
+    await this.editEmailInput.setValue(editEmail);
+  }
+  async setEditPasswordInput(editPassword) {
+    await this.editPasswordInput.setValue(editPassword);
+  }
   //Methods Add Modal
   async addAdmin(firstName, lastName, email, password) {
-    await this.addFNameInput.setFNameInput(firstName);
-    await this.addLNameInput.setLNameInput(lastName);
-    await this.addEmailInput.setEmailInput(email);
-    await this.addPasswordInput.setPasswordInput(password);
+    await this.addFNameInput.setValue(firstName);
+    await this.addLNameInput.setValue(lastName);
+    await this.addEmailInput.setValue(email);
+    await this.addPasswordInput.setValue(password);
     await this.addCreateBtn.click();
+  }
+  async editAdmin(editFirstName, editLastName, editEmail, editPassword) {
+    await this.editFNameInput.setValue(editFirstName);
+    await this.editLNameInput.setValue(editLastName);
+    await this.editEmailInput.setValue(editEmail);
+    await this.editPasswordInput.setValue(editPassword);
+    await this.editCreateBtn.click();
   }
 }
 
