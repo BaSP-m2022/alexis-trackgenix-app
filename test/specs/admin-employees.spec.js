@@ -3,19 +3,21 @@ const header = require('../pageobjects/header.page');
 const sidebar = require('../pageobjects/sidebar.page');
 const loginPage = require('../pageobjects/login.page');
 const adminEmployees = require('../pageobjects/admin-employees.page');
+const adminHome = require('../pageobjects/admin-home.page');
 
 describe('Testing Admin Employees Page', () => {
   beforeAll('Login as admin and go to Employees section', () => {
     homePage.openBrowser();
-    sidebar.loginTab.click();
+    header.loginBtn.click();
     loginPage.login('testAdmin@radium.com', 'admin123');
+    header.headerBurger.click();
     sidebar.employeesTab.click();
   });
 
   describe('Testing titles', () => {
     it('Header title', async () => {
       await expect(header.headerTitle).toExist();
-      await expect(header.headerTitle).toHaveText('Employees');
+      await expect(header.headerTitle).toHaveText('Trackgenix');
     });
     it('Section title', async () => {
       await expect(adminEmployees.title).toExist();
@@ -31,80 +33,22 @@ describe('Testing Admin Employees Page', () => {
       await expect(adminEmployees.tableHeader).toExist();
       const tableHeaderColor = await adminEmployees.tableHeader.getCSSProperty('background-color');
       await expect(tableHeaderColor.value).toBe('rgba(228,228,228,1)');
+      await expect(adminEmployees.tableHeader).toHaveTextContaining(
+        'First Name',
+        'Last Name',
+        'Phone',
+        'Email',
+        'Active'
+      );
     });
     it('Table body', async () => {
       await expect(adminEmployees.tableBody).toExist();
     });
   });
-
-  describe('Testing add function', () => {
-    it('Add an employee', async () => {
-      await adminEmployees.addBtn.click();
-      await expect(adminEmployees.createEmployeeModal).toBeDisplayed();
-    });
-    it('Create an employee modal', async () => {
-      await adminEmployees.createEmployee(
-        'Ariana',
-        'Maldonado',
-        '3413693000',
-        'arii.maldonado97@gmail.com',
-        'testing123'
-      );
-      await expect(adminEmployees.successCreate).toBeDisplayed();
-      await expect(adminEmployees.successCreate).toHaveTextContaining(
-        'Success',
-        'Employee created'
-      );
-      await adminEmployees.crossSuccessCreate.click();
-      await expect(adminEmployees.successCreate).not.toBeDisplayed();
-    });
-    it('Error while creating an employee, same email', async () => {
-      await adminEmployees.addBtn.click();
-      await adminEmployees.createEmployee(
-        'Ariana',
-        'Maldonado',
-        '3413693000',
-        'arii.maldonado97@gmail.com',
-        'testing123'
-      );
-      await expect(adminEmployees.errorCreate).toBeDisplayed();
-      await expect(adminEmployees.errorCreate).toHaveTextContaining(
-        'Error',
-        'The email address is already in use by another account.'
-      );
-      await adminEmployees.crossErrorCreate.click();
-      await expect(adminEmployees.errorCreate).not.toBeDisplayed();
-      await adminEmployees.crossCreateModal.click();
-    });
-  });
-
-  describe('Testing Edit function', () => {
-    it('Edit button modal', async () => {
-      const rowEdit = await $(
-        '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(9) > button'
-      );
-      await rowEdit.click();
-      await expect(adminEmployees.editModal).toBeDisplayed();
-      await expect(adminEmployees.editModal).toHaveTextContaining('Edit Employee');
-    });
-    it('Try to edit an employee', async () => {
-      await adminEmployees.setEditFirstName('Larisa');
-      await adminEmployees.setEditPw('testing123');
-      await adminEmployees.editBtn.click();
-      await expect(adminEmployees.successEdit).toBeDisplayed();
-      await expect(adminEmployees.successEdit).toHaveTextContaining(
-        'Success',
-        'The employee has been updated succesfully'
-      );
-      await adminEmployees.crossSuccessEdit.click();
-      await expect(adminEmployees.successEdit).not.toBeDisplayed();
-    });
-  });
-
   describe('Testing delete function', () => {
     it('Button delete button', async () => {
       const deleteBtn = await $(
-        '#root > div > div > section > div > table > tbody > tr:last-child > td:nth-child(10) > button'
+        '#root > div > div > section > table > tbody > tr:last-child > td.table_tdButton__2Vvae > button'
       );
       await expect(deleteBtn).toExist();
       await expect(deleteBtn).toBeClickable();
@@ -137,6 +81,29 @@ describe('Testing Admin Employees Page', () => {
       );
       await adminEmployees.crossSuccessDelete.click();
       await expect(adminEmployees.successDelete).not.toBeDisplayed();
+    });
+  });
+  describe('Row access', () => {
+    it('Access to row', async () => {
+      const row = await $('#root > div > div > section > table > tbody > tr:last-child');
+      await row.click();
+      await expect(browser).toHaveUrl(
+        'https://alexis-trackgenix-app.vercel.app/admin/employees/62e2d4125d16992810099200'
+      );
+    });
+    it('Table exists', async () => {
+      await expect(adminEmployees.tableRow).toExist();
+      await expect(adminEmployees.tableRow).toHaveTextContaining('Name', 'Last Name', 'DNI');
+    });
+    it('Titles', async () => {
+      await expect(adminEmployees.projectsTitle).toExist();
+      await expect(adminEmployees.projectsTitle).toHaveText('PROJECTS');
+    });
+    it('Go back button', async () => {
+      await expect(adminEmployees.goBackBtn).toExist();
+      await expect(adminEmployees.goBackBtn).toBeClickable();
+      await adminEmployees.goBackBtn.click();
+      await expect(browser).toHaveUrl('https://alexis-trackgenix-app.vercel.app/admin/employees');
     });
   });
 });

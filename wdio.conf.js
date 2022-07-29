@@ -28,8 +28,8 @@ exports.config = {
     // ['./test/specs/signup.spec.js']
     // ['./test/specs/superadmin-home.spec.js'],
     // ['./test/specs/superadmin-admins.spec.js'],
-    ['./test/specs/admin-home.spec.js']
-    // ['./test/specs/admin-employees.spec.js'],
+    // ['./test/specs/admin-home.spec.js'],
+    ['./test/specs/admin-employees.spec.js']
     // ['./test/specs/admin-projects.spec.js'],
     // ['./test/specs/employee-home.spec.js'],
     // ['./test/specs/employee-profile.spec.js'],
